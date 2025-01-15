@@ -1,0 +1,99 @@
+.filters {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #388659;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2b7058;
+}
+
+.perfume-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Spacing between items */
+  position: relative; /* Required for reordering animations */
+  padding: 12px;
+}
+
+.perfume-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer; /* Indicates clickability */
+  text-align: center;
+  width: 298px;
+}
+
+// .perfume-card:hover {
+//   transform: translateY(-5px);
+//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+// }
+
+.perfume-card img {
+  width: 70%;
+  height: auto;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-content {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
