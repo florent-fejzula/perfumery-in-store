@@ -1,5 +1,17 @@
 <div class="filters">
   <button
+    [ngClass]="{ active: activeFilters.includes('male') }"
+    (click)="applyFilter('male')"
+  >
+    Male
+  </button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('female') }"
+    (click)="applyFilter('female')"
+  >
+    Female
+  </button>
+  <button
     [ngClass]="{ active: activeFilters.includes('fresh') }"
     (click)="applyFilter('fresh')"
   >
@@ -12,18 +24,42 @@
     Floral
   </button>
   <button
-    [ngClass]="{ active: activeFilters.includes('male') }"
-    (click)="applyFilter('male')"
+    [ngClass]="{ active: activeFilters.includes('woody') }"
+    (click)="applyFilter('woody')"
   >
-    Male
+    Woody
   </button>
   <button
-    [ngClass]="{ active: activeFilters.includes('female') }"
-    (click)="applyFilter('female')"
+    [ngClass]="{ active: activeFilters.includes('tobacco') }"
+    (click)="applyFilter('tobacco')"
   >
-    Female
+    Tobacco
   </button>
-  <button (click)="resetFilters()">Reset Filters</button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('spicy') }"
+    (click)="applyFilter('spicy')"
+  >
+    Spicy
+  </button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('leather') }"
+    (click)="applyFilter('leather')"
+  >
+    Leather
+  </button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('sweet') }"
+    (click)="applyFilter('sweet')"
+  >
+    Sweet
+  </button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('aquatic') }"
+    (click)="applyFilter('aquatic')"
+  >
+    Aquatic
+  </button>
+  <button (click)="resetFilters()" class="resetButton">Reset Filters</button>
 </div>
 
 <div class="perfume-cards" @listAnimation>

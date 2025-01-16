@@ -7,6 +7,7 @@ import {
   style,
   animate,
 } from '@angular/animations';
+import { perfumes } from '../data/perfumes';
 
 @Component({
   selector: 'app-catalog',
@@ -27,21 +28,12 @@ import {
   ],
 })
 export class CatalogComponent implements OnInit {
-  perfumes = [
-    { id: 1, name: 'Blue Talisman', description: 'Fresh scent for men', image: 'assets/perfume4.jpg', categories: ['fresh', 'male'] },
-    { id: 2, name: 'Tuberoza', description: 'Floral scent for women', image: 'assets/perfume6.jpg', categories: ['floral', 'female'] },
-    { id: 3, name: 'Layton', description: 'Sweet scent for men', image: 'assets/perfume3.jpg', categories: ['sweet', 'male'] },
-    { id: 4, name: 'Delina', description: 'Fresh scent for women', image: 'assets/perfume2.jpg', categories: ['fresh', 'female'] },
-    { id: 5, name: 'Baccarat Rouge 540 Extrait', description: 'Floral scent for men', image: 'assets/perfume1.jpg', categories: ['floral', 'male'] },
-    { id: 6, name: 'Gold Woman', description: 'Sweet scent for women', image: 'assets/perfume5.jpg', categories: ['sweet', 'female'] },
-  ];
-
-  filteredPerfumes = [...this.perfumes];
+  filteredPerfumes = [...perfumes];
   selectedPerfume: any = null;
   activeFilters: string[] = [];
 
   ngOnInit(): void {
-    console.log(this.perfumes); // Debug the perfumes array
+    console.log(perfumes); // Debug the perfumes array
   }
 
   openModal(perfume: any): void {
@@ -62,7 +54,7 @@ export class CatalogComponent implements OnInit {
     }
   
     // Update filtered perfumes
-    this.filteredPerfumes = this.perfumes.filter((perfume) =>
+    this.filteredPerfumes = perfumes.filter((perfume) =>
       this.activeFilters.every((activeFilter) =>
         perfume.categories.includes(activeFilter)
       )
@@ -82,7 +74,7 @@ export class CatalogComponent implements OnInit {
     const delay = 300;
     this.filteredPerfumes = [];
     setTimeout(() => {
-      this.filteredPerfumes = [...this.perfumes]; // Show all perfumes
+      this.filteredPerfumes = [...perfumes]; // Show all perfumes
     }, delay);
   }
 
@@ -94,10 +86,10 @@ export class CatalogComponent implements OnInit {
     setTimeout(() => {
       if (this.activeFilters.length === 0) {
         // No filters applied, show all perfumes
-        this.filteredPerfumes = [...this.perfumes];
+        this.filteredPerfumes = [...perfumes];
       } else {
         // Apply all active filters
-        this.filteredPerfumes = this.perfumes.filter(perfume =>
+        this.filteredPerfumes = perfumes.filter(perfume =>
           Array.from(this.activeFilters).every(filter => perfume.categories.includes(filter))
         );
       }

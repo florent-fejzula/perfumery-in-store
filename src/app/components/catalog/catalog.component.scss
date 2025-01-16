@@ -19,6 +19,11 @@ button.active {
   border: 2px solid #6cceff;
 }
 
+.resetButton {
+  background-color: #ff4d4d;
+  color: whitesmoke;
+}
+
 .perfume-cards {
   display: flex;
   flex-wrap: wrap;
