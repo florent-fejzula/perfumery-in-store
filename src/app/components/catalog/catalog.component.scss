@@ -15,8 +15,8 @@ button {
 }
 
 button.active {
-  background-color: #2b7058;
-  border: 2px solid #52aa5e;
+  background-color: #abe3ff;
+  border: 2px solid #6cceff;
 }
 
 .perfume-cards {
@@ -32,8 +32,8 @@ button.active {
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer; /* Indicates clickability */
   text-align: center;

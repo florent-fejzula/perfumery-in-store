@@ -1,8 +1,28 @@
 <div class="filters">
-  <button (click)="applyFilter('fresh')">Fresh</button>
-  <button (click)="applyFilter('floral')">Floral</button>
-  <button (click)="applyFilter('male')">Male</button>
-  <button (click)="applyFilter('female')">Female</button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('fresh') }"
+    (click)="applyFilter('fresh')"
+  >
+    Fresh
+  </button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('floral') }"
+    (click)="applyFilter('floral')"
+  >
+    Floral
+  </button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('male') }"
+    (click)="applyFilter('male')"
+  >
+    Male
+  </button>
+  <button
+    [ngClass]="{ active: activeFilters.includes('female') }"
+    (click)="applyFilter('female')"
+  >
+    Female
+  </button>
   <button (click)="resetFilters()">Reset Filters</button>
 </div>
 
@@ -25,4 +45,3 @@
     <p>{{ selectedPerfume.description }}</p>
   </div>
 </div>
-

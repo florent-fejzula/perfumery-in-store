@@ -38,7 +38,7 @@ export class CatalogComponent implements OnInit {
 
   filteredPerfumes = [...this.perfumes];
   selectedPerfume: any = null;
-  activeFilters: Set<string> = new Set(); // Active filters state
+  activeFilters: string[] = [];
 
   ngOnInit(): void {
     console.log(this.perfumes); // Debug the perfumes array
@@ -53,20 +53,37 @@ export class CatalogComponent implements OnInit {
   }
 
   applyFilter(filter: string): void {
-    // Toggle the filter in the activeFilters set
-    if (this.activeFilters.has(filter)) {
-      this.activeFilters.delete(filter);
+    if (this.activeFilters.includes(filter)) {
+      // If the filter is already active, remove it
+      this.activeFilters = this.activeFilters.filter((f) => f !== filter);
     } else {
-      this.activeFilters.add(filter);
+      // Add the filter to the active list
+      this.activeFilters.push(filter);
     }
-
-    this.updateFilteredPerfumes();
+  
+    // Update filtered perfumes
+    this.filteredPerfumes = this.perfumes.filter((perfume) =>
+      this.activeFilters.every((activeFilter) =>
+        perfume.categories.includes(activeFilter)
+      )
+    );
+  
+    // Handle fade-out/fade-in logic for animation
+    const delay = 300; // Match this to your animation duration
+    const perfumesToDisplay = [...this.filteredPerfumes];
+    this.filteredPerfumes = [];
+    setTimeout(() => {
+      this.filteredPerfumes = perfumesToDisplay;
+    }, delay);
   }
-
+  
   resetFilters(): void {
-    // Clear all active filters
-    this.activeFilters.clear();
-    this.updateFilteredPerfumes();
+    this.activeFilters = []; // Clear all active filters
+    const delay = 300;
+    this.filteredPerfumes = [];
+    setTimeout(() => {
+      this.filteredPerfumes = [...this.perfumes]; // Show all perfumes
+    }, delay);
   }
 
   updateFilteredPerfumes(): void {
@@ -75,7 +92,7 @@ export class CatalogComponent implements OnInit {
 
     // Delay to allow the fade-out animation to complete before updating the array
     setTimeout(() => {
-      if (this.activeFilters.size === 0) {
+      if (this.activeFilters.length === 0) {
         // No filters applied, show all perfumes
         this.filteredPerfumes = [...this.perfumes];
       } else {
