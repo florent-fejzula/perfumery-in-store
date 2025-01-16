@@ -3,16 +3,20 @@
 }
 
 button {
-  margin: 5px;
-  padding: 10px;
-  background-color: #388659;
-  color: white;
-  border: none;
+  margin: 8px;
+  padding: 14px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 8px;
   cursor: pointer;
 }
 
-button:hover {
+button.active {
   background-color: #2b7058;
+  border: 2px solid #52aa5e;
 }
 
 .perfume-cards {
@@ -35,11 +39,6 @@ button:hover {
   text-align: center;
   width: 298px;
 }
-
-// .perfume-card:hover {
-//   transform: translateY(-5px);
-//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-// }
 
 .perfume-card img {
   width: 70%;
