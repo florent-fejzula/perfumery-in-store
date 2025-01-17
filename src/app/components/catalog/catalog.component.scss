@@ -3,6 +3,7 @@
 }
 
 button {
+  font-family: 'Baskervville', serif;
   margin: 8px;
   padding: 14px 24px;
   font-size: 18px;
@@ -33,6 +34,8 @@ button.active {
 }
 
 .perfume-card {
+  font-family: 'Baskervville', serif;
+  font-size: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
