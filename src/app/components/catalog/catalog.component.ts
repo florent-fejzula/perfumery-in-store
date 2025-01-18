@@ -64,8 +64,11 @@ export class CatalogComponent implements OnInit {
     'rose',
     'lavender',
     'vetiver',
-    // 'smokey',
-    // 'oriental'
+    'smoky',
+    'oriental',
+    'coconut',
+    'boozy',
+    'patchouli'
   ];
 
   ngOnInit(): void {
