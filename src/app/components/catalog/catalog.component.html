@@ -2,28 +2,30 @@
   <button
     *ngFor="let tag of filterTags"
     [ngClass]="{ active: activeFilters.includes(tag) }"
+    tabindex="-1"
     (click)="applyFilter(tag)"
   >
     {{ tag | titlecase }}
   </button>
-  <button (click)="resetFilters()" class="resetButton">Reset Filters</button>
+  <button (click)="resetFilters()" class="resetButton" tabindex="-1" >Reset Filters</button>
 </div>
 
 <div class="perfume-cards" @listAnimation>
   <div
     *ngFor="let perfume of filteredPerfumes; trackBy: trackByPerfume"
     class="perfume-card"
+    tabindex="-1"
     [@listAnimation]
     (click)="openModal(perfume)"
   >
-    <img [src]="perfume.image" alt="{{ perfume.name }}" />
-    <h3>{{ perfume.name }}</h3>
+    <img [src]="perfume.image" alt="{{ perfume.name }}" tabindex="-1" />
+    <h3 tabindex="-1">{{ perfume.name }}</h3>
   </div>
 </div>
 
 <div class="modal" *ngIf="selectedPerfume" (click)="closeModal($event)">
-  <div class="modal-content" (click)="$event.stopPropagation()">
-    <img [src]="selectedPerfume.image" alt="{{ selectedPerfume.name }}" />
+  <div class="modal-content" tabindex="-1" (click)="$event.stopPropagation()">
+    <img [src]="selectedPerfume.image" alt="{{ selectedPerfume.name }}" tabindex="-1" />
     <h2>{{ selectedPerfume.name }}</h2>
     <p>{{ selectedPerfume.description }}</p>
   </div>
