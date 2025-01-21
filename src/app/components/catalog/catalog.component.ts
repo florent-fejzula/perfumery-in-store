@@ -60,6 +60,7 @@ export class CatalogComponent implements OnInit {
     'musky',
     'powdery',
     'white floral',
+    'aldehydic',
     'tea',
     'rose',
     'lavender',
@@ -68,7 +69,8 @@ export class CatalogComponent implements OnInit {
     'oriental',
     'coconut',
     'boozy',
-    'patchouli'
+    'patchouli',
+    'iris'
   ];
 
   ngOnInit(): void {
