@@ -70,7 +70,10 @@ export class CatalogComponent implements OnInit {
     'coconut',
     'boozy',
     'patchouli',
-    'iris'
+    'iris',
+    'neroli',
+    'cherry',
+    'almond'
   ];
 
   ngOnInit(): void {
