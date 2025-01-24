@@ -73,7 +73,8 @@ export class CatalogComponent implements OnInit {
     'iris',
     'neroli',
     'cherry',
-    'almond'
+    'almond',
+    'saffron'
   ];
 
   ngOnInit(): void {
