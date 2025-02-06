@@ -52,6 +52,7 @@ export class CatalogComponent implements OnInit {
     'tuberose',
     'jasmine',
     'ozonic',
+    'mineral',
     'amber',
     'oud',
     'animalic',
@@ -74,7 +75,9 @@ export class CatalogComponent implements OnInit {
     'neroli',
     'cherry',
     'almond',
-    'saffron'
+    'saffron',
+    'cinnamon',
+    'ylang-ylang'
   ];
 
   ngOnInit(): void {
