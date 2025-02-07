@@ -67,6 +67,7 @@ export class CatalogComponent implements OnInit {
     'lavender',
     'vetiver',
     'smoky',
+    'earthy',
     'oriental',
     'coconut',
     'boozy',
