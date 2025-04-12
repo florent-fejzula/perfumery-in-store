@@ -78,7 +78,8 @@ export class CatalogComponent implements OnInit {
     'almond',
     'saffron',
     'cinnamon',
-    'ylang-ylang'
+    'ylang-ylang',
+    'mint'
   ];
 
   ngOnInit(): void {
