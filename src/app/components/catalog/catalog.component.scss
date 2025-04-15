@@ -3,7 +3,7 @@
 }
 
 button {
-  font-family: 'Baskervville', serif;
+  font-family: "Baskervville", serif;
   margin: 8px;
   padding: 14px 24px;
   font-size: 18px;
@@ -23,6 +23,7 @@ button.active {
 .resetButton {
   background-color: #ff4d4d;
   color: whitesmoke;
+  margin-top: -18px;
 }
 
 .perfume-cards {
@@ -34,7 +35,7 @@ button.active {
 }
 
 .perfume-card {
-  font-family: 'Baskervville', serif;
+  font-family: "Baskervville", serif;
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -43,7 +44,7 @@ button.active {
   border: 1px solid #c0c0c0;
   border-radius: 10px;
   transition: transform 0.2s, box-shadow 0.2s;
-  cursor: pointer; /* Indicates clickability */
+  cursor: pointer;
   text-align: center;
   width: 234px;
 }
@@ -52,6 +53,31 @@ button.active {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
+}
+
+.filter-section {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.row1 {
+  padding-left: 136px;
+}
+
+.filter-label {
+  font-weight: bold;
+  display: block;
+  font-size: 1.4rem;
+  padding-top: 6px;
+  min-width: 136px;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
 }
 
 .modal {

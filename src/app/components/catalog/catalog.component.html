@@ -1,13 +1,52 @@
 <div class="filters">
-  <button
-    *ngFor="let tag of filterTags"
-    [ngClass]="{ active: activeFilters.includes(tag) }"
-    tabindex="-1"
-    (click)="applyFilter(tag)"
-  >
-    {{ tag | titlecase }}
+  <!-- Gender Filter -->
+  <div class="filter-section">
+    <div class="filter-row row1">
+      <button
+        *ngFor="let tag of genderTags"
+        [ngClass]="{ active: activeFilters.includes(tag) }"
+        (click)="applyFilter(tag)"
+        tabindex="-1"
+      >
+        {{ tag | titlecase }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Scent Family -->
+  <div class="filter-section">
+    <label class="filter-label">Scent Family:</label>
+    <div class="filter-row">
+      <button
+        *ngFor="let tag of scentFamilyTags"
+        [ngClass]="{ active: activeFilters.includes(tag) }"
+        (click)="applyFilter(tag)"
+        tabindex="-1"
+      >
+        {{ tag | titlecase }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Notes -->
+  <div class="filter-section sec3">
+    <label class="filter-label">Main Notes:</label>
+    <div class="filter-row">
+      <button
+        *ngFor="let tag of mainNoteTags"
+        [ngClass]="{ active: activeFilters.includes(tag) }"
+        (click)="applyFilter(tag)"
+        tabindex="-1"
+      >
+        {{ tag | titlecase }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Reset Button -->
+  <button (click)="resetFilters()" class="resetButton" tabindex="-1">
+    Reset Filters
   </button>
-  <button (click)="resetFilters()" class="resetButton" tabindex="-1" >Reset Filters</button>
 </div>
 
 <div class="perfume-cards" @listAnimation>
@@ -25,7 +64,11 @@
 
 <div class="modal" *ngIf="selectedPerfume" (click)="closeModal($event)">
   <div class="modal-content" tabindex="-1" (click)="$event.stopPropagation()">
-    <img [src]="selectedPerfume.image" alt="{{ selectedPerfume.name }}" tabindex="-1" />
+    <img
+      [src]="selectedPerfume.image"
+      alt="{{ selectedPerfume.name }}"
+      tabindex="-1"
+    />
     <h2>{{ selectedPerfume.name }}</h2>
     <p>{{ selectedPerfume.description }}</p>
   </div>

@@ -30,45 +30,48 @@ export class CatalogComponent implements OnInit {
   selectedPerfume: any = null;
   activeFilters: string[] = [];
 
-  filterTags: string[] = [
-    'male',
-    'female',
+  genderTags: string[] = ['male', 'female'];
+
+  scentFamilyTags: string[] = [
     'fresh',
     'floral',
+    'fruity',
+    'tropical',
     'woody',
-    'tobacco',
     'spicy',
     'leather',
     'sweet',
-    'aquatic',
     'creamy',
-    'clean',
     'gourmand',
-    'vanilla',
-    'sandalwood',
-    'fruity',
-    'mango',
-    'tropical',
-    'tuberose',
-    'jasmine',
+    'aquatic',
+    'clean',
     'ozonic',
-    'mineral',
-    'amber',
-    'oud',
-    'animalic',
-    'citrus',
     'green',
     'musky',
     'powdery',
     'white floral',
     'aldehydic',
+    'oriental',
+    'animalic',
+    'smoky',
+    'earthy',
+  ];
+
+  mainNoteTags: string[] = [
+    'vanilla',
+    'sandalwood',
+    'tobacco',
+    'mango',
+    'tuberose',
+    'jasmine',
+    'mineral',
+    'amber',
+    'oud',
+    'citrus',
     'tea',
     'rose',
     'lavender',
     'vetiver',
-    'smoky',
-    'earthy',
-    'oriental',
     'coconut',
     'boozy',
     'patchouli',
@@ -79,7 +82,7 @@ export class CatalogComponent implements OnInit {
     'saffron',
     'cinnamon',
     'ylang-ylang',
-    'mint'
+    'mint',
   ];
 
   ngOnInit(): void {
