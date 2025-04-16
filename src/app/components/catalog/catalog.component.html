@@ -4,7 +4,11 @@
     <div class="filter-row row1">
       <button
         *ngFor="let tag of genderTags"
-        [ngClass]="{ active: activeFilters.includes(tag) }"
+        [ngClass]="{
+          active: activeFilters.includes(tag),
+          disabled: isTagDisabled(tag)
+        }"
+        [disabled]="isTagDisabled(tag)"
         (click)="applyFilter(tag)"
         tabindex="-1"
       >
@@ -19,7 +23,11 @@
     <div class="filter-row">
       <button
         *ngFor="let tag of scentFamilyTags"
-        [ngClass]="{ active: activeFilters.includes(tag) }"
+        [ngClass]="{
+          active: activeFilters.includes(tag),
+          disabled: isTagDisabled(tag)
+        }"
+        [disabled]="isTagDisabled(tag)"
         (click)="applyFilter(tag)"
         tabindex="-1"
       >
@@ -34,7 +42,11 @@
     <div class="filter-row">
       <button
         *ngFor="let tag of mainNoteTags"
-        [ngClass]="{ active: activeFilters.includes(tag) }"
+        [ngClass]="{
+          active: activeFilters.includes(tag),
+          disabled: isTagDisabled(tag)
+        }"
+        [disabled]="isTagDisabled(tag)"
         (click)="applyFilter(tag)"
         tabindex="-1"
       >

@@ -156,4 +156,20 @@ export class CatalogComponent implements OnInit {
   trackByPerfume(index: number, perfume: any): number {
     return perfume.id; // Use a unique identifier for perfumes
   }
+
+  isTagDisabled(tag: string): boolean {
+    // Tag is always enabled if no filters yet
+    if (this.activeFilters.length === 0) return false;
+
+    // Don't disable if tag is already selected
+    if (this.activeFilters.includes(tag)) return false;
+
+    // Try applying this tag with current activeFilters
+    const simulatedFilters = [...this.activeFilters, tag];
+    const matches = perfumes.filter((perfume) =>
+      simulatedFilters.every((f) => perfume.categories.includes(f))
+    );
+
+    return matches.length === 0; // Disable if no perfumes match with this combo
+  }
 }
