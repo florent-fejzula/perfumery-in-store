@@ -98,60 +98,23 @@ export class CatalogComponent implements OnInit {
   }
 
   applyFilter(filter: string): void {
-    if (this.activeFilters.includes(filter)) {
-      // Remove the filter if it's already active
-      this.activeFilters = this.activeFilters.filter((f) => f !== filter);
-    } else {
-      // Add the filter to the active list
-      this.activeFilters.push(filter);
-    }
-
-    // Filter perfumes based on active filters
-    this.filteredPerfumes = perfumes.filter((perfume) =>
-      this.activeFilters.every((activeFilter) =>
-        perfume.categories.includes(activeFilter)
-      )
-    );
-
-    // Animation handling (fade-out/fade-in)
-    const animationDelay = 300; // Match your CSS animation duration
-    const perfumesToDisplay = [...this.filteredPerfumes];
-    this.filteredPerfumes = [];
-    setTimeout(() => {
-      this.filteredPerfumes = perfumesToDisplay;
-    }, animationDelay);
+  if (this.activeFilters.includes(filter)) {
+    this.activeFilters = this.activeFilters.filter((f) => f !== filter);
+  } else {
+    this.activeFilters.push(filter);
   }
+
+  this.filteredPerfumes = perfumes.filter((perfume) =>
+    this.activeFilters.every((activeFilter) =>
+      perfume.categories.includes(activeFilter)
+    )
+  );
+}
 
   resetFilters(): void {
-    this.activeFilters = []; // Clear all active filters
-
-    // Animation handling (fade-out/fade-in)
-    const animationDelay = 300;
-    this.filteredPerfumes = [];
-    setTimeout(() => {
-      this.filteredPerfumes = [...perfumes]; // Reset to show all perfumes
-    }, animationDelay);
-  }
-
-  updateFilteredPerfumes(): void {
-    // Start the fade-out animation
-    this.filteredPerfumes = [];
-
-    // Delay to allow the fade-out animation to complete before updating the array
-    setTimeout(() => {
-      if (this.activeFilters.length === 0) {
-        // No filters applied, show all perfumes
-        this.filteredPerfumes = [...perfumes];
-      } else {
-        // Apply all active filters
-        this.filteredPerfumes = perfumes.filter((perfume) =>
-          Array.from(this.activeFilters).every((filter) =>
-            perfume.categories.includes(filter)
-          )
-        );
-      }
-    }, 300); // Match the delay to the duration of your fade-out animation
-  }
+  this.activeFilters = [];
+  this.filteredPerfumes = [...perfumes];
+}
 
   trackByPerfume(index: number, perfume: any): number {
     return perfume.id; // Use a unique identifier for perfumes

@@ -76,12 +76,47 @@
 
 <div class="modal" *ngIf="selectedPerfume" (click)="closeModal($event)">
   <div class="modal-content" tabindex="-1" (click)="$event.stopPropagation()">
-    <img
-      [src]="selectedPerfume.image"
-      alt="{{ selectedPerfume.name }}"
-      tabindex="-1"
-    />
-    <h2>{{ selectedPerfume.name }}</h2>
-    <p>{{ selectedPerfume.description }}</p>
+    <div class="modal-grid">
+      <!-- LEFT SIDE: Main Image -->
+      <div class="modal-left">
+        <img
+          [src]="selectedPerfume.image"
+          alt="{{ selectedPerfume.name }}"
+          class="main-image"
+        />
+      </div>
+
+      <!-- RIGHT SIDE: Perfume Details -->
+      <div class="modal-right">
+        <h2>{{ selectedPerfume.name }}</h2>
+
+        <div *ngIf="selectedPerfume.topNotes || selectedPerfume.heartNotes || selectedPerfume.baseNotes" class="notes-pyramid">
+          <div *ngIf="selectedPerfume.topNotes">
+            <strong>Top Notes:</strong> {{ selectedPerfume.topNotes.join(', ') }}
+          </div>
+          <div *ngIf="selectedPerfume.heartNotes">
+            <strong>Heart Notes:</strong> {{ selectedPerfume.heartNotes.join(', ') }}
+          </div>
+          <div *ngIf="selectedPerfume.baseNotes">
+            <strong>Base Notes:</strong> {{ selectedPerfume.baseNotes.join(', ') }}
+          </div>
+        </div>
+
+        <div *ngIf="selectedPerfume.extraImages?.length" class="extra-images">
+          <div class="extra-image-grid">
+            <img
+              *ngFor="let img of selectedPerfume.extraImages"
+              [src]="img"
+              alt="Extra image"
+            />
+          </div>
+        </div>
+
+        <p *ngIf="selectedPerfume.description" class="description">
+          {{ selectedPerfume.description }}
+        </p>
+      </div>
+    </div>
   </div>
 </div>
+

@@ -21,12 +21,20 @@ export const perfumes = [
     categories: ['sweet', 'spicy', 'male'],
   },
   {
-    id: 4,
-    name: 'Delina',
-    description: 'Fresh scent for women',
-    image: 'assets/perfume2.jpg',
+  id: 4,
+  name: 'Delina',
+  description: 'Delina is a highly nuanced fragrance that is both sensual and fresh. This floral bouquet is built around a Turkish rose of exceptional quality. The fragrance opens with notes of lychee and rhubarb, accompanied by bergamot. In the heart, the rose is enhanced with peony, lily of the valley and a hint of nutmeg. The base is warm and comforting with vanilla, musk, cashmeran, and Haitian vetiver. Delina is a signature scent, feminine and elegant, with a velvety depth.',
+  image: 'assets/Delina.jpg',
+  topNotes: ['Lychee', 'Rhubarb', 'Bergamot'],
+  heartNotes: ['Turkish Rose', 'Peony', 'Lily of the Valley', 'Nutmeg'],
+  baseNotes: ['Vanilla', 'Musk', 'Cashmeran', 'Vetiver'],
     categories: ['fresh', 'floral', 'fruity', 'rose', 'female'],
-  },
+  extraImages: [
+    'assets/delinaExtra1.jpg',
+    'assets/delinaExtra2.jpg',
+    'assets/delinaExtra3.jpg'
+  ]
+},
   {
     id: 5,
     name: 'Baccarat Rouge 540 Extrait',
@@ -282,9 +290,17 @@ export const perfumes = [
   {
     id: 40,
     name: 'Aqua Media Cologne Forte',
-    description: '',
+    description: 'Evoking both water and light, green is the middle color of the rainbow prism and reflects balance in motion. It is embodied in the vibrant freshness of Aqua Media Cologne forte, featuring bergamot, verbena, sweet fennel and a hedione-woody musk accord. To enjoy a moment of well-being and prolong the sillage of your fragrance, add these other Aqua Media Cologne Forte scented creations to your beauty ritual: hand and body cleansing gel, body lotion and solid soap.',
     image: 'assets/AquaMediaCologneForte.jpg',
+    topNotes: ['Bergamot', 'Vervain'],
+    heartNotes: ['Sweet Fennel', 'Hedione'],
+    baseNotes: ['Matcha Tea', 'Musk', 'Woodsy Notes'],
     categories: ['fresh', 'green', 'citrus', 'aquatic', 'male', 'female'],
+    extraImages: [
+      'assets/aquaMediaextra1.webp',
+      'assets/aquaMediaextra3.jpg',
+      'assets/aquaMediaextra2.webp'
+    ]
   },
   {
     id: 41,
@@ -420,12 +436,20 @@ export const perfumes = [
     categories: ['amber', 'incense', 'oriental', 'oud', 'leather', 'male'],
   },
   {
-    id: 59,
-    name: 'Interlude Woman',
-    description: '',
-    image: 'assets/InterludeWoman.jpg',
-    categories: ['fruity', 'floral', 'oriental', 'incense', 'leather', 'female'],
-  },
+  id: 59,
+  name: 'Interlude Woman',
+  description: 'Interlude Woman is a rich and complex composition that evokes chaos and harmony in equal measure. Opening with a burst of bergamot and ginger wrapped in marigold and grapefruit, the heart reveals opulent florals including rose and jasmine, intertwined with frankincense and an enduring harmony of incense. The base is a sensual blend of amber, vanilla, benzoin, sandalwood, and leather, creating a smoky, mysterious trail that’s both bold and feminine.',
+  image: 'assets/InterludeWoman.jpg',
+  topNotes: ['Bergamot', 'Ginger', 'Grapefruit', 'Marigold'],
+  heartNotes: ['Rose', 'Jasmine', 'Frankincense', 'Incense'],
+  baseNotes: ['Amber', 'Vanilla', 'Benzoin', 'Sandalwood', 'Leather', 'Oud'],
+  categories: ['fruity', 'floral', 'oriental', 'incense', 'leather', 'female'],
+  extraImages: [
+    'assets/interlude1.jpg',
+    'assets/interlude2.jpg',
+    'assets/interlude3.jpg'
+  ]
+},
   {
     id: 60,
     name: 'Journey Man',
