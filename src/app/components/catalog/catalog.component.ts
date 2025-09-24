@@ -5,25 +5,21 @@ import { trigger, transition, style, animate } from '@angular/animations';
 import { perfumes } from '../../data/perfumes';
 
 @Component({
-  selector: 'app-catalog',
-  standalone: true,
-  imports: [RouterModule, CommonModule],
-  templateUrl: './catalog.component.html',
-  styleUrls: ['./catalog.component.scss'],
-  animations: [
-    trigger('listAnimation', [
-      transition(':enter', [
-        style({ opacity: 0, transform: 'scale(0.8)' }),
-        animate('300ms ease-out', style({ opacity: 1, transform: 'scale(1)' })),
-      ]),
-      transition(':leave', [
-        animate(
-          '300ms ease-in',
-          style({ opacity: 0, transform: 'scale(0.8)' })
-        ),
-      ]),
-    ]),
-  ],
+    selector: 'app-catalog',
+    imports: [RouterModule, CommonModule],
+    templateUrl: './catalog.component.html',
+    styleUrls: ['./catalog.component.scss'],
+    animations: [
+        trigger('listAnimation', [
+            transition(':enter', [
+                style({ opacity: 0, transform: 'scale(0.8)' }),
+                animate('300ms ease-out', style({ opacity: 1, transform: 'scale(1)' })),
+            ]),
+            transition(':leave', [
+                animate('300ms ease-in', style({ opacity: 0, transform: 'scale(0.8)' })),
+            ]),
+        ]),
+    ]
 })
 export class CatalogComponent implements OnInit {
   filteredPerfumes = [...perfumes];
