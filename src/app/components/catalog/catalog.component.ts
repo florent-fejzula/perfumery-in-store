@@ -9,6 +9,7 @@ import { perfumes } from '../../data/perfumes';
     imports: [RouterModule, CommonModule],
     templateUrl: './catalog.component.html',
     styleUrls: ['./catalog.component.scss'],
+    standalone: true,
     animations: [
         trigger('listAnimation', [
             transition(':enter', [
