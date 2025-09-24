@@ -1,5 +1,6 @@
+<!-- FILTERS -->
 <div class="filters">
-  <!-- Gender Filter -->
+  <!-- Gender -->
   <div class="filter-section">
     <div class="filter-row row1">
       <button
@@ -55,12 +56,13 @@
     </div>
   </div>
 
-  <!-- Reset Button -->
+  <!-- Reset -->
   <button (click)="resetFilters()" class="resetButton" tabindex="-1">
     Reset Filters
   </button>
 </div>
 
+<!-- CARDS -->
 <div class="perfume-cards" @listAnimation>
   <div
     *ngFor="let perfume of filteredPerfumes; trackBy: trackByPerfume"
@@ -68,40 +70,60 @@
     tabindex="-1"
     [@listAnimation]
     (click)="openModal(perfume)"
+    title="{{ perfume.name }}"
   >
-    <img [src]="perfume.image" alt="{{ perfume.name }}" tabindex="-1" />
+    <img [src]="perfume.imageUrl" alt="{{ perfume.name }}" tabindex="-1" />
     <h3 tabindex="-1">{{ perfume.name }}</h3>
+    <p class="brand" *ngIf="perfume.brand" tabindex="-1">
+      by {{ perfume.brand }}
+    </p>
   </div>
 </div>
 
-<div class="modal" *ngIf="selectedPerfume" (click)="closeModal($event)">
+<!-- MODAL -->
+<div class="modal" *ngIf="selectedPerfume" (click)="closeModal()">
   <div class="modal-content" tabindex="-1" (click)="$event.stopPropagation()">
     <div class="modal-grid">
-      <!-- LEFT SIDE: Main Image -->
+      <!-- LEFT: Main Image -->
       <div class="modal-left">
         <img
-          [src]="selectedPerfume.image"
+          [src]="selectedPerfume.imageUrl"
           alt="{{ selectedPerfume.name }}"
           class="main-image"
         />
       </div>
 
-      <!-- RIGHT SIDE: Perfume Details -->
+      <!-- RIGHT: Details -->
       <div class="modal-right">
         <h2>{{ selectedPerfume.name }}</h2>
+        <p *ngIf="selectedPerfume.brand" class="brand">
+          by {{ selectedPerfume.brand }}
+        </p>
 
-        <div *ngIf="selectedPerfume.topNotes || selectedPerfume.heartNotes || selectedPerfume.baseNotes" class="notes-pyramid">
+        <!-- Notes pyramid (optional fields) -->
+        <div
+          *ngIf="
+            selectedPerfume.topNotes ||
+            selectedPerfume.heartNotes ||
+            selectedPerfume.baseNotes
+          "
+          class="notes-pyramid"
+        >
           <div *ngIf="selectedPerfume.topNotes">
-            <strong>Top Notes:</strong> {{ selectedPerfume.topNotes.join(', ') }}
+            <strong>Top Notes:</strong>
+            {{ selectedPerfume.topNotes.join(", ") }}
           </div>
           <div *ngIf="selectedPerfume.heartNotes">
-            <strong>Heart Notes:</strong> {{ selectedPerfume.heartNotes.join(', ') }}
+            <strong>Heart Notes:</strong>
+            {{ selectedPerfume.heartNotes.join(", ") }}
           </div>
           <div *ngIf="selectedPerfume.baseNotes">
-            <strong>Base Notes:</strong> {{ selectedPerfume.baseNotes.join(', ') }}
+            <strong>Base Notes:</strong>
+            {{ selectedPerfume.baseNotes.join(", ") }}
           </div>
         </div>
 
+        <!-- Extra images -->
         <div *ngIf="selectedPerfume.extraImages?.length" class="extra-images">
           <div class="extra-image-grid">
             <img
@@ -112,11 +134,21 @@
           </div>
         </div>
 
+        <!-- Description -->
         <p *ngIf="selectedPerfume.description" class="description">
           {{ selectedPerfume.description }}
         </p>
+
+        <!-- Categories/tags -->
+        <div *ngIf="selectedPerfume.categories?.length" class="categories">
+          <h4>Tags</h4>
+          <div class="cat-chips">
+            <span class="chip" *ngFor="let c of selectedPerfume.categories">
+              {{ c | titlecase }}
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-

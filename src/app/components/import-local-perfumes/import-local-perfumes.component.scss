@@ -1,0 +1,82 @@
+.wrap {
+  max-width: 920px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.panel {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  appearance: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  font-weight: 600;
+  cursor: pointer;
+
+  &.primary {
+    background: #111827;
+    color: #fff;
+    border-color: #111827;
+  }
+  &.ghost {
+    background: #f9fafb;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.progress {
+  margin: 10px 0 16px;
+
+  .bar {
+    height: 8px;
+    background: #f3f4f6;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 6px;
+  }
+  .fill {
+    height: 100%;
+    background: #3b82f6;
+    width: 0%;
+  }
+}
+
+.logs {
+  background: #0b1020;
+  color: #d1e7ff;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 380px;
+  overflow: auto;
+  font-size: 12px;
+}

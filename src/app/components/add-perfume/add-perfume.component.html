@@ -1,0 +1,153 @@
+<div class="page" (paste)="onPaste($event)">
+  <h1>Add Perfume</h1>
+
+  <form [formGroup]="form" (ngSubmit)="save()" novalidate>
+    <!-- Name -->
+    <label class="field">
+      <span>Perfume Name</span>
+      <input
+        type="text"
+        formControlName="name"
+        placeholder="e.g., Initio Absolute Aphrodisiac"
+        autocomplete="off"
+      />
+      <small
+        class="error"
+        *ngIf="form.controls.name.touched && form.controls.name.invalid"
+      >
+        Name is required (min 2 chars).
+      </small>
+    </label>
+
+    <!-- Brand (optional) -->
+    <label class="field">
+      <span>Brand (optional)</span>
+      <input
+        type="text"
+        formControlName="brand"
+        placeholder="e.g., Initio"
+        autocomplete="off"
+      />
+    </label>
+
+    <!-- Description (optional) -->
+    <label class="field">
+      <span>Description (optional)</span>
+      <textarea
+        formControlName="description"
+        rows="3"
+        placeholder="Short description or notes"
+      ></textarea>
+    </label>
+
+    <!-- Tags -->
+    <div class="field">
+      <span>Tags / Notes</span>
+
+      <ng-container *ngIf="tagsByGroup$ | async as g; else loadingTags">
+        <div class="tag-group">
+          <h3>Gender</h3>
+          <div class="chips">
+            <label class="chip" *ngFor="let t of g.gender">
+              <input
+                type="checkbox"
+                [checked]="form.value.tags?.includes(t.id)"
+                (change)="toggleTag(t.id, $any($event.target).checked)"
+              />
+              <span>{{ t.name }}</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="tag-group">
+          <h3>Families</h3>
+          <div class="chips">
+            <label class="chip" *ngFor="let t of g.family">
+              <input
+                type="checkbox"
+                [checked]="form.value.tags?.includes(t.id)"
+                (change)="toggleTag(t.id, $any($event.target).checked)"
+              />
+              <span>{{ t.name }}</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="tag-group">
+          <h3>Notes</h3>
+          <div class="chips">
+            <label class="chip" *ngFor="let t of g.note">
+              <input
+                type="checkbox"
+                [checked]="form.value.tags?.includes(t.id)"
+                (change)="toggleTag(t.id, $any($event.target).checked)"
+              />
+              <span>{{ t.name }}</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="tag-group" *ngIf="g.other.length">
+          <h3>Other</h3>
+          <div class="chips">
+            <label class="chip" *ngFor="let t of g.other">
+              <input
+                type="checkbox"
+                [checked]="form.value.tags?.includes(t.id)"
+                (change)="toggleTag(t.id, $any($event.target).checked)"
+              />
+              <span>{{ t.name }}</span>
+            </label>
+          </div>
+        </div>
+      </ng-container>
+
+      <ng-template #loadingTags>
+        <div class="muted">Loading tags…</div>
+      </ng-template>
+    </div>
+
+    <!-- Image -->
+    <div
+      class="dropzone"
+      [class.dragging]="isDragging()"
+      (dragover)="onDragOver($event)"
+      (dragleave)="onDragLeave($event)"
+      (drop)="onDrop($event)"
+    >
+      <div class="dz-inner">
+        <ng-container *ngIf="!imagePreviewUrl(); else hasImage">
+          <p class="dz-title">Paste an image (Ctrl + V)</p>
+          <p class="dz-sub">or drag & drop, or</p>
+          <label class="btn">
+            Choose file
+            <input
+              type="file"
+              accept="image/*"
+              (change)="onFileSelected($event)"
+              hidden
+            />
+          </label>
+        </ng-container>
+
+        <ng-template #hasImage>
+          <img [src]="imagePreviewUrl()!" alt="Preview" class="preview" />
+          <button type="button" class="btn outline" (click)="removeImage()">
+            Remove image
+          </button>
+        </ng-template>
+      </div>
+    </div>
+
+    <!-- Feedback -->
+    <p class="success" *ngIf="successMsg()">{{ successMsg() }}</p>
+    <p class="error" *ngIf="errorMsg()">{{ errorMsg() }}</p>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button class="btn primary" type="submit" [disabled]="saving()">
+        {{ saving() ? "Saving…" : "Save Perfume" }}
+      </button>
+    </div>
+  </form>
+</div>

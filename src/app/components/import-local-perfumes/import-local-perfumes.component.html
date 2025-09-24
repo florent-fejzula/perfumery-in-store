@@ -1,0 +1,27 @@
+<div class="wrap">
+  <h1>Import Local Perfumes → Firestore + Storage</h1>
+
+  <div class="panel">
+    <p>Total local perfumes found: <b>{{ total }}</b></p>
+
+    <label class="row">
+      <input type="checkbox" [checked]="overwrite()" (change)="overwrite.set($any($event.target).checked)" />
+      <span>Overwrite existing Firestore docs if they already exist</span>
+    </label>
+
+    <div class="actions">
+      <button class="btn" (click)="seedTags()" [disabled]="running()">Seed Tags (gender/family/note)</button>
+      <button class="btn primary" (click)="importPerfumes()" [disabled]="running()">Start Import</button>
+      <button class="btn ghost" (click)="clearLogs()" [disabled]="running()">Clear</button>
+    </div>
+
+    <div class="progress" *ngIf="running() || doneCount()">
+      <div>Progress: {{ progress() }}% (✅ {{ doneCount() }} / {{ total }}, ❌ {{ failCount() }})</div>
+      <div class="bar">
+        <div class="fill" [style.width.%]="progress()"></div>
+      </div>
+    </div>
+
+    <pre class="logs"><code>{{ logs().join('\n') }}</code></pre>
+  </div>
+</div>

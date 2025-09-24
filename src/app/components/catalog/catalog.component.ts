@@ -1,34 +1,59 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject, DestroyRef } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
-import { perfumes } from '../../data/perfumes';
+
+import { Firestore, collection, collectionData } from '@angular/fire/firestore';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+
+type Perfume = {
+  id: string;
+  name: string;
+  imageUrl: string; // main image
+  categories: string[]; // tags for filtering
+
+  // Optional extras (safe for *ngIf guards in template)
+  brand?: string;
+  description?: string;
+  topNotes?: string[];
+  heartNotes?: string[];
+  baseNotes?: string[];
+  extraImages?: string[]; // URLs of extra images
+};
 
 @Component({
-    selector: 'app-catalog',
-    imports: [RouterModule, CommonModule],
-    templateUrl: './catalog.component.html',
-    styleUrls: ['./catalog.component.scss'],
-    standalone: true,
-    animations: [
-        trigger('listAnimation', [
-            transition(':enter', [
-                style({ opacity: 0, transform: 'scale(0.8)' }),
-                animate('300ms ease-out', style({ opacity: 1, transform: 'scale(1)' })),
-            ]),
-            transition(':leave', [
-                animate('300ms ease-in', style({ opacity: 0, transform: 'scale(0.8)' })),
-            ]),
-        ]),
-    ]
+  selector: 'app-catalog',
+  standalone: true,
+  imports: [RouterModule, CommonModule],
+  templateUrl: './catalog.component.html',
+  styleUrls: ['./catalog.component.scss'],
+  animations: [
+    trigger('listAnimation', [
+      transition(':enter', [
+        style({ opacity: 0, transform: 'scale(0.8)' }),
+        animate('300ms ease-out', style({ opacity: 1, transform: 'scale(1)' })),
+      ]),
+      transition(':leave', [
+        animate(
+          '300ms ease-in',
+          style({ opacity: 0, transform: 'scale(0.8)' })
+        ),
+      ]),
+    ]),
+  ],
 })
 export class CatalogComponent implements OnInit {
-  filteredPerfumes = [...perfumes];
-  selectedPerfume: any = null;
+  private firestore = inject(Firestore);
+  private destroyRef = inject(DestroyRef);
+
+  // UI data
+  perfumesAll: Perfume[] = [];
+  filteredPerfumes: Perfume[] = [];
+  selectedPerfume: Perfume | null = null;
   activeFilters: string[] = [];
 
+  // your existing tag buckets
   genderTags: string[] = ['male', 'female'];
-
   scentFamilyTags: string[] = [
     'fresh',
     'floral',
@@ -53,7 +78,6 @@ export class CatalogComponent implements OnInit {
     'smoky',
     'earthy',
   ];
-
   mainNoteTags: string[] = [
     'vanilla',
     'sandalwood',
@@ -83,53 +107,72 @@ export class CatalogComponent implements OnInit {
   ];
 
   ngOnInit(): void {
-    console.log(perfumes); // Debug the perfumes array
+    const perfumesCol = collection(this.firestore, 'perfumes');
+    collectionData(perfumesCol, { idField: 'id' })
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe((docs: any[]) => {
+        this.perfumesAll = docs
+          .map((d) => ({
+            id: d.id,
+            name: d.name,
+            imageUrl: d.imageUrl ?? d.image ?? '', // tolerate old field name
+            categories: d.categories ?? d.tags ?? [], // tolerate old field name
+            brand: d.brand,
+            description: d.description,
+            topNotes: d.topNotes ?? [],
+            heartNotes: d.heartNotes ?? [],
+            baseNotes: d.baseNotes ?? [],
+            extraImages: d.extraImages ?? [],
+          }))
+          .sort((a, b) => a.name.localeCompare(b.name));
+
+        this.applyCurrentFilters();
+      });
   }
 
-  openModal(perfume: any): void {
+  openModal(perfume: Perfume): void {
     this.selectedPerfume = perfume;
   }
-
-  closeModal(event?: Event) {
+  closeModal() {
     this.selectedPerfume = null;
   }
 
   applyFilter(filter: string): void {
-  if (this.activeFilters.includes(filter)) {
-    this.activeFilters = this.activeFilters.filter((f) => f !== filter);
-  } else {
-    this.activeFilters.push(filter);
+    if (this.activeFilters.includes(filter)) {
+      this.activeFilters = this.activeFilters.filter((f) => f !== filter);
+    } else {
+      this.activeFilters = [...this.activeFilters, filter];
+    }
+    this.applyCurrentFilters();
   }
 
-  this.filteredPerfumes = perfumes.filter((perfume) =>
-    this.activeFilters.every((activeFilter) =>
-      perfume.categories.includes(activeFilter)
-    )
-  );
-}
+  private applyCurrentFilters(): void {
+    if (!this.activeFilters.length) {
+      this.filteredPerfumes = [...this.perfumesAll];
+      return;
+    }
+    this.filteredPerfumes = this.perfumesAll.filter((p) =>
+      this.activeFilters.every((f) => p.categories?.includes(f))
+    );
+  }
 
   resetFilters(): void {
-  this.activeFilters = [];
-  this.filteredPerfumes = [...perfumes];
-}
+    this.activeFilters = [];
+    this.filteredPerfumes = [...this.perfumesAll];
+  }
 
-  trackByPerfume(index: number, perfume: any): number {
-    return perfume.id; // Use a unique identifier for perfumes
+  trackByPerfume(index: number, perfume: Perfume): string {
+    return perfume.id;
   }
 
   isTagDisabled(tag: string): boolean {
-    // Tag is always enabled if no filters yet
     if (this.activeFilters.length === 0) return false;
-
-    // Don't disable if tag is already selected
     if (this.activeFilters.includes(tag)) return false;
 
-    // Try applying this tag with current activeFilters
-    const simulatedFilters = [...this.activeFilters, tag];
-    const matches = perfumes.filter((perfume) =>
-      simulatedFilters.every((f) => perfume.categories.includes(f))
+    const simulated = [...this.activeFilters, tag];
+    const matches = this.perfumesAll.filter((p) =>
+      simulated.every((f) => p.categories?.includes(f))
     );
-
-    return matches.length === 0; // Disable if no perfumes match with this combo
+    return matches.length === 0;
   }
 }
