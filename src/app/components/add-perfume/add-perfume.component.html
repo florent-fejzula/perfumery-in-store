@@ -1,10 +1,10 @@
 <div class="page" (paste)="onPaste($event)">
   <h1>Add Perfume</h1>
 
-  <form [formGroup]="form" (ngSubmit)="save()" novalidate>
+  <form class="form-grid" [formGroup]="form" (ngSubmit)="save()" novalidate>
     <!-- Name -->
     <label class="field">
-      <span>Perfume Name</span>
+      <span class="label">Perfume Name</span>
       <input
         type="text"
         formControlName="name"
@@ -21,7 +21,7 @@
 
     <!-- Brand (optional) -->
     <label class="field">
-      <span>Brand (optional)</span>
+      <span class="label">Brand (optional)</span>
       <input
         type="text"
         formControlName="brand"
@@ -31,8 +31,8 @@
     </label>
 
     <!-- Description (optional) -->
-    <label class="field">
-      <span>Description (optional)</span>
+    <label class="field span-2">
+      <span class="label">Description (optional)</span>
       <textarea
         formControlName="description"
         rows="3"
@@ -40,13 +40,16 @@
       ></textarea>
     </label>
 
-    <!-- Tags -->
-    <div class="field">
-      <span>Tags / Notes</span>
+    <!-- Divider -->
+    <div class="section-title span-2">
+      <h2>Tags / Notes</h2>
+    </div>
 
+    <!-- Tags -->
+    <div class="span-2">
       <ng-container *ngIf="tagsByGroup$ | async as g; else loadingTags">
-        <div class="tag-group">
-          <h3>Gender</h3>
+        <fieldset class="tag-group">
+          <legend>Gender</legend>
           <div class="chips">
             <label class="chip" *ngFor="let t of g.gender">
               <input
@@ -57,10 +60,12 @@
               <span>{{ t.name }}</span>
             </label>
           </div>
-        </div>
+        </fieldset>
 
-        <div class="tag-group">
-          <h3>Families</h3>
+        <div class="rule"></div>
+
+        <fieldset class="tag-group">
+          <legend>Families</legend>
           <div class="chips">
             <label class="chip" *ngFor="let t of g.family">
               <input
@@ -71,10 +76,12 @@
               <span>{{ t.name }}</span>
             </label>
           </div>
-        </div>
+        </fieldset>
 
-        <div class="tag-group">
-          <h3>Notes</h3>
+        <div class="rule"></div>
+
+        <fieldset class="tag-group">
+          <legend>Notes</legend>
           <div class="chips">
             <label class="chip" *ngFor="let t of g.note">
               <input
@@ -85,10 +92,10 @@
               <span>{{ t.name }}</span>
             </label>
           </div>
-        </div>
+        </fieldset>
 
-        <div class="tag-group" *ngIf="g.other.length">
-          <h3>Other</h3>
+        <fieldset class="tag-group" *ngIf="g.other.length">
+          <legend>Other</legend>
           <div class="chips">
             <label class="chip" *ngFor="let t of g.other">
               <input
@@ -99,7 +106,7 @@
               <span>{{ t.name }}</span>
             </label>
           </div>
-        </div>
+        </fieldset>
       </ng-container>
 
       <ng-template #loadingTags>
@@ -107,9 +114,14 @@
       </ng-template>
     </div>
 
+    <!-- Divider -->
+    <div class="section-title span-2">
+      <h2>Image</h2>
+    </div>
+
     <!-- Image -->
     <div
-      class="dropzone"
+      class="dropzone span-2"
       [class.dragging]="isDragging()"
       (dragover)="onDragOver($event)"
       (dragleave)="onDragLeave($event)"
@@ -140,11 +152,11 @@
     </div>
 
     <!-- Feedback -->
-    <p class="success" *ngIf="successMsg()">{{ successMsg() }}</p>
-    <p class="error" *ngIf="errorMsg()">{{ errorMsg() }}</p>
+    <p class="success span-2" *ngIf="successMsg()">{{ successMsg() }}</p>
+    <p class="error span-2" *ngIf="errorMsg()">{{ errorMsg() }}</p>
 
     <!-- Actions -->
-    <div class="actions">
+    <div class="actions sticky-actions span-2">
       <button class="btn primary" type="submit" [disabled]="saving()">
         {{ saving() ? "Saving…" : "Save Perfume" }}
       </button>

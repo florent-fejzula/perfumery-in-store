@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/* Palette — dark, minimal, luxe */
+:root {
+  --ink: #0f172a;
+  --ink-2: #334155;
+  --muted: #6b7280;
+  --edge: #e5e7eb;
+  --bg-soft: #f8fafc;
+  --accent: #111827;
+  --chip-bg: #f3f4f6;
+  --chip-on: #0f172a;
+  --chip-ring: #cbd5e1;
+}
+
 .baskervville-regular {
   font-family: "Baskervville", serif;
   font-weight: 400;
