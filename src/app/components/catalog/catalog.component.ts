@@ -5,6 +5,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 
 // Use the store you created
 import { PerfumeStore, Perfume } from '../../stores/perfume.store';
+import { BrandsStore } from '../../stores/brands.store'; // 👈 add
 
 @Component({
   selector: 'app-catalog',
@@ -29,6 +30,7 @@ import { PerfumeStore, Perfume } from '../../stores/perfume.store';
 })
 export class CatalogComponent implements OnInit {
   private store = inject(PerfumeStore);
+  private brandsStore = inject(BrandsStore);
 
   // UI data
   perfumesAll: Perfume[] = [];
@@ -92,13 +94,21 @@ export class CatalogComponent implements OnInit {
 
   // ✅ Run effect in injection context (field initializer), not inside ngOnInit
   private readonly syncFromStore = effect(() => {
-    this.perfumesAll = this.store.perfumes();
+    const perfumes = this.store.perfumes();
+    const visibleBrandIds = new Set(
+      this.brandsStore.visibleBrands().map((b) => b.id) // 👈 which brands are visible
+    );
+    // Keep a locally filtered base list (respect brand visibility here)
+    this.perfumesAll = perfumes.filter(
+      (p) => !p.brandId || visibleBrandIds.has(p.brandId)
+    );
     this.applyCurrentFilters();
   });
 
   ngOnInit(): void {
     // Load once from Firestore (subsequent calls no-op)
     this.store.loadOnce();
+    this.brandsStore.loadOnce();
   }
 
   openModal(perfume: Perfume): void {

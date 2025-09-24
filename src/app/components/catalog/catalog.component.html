@@ -74,9 +74,9 @@
   >
     <img [src]="perfume.imageUrl" alt="{{ perfume.name }}" tabindex="-1" />
     <h3 tabindex="-1">{{ perfume.name }}</h3>
-    <p class="brand" *ngIf="perfume.brand" tabindex="-1">
-      by {{ perfume.brand }}
-    </p>
+    <!-- <p class="brand" *ngIf="perfume.brandName || perfume.brand" tabindex="-1">
+      by {{ perfume.brandName || perfume.brand }}
+    </p> -->
   </div>
 </div>
 
@@ -96,8 +96,11 @@
       <!-- RIGHT: Details -->
       <div class="modal-right">
         <h2>{{ selectedPerfume.name }}</h2>
-        <p *ngIf="selectedPerfume.brand" class="brand">
-          by {{ selectedPerfume.brand }}
+        <p
+          *ngIf="selectedPerfume.brandName || selectedPerfume.brand"
+          class="brand"
+        >
+          by {{ selectedPerfume.brandName || selectedPerfume.brand }}
         </p>
 
         <!-- Notes pyramid (optional fields) -->
