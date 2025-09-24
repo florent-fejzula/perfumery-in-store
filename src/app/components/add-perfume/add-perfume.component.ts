@@ -205,6 +205,7 @@ export class AddPerfumeComponent {
       const storageRef = ref(this.storage, imagePath);
       await uploadBytes(storageRef, this.imageFile, {
         contentType: this.imageFile.type || 'image/jpeg',
+        cacheControl: 'public, max-age=31536000, immutable' // 👈 1 year, great for kiosk speed
       });
       const imageUrl = await getDownloadURL(storageRef);
 

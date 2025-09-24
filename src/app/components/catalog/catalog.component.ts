@@ -1,25 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, inject, DestroyRef } from '@angular/core';
+import { Component, OnInit, effect, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 
-import { Firestore, collection, collectionData } from '@angular/fire/firestore';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-
-type Perfume = {
-  id: string;
-  name: string;
-  imageUrl: string; // main image
-  categories: string[]; // tags for filtering
-
-  // Optional extras (safe for *ngIf guards in template)
-  brand?: string;
-  description?: string;
-  topNotes?: string[];
-  heartNotes?: string[];
-  baseNotes?: string[];
-  extraImages?: string[]; // URLs of extra images
-};
+// Use the store you created
+import { PerfumeStore, Perfume } from '../../stores/perfume.store';
 
 @Component({
   selector: 'app-catalog',
@@ -43,8 +28,7 @@ type Perfume = {
   ],
 })
 export class CatalogComponent implements OnInit {
-  private firestore = inject(Firestore);
-  private destroyRef = inject(DestroyRef);
+  private store = inject(PerfumeStore);
 
   // UI data
   perfumesAll: Perfume[] = [];
@@ -52,7 +36,7 @@ export class CatalogComponent implements OnInit {
   selectedPerfume: Perfume | null = null;
   activeFilters: string[] = [];
 
-  // your existing tag buckets
+  // existing tag buckets
   genderTags: string[] = ['male', 'female'];
   scentFamilyTags: string[] = [
     'fresh',
@@ -106,34 +90,21 @@ export class CatalogComponent implements OnInit {
     'mint',
   ];
 
-  ngOnInit(): void {
-    const perfumesCol = collection(this.firestore, 'perfumes');
-    collectionData(perfumesCol, { idField: 'id' })
-      .pipe(takeUntilDestroyed(this.destroyRef))
-      .subscribe((docs: any[]) => {
-        this.perfumesAll = docs
-          .map((d) => ({
-            id: d.id,
-            name: d.name,
-            imageUrl: d.imageUrl ?? d.image ?? '', // tolerate old field name
-            categories: d.categories ?? d.tags ?? [], // tolerate old field name
-            brand: d.brand,
-            description: d.description,
-            topNotes: d.topNotes ?? [],
-            heartNotes: d.heartNotes ?? [],
-            baseNotes: d.baseNotes ?? [],
-            extraImages: d.extraImages ?? [],
-          }))
-          .sort((a, b) => a.name.localeCompare(b.name));
+  // ✅ Run effect in injection context (field initializer), not inside ngOnInit
+  private readonly syncFromStore = effect(() => {
+    this.perfumesAll = this.store.perfumes();
+    this.applyCurrentFilters();
+  });
 
-        this.applyCurrentFilters();
-      });
+  ngOnInit(): void {
+    // Load once from Firestore (subsequent calls no-op)
+    this.store.loadOnce();
   }
 
   openModal(perfume: Perfume): void {
     this.selectedPerfume = perfume;
   }
-  closeModal() {
+  closeModal(): void {
     this.selectedPerfume = null;
   }
 
@@ -148,7 +119,7 @@ export class CatalogComponent implements OnInit {
 
   private applyCurrentFilters(): void {
     if (!this.activeFilters.length) {
-      this.filteredPerfumes = [...this.perfumesAll];
+      this.filteredPerfumes = this.perfumesAll;
       return;
     }
     this.filteredPerfumes = this.perfumesAll.filter((p) =>
@@ -158,7 +129,7 @@ export class CatalogComponent implements OnInit {
 
   resetFilters(): void {
     this.activeFilters = [];
-    this.filteredPerfumes = [...this.perfumesAll];
+    this.filteredPerfumes = this.perfumesAll;
   }
 
   trackByPerfume(index: number, perfume: Perfume): string {
