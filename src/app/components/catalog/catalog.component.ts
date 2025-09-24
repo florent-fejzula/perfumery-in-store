@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
-import { perfumes } from '../data/perfumes';
+import { perfumes } from '../../data/perfumes';
 
 @Component({
   selector: 'app-catalog',
