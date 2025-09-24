@@ -6,7 +6,16 @@ export type Perfume = {
   name: string;
   imageUrl: string;
   categories: string[];
+
+  // brand linkage (new)
+  brandId?: string | null;
+  brandName?: string | null;
+
+  // legacy/optional (keep if you already store it)
   brand?: string;
+
+  searchableName: string;
+
   description?: string;
   topNotes?: string[];
   heartNotes?: string[];
@@ -36,12 +45,18 @@ export class PerfumeStore {
           name: x.name,
           imageUrl: x.imageUrl ?? x.image ?? '',
           categories: x.categories ?? x.tags ?? [],
+
+          // ✅ read brand linkage
+          brandId: x.brandId ?? null,
+          brandName: x.brandName ?? x.brand ?? null, // fall back to legacy 'brand'
+
           brand: x.brand,
           description: x.description,
           topNotes: x.topNotes ?? [],
           heartNotes: x.heartNotes ?? [],
           baseNotes: x.baseNotes ?? [],
           extraImages: x.extraImages ?? [],
+          searchableName: (x.searchableName ?? x.name ?? '').toLowerCase(),
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));

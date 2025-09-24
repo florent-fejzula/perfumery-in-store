@@ -1,6 +1,7 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, OnInit, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import {
@@ -22,8 +23,9 @@ import {
   getDownloadURL,
 } from '@angular/fire/storage';
 
-import { Observable } from 'rxjs';
+import { BrandsStore } from '../../stores/brands.store';
 
+/* ------------ Types ------------ */
 type Tag = {
   id: string;
   name: string;
@@ -40,7 +42,14 @@ type Perfume = {
   searchableName: string;
   createdAt: Timestamp | any;
   updatedAt: Timestamp | any;
+
+  // brand linkage (new)
+  brandId?: string | null;
+  brandName?: string | null;
+
+  // legacy (kept for backwards compatibility; we don't write it anymore)
   brand?: string;
+
   line?: string;
   description?: string;
 };
@@ -52,10 +61,14 @@ type Perfume = {
   templateUrl: './add-perfume.component.html',
   styleUrls: ['./add-perfume.component.scss'],
 })
-export class AddPerfumeComponent {
+export class AddPerfumeComponent implements OnInit {
   private fb = inject(FormBuilder);
   private firestore = inject(Firestore);
   private storage = inject(Storage);
+  private brandsStore = inject(BrandsStore);
+
+  // expose brands signal to template
+  brands = this.brandsStore.visibleBrands;
 
   // UI state
   saving = signal(false);
@@ -75,10 +88,15 @@ export class AddPerfumeComponent {
 
   form = this.fb.group({
     name: ['', [Validators.required, Validators.minLength(2)]],
-    brand: [''],
+    brandId: [''], // <-- dropdown binds here
     description: [''],
     tags: this.fb.control<string[]>([], { nonNullable: true }),
   });
+
+  ngOnInit() {
+    // ensure brands list is available for the dropdown
+    this.brandsStore.loadOnce();
+  }
 
   get tagsControl() {
     return this.form.controls.tags;
@@ -89,7 +107,6 @@ export class AddPerfumeComponent {
     const items = e.clipboardData?.items as DataTransferItemList | undefined;
     if (!items) return;
 
-    // DataTransferItemList isn't iterable in TS DOM typings; use index loop
     for (let i = 0; i < items.length; i++) {
       const it = items[i];
       if (it && it.type.startsWith('image/')) {
@@ -145,7 +162,7 @@ export class AddPerfumeComponent {
     reader.readAsDataURL(file);
   }
 
-  // -------- Checkbox toggle helper (fixes template ternary issue) --------
+  // -------- Checkbox toggle helper --------
   toggleTag(tagId: string, checked: boolean) {
     const current = this.tagsControl.value ?? [];
     if (checked) {
@@ -173,19 +190,24 @@ export class AddPerfumeComponent {
     }
 
     const name = this.form.value.name!.trim();
-    const brand = (this.form.value.brand ?? '').trim() || undefined;
-    const description = (this.form.value.description ?? '').trim() || undefined;
+    const description = (this.form.value.description ?? '').trim();
     const tagIds = Array.from(new Set(this.form.value.tags ?? []));
+
+    // brand from dropdown
+    const brandId = this.form.value.brandId || '';
+    const selectedBrand = brandId
+      ? this.brands().find((b) => b.id === brandId)
+      : undefined;
 
     this.saving.set(true);
     try {
       // Duplicate guard
       const perfumesCol = collection(this.firestore, 'perfumes');
-      const q = query(
+      const qy = query(
         perfumesCol,
         where('searchableName', '==', name.toLocaleLowerCase())
       );
-      const snap = await getDocs(q);
+      const snap = await getDocs(qy);
       if (!snap.empty) {
         this.errorMsg.set('A perfume with this name already exists.');
         this.saving.set(false);
@@ -205,7 +227,7 @@ export class AddPerfumeComponent {
       const storageRef = ref(this.storage, imagePath);
       await uploadBytes(storageRef, this.imageFile, {
         contentType: this.imageFile.type || 'image/jpeg',
-        cacheControl: 'public, max-age=31536000, immutable' // 👈 1 year, great for kiosk speed
+        cacheControl: 'public, max-age=31536000, immutable',
       });
       const imageUrl = await getDownloadURL(storageRef);
 
@@ -219,13 +241,19 @@ export class AddPerfumeComponent {
         searchableName: name.toLocaleLowerCase(),
         createdAt: serverTimestamp(),
         updatedAt: serverTimestamp(),
-        brand,
         description,
+
+        // brand linkage
+        brandId: selectedBrand ? selectedBrand.id : null,
+        brandName: selectedBrand ? selectedBrand.name : null,
+
+        ...(description ? { description } : {}),
       };
+
       await setDoc(newDocRef, payload);
 
       this.successMsg.set('Perfume saved successfully.');
-      this.form.reset({ name: '', brand: '', description: '', tags: [] });
+      this.form.reset({ name: '', brandId: '', description: '', tags: [] });
       this.removeImage();
     } catch (err: any) {
       console.error(err);

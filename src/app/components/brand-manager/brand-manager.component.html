@@ -1,0 +1,130 @@
+<div class="page">
+  <h1>Brand Manager</h1>
+
+  <!-- Add brand -->
+  <section class="card">
+    <h2>Add a Brand</h2>
+    <form [formGroup]="brandForm" (ngSubmit)="addBrand()">
+      <div class="row">
+        <label class="field">
+          <span class="label">Brand name</span>
+          <input
+            type="text"
+            formControlName="name"
+            placeholder="e.g., Initio Parfums Privés"
+          />
+        </label>
+        <div class="actions">
+          <button class="btn" [disabled]="brandForm.invalid || busy()">
+            Add Brand
+          </button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <!-- Visibility list -->
+  <section class="card">
+    <h2>Brands</h2>
+    <div class="brand-list">
+      <div class="brand-row" *ngFor="let b of brands()">
+        <div class="brand-name">{{ b.name }}</div>
+        <label class="switch">
+          <input
+            type="checkbox"
+            [checked]="b.visible !== false"
+            (change)="setBrandVisibility(b.id, $any($event.target).checked)"
+          />
+          <span>Visible</span>
+        </label>
+      </div>
+      <div class="muted" *ngIf="!brands().length">No brands yet.</div>
+    </div>
+  </section>
+
+  <!-- Bulk assign -->
+  <section class="card">
+    <h2>Bulk Assign Brand to Perfumes</h2>
+
+    <form
+      [formGroup]="assignForm"
+      class="assign-controls"
+      (submit)="$event.preventDefault()"
+    >
+      <label class="field">
+        <span class="label">Brand</span>
+        <select formControlName="brandId">
+          <option value="" disabled selected>Choose brand</option>
+          <option *ngFor="let b of brands()" [value]="b.id">
+            {{ b.name }}
+          </option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span class="label">Search</span>
+        <input
+          type="text"
+          formControlName="search"
+          placeholder="Filter perfumes…"
+        />
+      </label>
+
+      <label class="checkbox">
+        <input type="checkbox" formControlName="onlyUnassigned" />
+        <span>Only without brand</span>
+      </label>
+
+      <div class="assign-actions">
+        <button
+          class="btn outline"
+          (click)="toggleAll(filteredPerfumes(), true)"
+          type="button"
+        >
+          Select all ({{ filteredPerfumes().length }})
+        </button>
+        <button
+          class="btn outline"
+          (click)="toggleAll(filteredPerfumes(), false)"
+          type="button"
+        >
+          Clear
+        </button>
+        <button
+          class="btn"
+          (click)="bulkAssignBrand()"
+          [disabled]="!assignForm.valid || !selectedIds().size || busy()"
+          type="button"
+        >
+          Assign to selected ({{ selectedIds().size || 0 }})
+        </button>
+      </div>
+    </form>
+
+    <div class="table">
+      <div class="thead">
+        <div class="th w-40">Perfume</div>
+        <div class="th w-30">Current brand</div>
+        <div class="th w-20 text-right">Select</div>
+      </div>
+
+      <div class="row" *ngFor="let p of filteredPerfumes()">
+        <div class="td w-40">{{ p.name }}</div>
+        <div class="td w-30 muted">{{ p.brandName || "—" }}</div>
+        <div class="td w-20 text-right">
+          <input
+            type="checkbox"
+            [checked]="isSelected(p.id)"
+            (change)="toggleOne(p.id, $any($event.target).checked)"
+          />
+        </div>
+      </div>
+
+      <div class="empty muted" *ngIf="!filteredPerfumes().length">
+        No perfumes found.
+      </div>
+    </div>
+  </section>
+
+  <p class="toast" *ngIf="toast()">{{ toast() }}</p>
+</div>

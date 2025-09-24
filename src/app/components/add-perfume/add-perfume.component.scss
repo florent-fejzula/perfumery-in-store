@@ -41,6 +41,21 @@ h1 {
   margin: 10px 0 16px;
 }
 
+select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--edge, #e5e7eb);
+  border-radius: 14px;
+  font-size: 14px;
+  background: #fff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  &:focus {
+    border-color: var(--chip-ring, #cbd5e1);
+    box-shadow: 0 0 0 4px rgba(148, 163, 184, 0.15);
+    outline: none;
+  }
+}
+
 /* ===== Fields */
 .field {
   display: flex;

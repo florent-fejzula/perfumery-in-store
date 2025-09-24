@@ -22,12 +22,10 @@
     <!-- Brand (optional) -->
     <label class="field">
       <span class="label">Brand (optional)</span>
-      <input
-        type="text"
-        formControlName="brand"
-        placeholder="e.g., Initio"
-        autocomplete="off"
-      />
+      <select formControlName="brandId">
+        <option value="">— None —</option>
+        <option *ngFor="let b of brands()" [value]="b.id">{{ b.name }}</option>
+      </select>
     </label>
 
     <!-- Description (optional) -->
