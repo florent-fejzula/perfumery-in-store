@@ -54,6 +54,26 @@ export class BrandManagerComponent {
     onlyUnassigned: [true],
   });
 
+  // Count perfumes per brandId
+  brandCounts = computed(() => {
+    const counts = new Map<string, number>();
+    for (const p of this.perfumes()) {
+      if (!p.brandId) continue;
+      counts.set(p.brandId, (counts.get(p.brandId) ?? 0) + 1);
+    }
+    return counts;
+  });
+
+  // Helper for templates
+  brandCount = (brandId: string) => this.brandCounts().get(brandId) ?? 0;
+
+  // Label state for the toggle button
+  allBrandsVisible = computed(
+    () =>
+      this.brands().length > 0 &&
+      this.brands().every((b) => b.visible !== false)
+  );
+
   // Bridge form controls → signals so UI reacts instantly
   private searchSig = toSignal(
     this.assignForm.controls.search.valueChanges.pipe(
@@ -114,6 +134,21 @@ export class BrandManagerComponent {
     this.selectedIds.set(new Set());
   }
 
+  // --- Brands visibility toggle (instant UI via store's optimistic update) ---
+  async toggleAllBrandsVisibility() {
+    this.busy.set(true);
+    try {
+      const newVisible = !this.allBrandsVisible();
+      await this.brandsStore.setAllVisible(newVisible); // <- optimistic update in store
+      this.toast.set(newVisible ? 'All brands shown.' : 'All brands hidden.');
+    } catch (e: any) {
+      console.error(e);
+      this.toast.set(e?.message ?? 'Failed to toggle brands.');
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
   // Actions
   async addBrand() {
     if (this.brandForm.invalid) return;
@@ -136,7 +171,7 @@ export class BrandManagerComponent {
   async setBrandVisibility(id: string, visible: boolean) {
     this.busy.set(true);
     try {
-      await this.brandsStore.setVisible(id, visible);
+      await this.brandsStore.setVisible(id, visible); // <- optimistic update in store
       this.toast.set(visible ? 'Brand shown.' : 'Brand hidden.');
     } catch (e: any) {
       console.error(e);

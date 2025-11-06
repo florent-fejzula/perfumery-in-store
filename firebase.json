@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/perfumery-in-store",
+    "public": "dist/perfumery-in-store/browser",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [{ "source": "**", "destination": "/index.html" }]
   }

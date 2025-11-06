@@ -55,6 +55,12 @@ select {
   }
 }
 
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .checkbox {
   display: inline-flex;
   align-items: center;

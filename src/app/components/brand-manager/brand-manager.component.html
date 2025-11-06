@@ -25,10 +25,17 @@
 
   <!-- Visibility list -->
   <section class="card">
-    <h2>Brands</h2>
+    <h2 class="flex-between">
+      <span>Brands</span>
+      <button class="btn outline small" (click)="toggleAllBrandsVisibility()">
+        {{ allBrandsVisible() ? "Hide all" : "Show all" }}
+      </button>
+    </h2>
     <div class="brand-list">
       <div class="brand-row" *ngFor="let b of brands()">
-        <div class="brand-name">{{ b.name }}</div>
+        <div class="brand-name">
+          {{ b.name }} <span class="muted">({{ brandCount(b.id) }})</span>
+        </div>
         <label class="switch">
           <input
             type="checkbox"

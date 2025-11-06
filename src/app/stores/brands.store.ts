@@ -8,6 +8,8 @@ import {
   query,
   setDoc,
   updateDoc,
+  writeBatch,
+  serverTimestamp,
 } from '@angular/fire/firestore';
 import { Brand } from '../data/brand.model';
 
@@ -31,6 +33,8 @@ export class BrandsStore {
       id: d.id,
       ...(d.data() as any),
     }));
+    // keep a stable sort by name
+    items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
     this._brands.set(items);
   }
 
@@ -43,21 +47,86 @@ export class BrandsStore {
       searchableName: name.toLowerCase().trim(),
       visible: true,
     };
+
+    // write to Firestore
     await setDoc(doc(this.col, id), b, { merge: true });
-    // update cache (avoid re-fetch)
+
+    // ✅ optimistic cache update (avoid re-fetch)
     const exists = this._brands().some((x) => x.id === id);
-    this._brands.set(
-      exists
-        ? this._brands().map((x) => (x.id === id ? b : x))
-        : [...this._brands(), b]
-    );
+    const next = exists
+      ? this._brands().map((x) => (x.id === id ? { ...x, ...b } : x))
+      : [...this._brands(), b];
+
+    next.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+    this._brands.set(next);
   }
 
+  /** Toggle a single brand's visibility — optimistic update */
   async setVisible(id: string, visible: boolean) {
-    await updateDoc(doc(this.col, id), { visible });
+    // ✅ optimistic local update
     this._brands.set(
       this._brands().map((b) => (b.id === id ? { ...b, visible } : b))
     );
+
+    try {
+      await updateDoc(doc(this.col, id), {
+        visible,
+        updatedAt: serverTimestamp(),
+      });
+    } catch (e) {
+      // optional: rollback on error
+      this._brands.set(
+        this._brands().map((b) =>
+          b.id === id ? { ...b, visible: !visible } : b
+        )
+      );
+      throw e;
+    }
+  }
+
+  /** Bulk toggle all brands — optimistic update + batch write */
+  async setAllVisible(visible: boolean) {
+    const prev = this._brands();
+
+    // ✅ optimistic local update (so UI flips instantly)
+    this._brands.set(prev.map((b) => ({ ...b, visible })));
+
+    try {
+      const batch = writeBatch(this.db);
+      const now = serverTimestamp();
+      for (const b of prev) {
+        batch.update(doc(this.col, b.id), { visible, updatedAt: now });
+      }
+      await batch.commit();
+    } catch (e) {
+      // rollback on error
+      this._brands.set(prev);
+      throw e;
+    }
+  }
+
+  /** Bulk toggle specific brands — useful if you need per-subset control */
+  async setManyVisible(ids: string[], visible: boolean) {
+    const idSet = new Set(ids);
+    const prev = this._brands();
+
+    // ✅ optimistic local update
+    this._brands.set(
+      prev.map((b) => (idSet.has(b.id) ? { ...b, visible } : b))
+    );
+
+    try {
+      const batch = writeBatch(this.db);
+      const now = serverTimestamp();
+      for (const id of idSet) {
+        batch.update(doc(this.col, id), { visible, updatedAt: now });
+      }
+      await batch.commit();
+    } catch (e) {
+      // rollback on error
+      this._brands.set(prev);
+      throw e;
+    }
   }
 }
 
