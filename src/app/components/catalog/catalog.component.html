@@ -24,10 +24,7 @@
     <div class="filter-row">
       <button
         *ngFor="let tag of scentFamilyTags"
-        [ngClass]="{
-          active: activeFilters.includes(tag),
-          disabled: isTagDisabled(tag)
-        }"
+        [ngClass]="[getScentClass(tag), activeFilters.includes(tag) ? 'active' : '', isTagDisabled(tag) ? 'disabled' : '']"
         [disabled]="isTagDisabled(tag)"
         (click)="applyFilter(tag)"
         tabindex="-1"
@@ -43,10 +40,7 @@
     <div class="filter-row">
       <button
         *ngFor="let tag of mainNoteTags"
-        [ngClass]="{
-          active: activeFilters.includes(tag),
-          disabled: isTagDisabled(tag)
-        }"
+        [ngClass]="['notes-tag', activeFilters.includes(tag) ? 'active' : '', isTagDisabled(tag) ? 'disabled' : '']"
         [disabled]="isTagDisabled(tag)"
         (click)="applyFilter(tag)"
         tabindex="-1"
@@ -81,77 +75,59 @@
 </div>
 
 <!-- MODAL -->
-<div class="modal" *ngIf="selectedPerfume" (click)="closeModal()">
-  <div class="modal-content" tabindex="-1" (click)="$event.stopPropagation()">
-    <div class="modal-grid">
-      <!-- LEFT: Main Image -->
-      <div class="modal-left">
-        <img
-          [src]="selectedPerfume.imageUrl"
-          alt="{{ selectedPerfume.name }}"
-          class="main-image"
-        />
-      </div>
-
-      <!-- RIGHT: Details -->
-      <div class="modal-right">
-        <h2>{{ selectedPerfume.name }}</h2>
-        <p
-          *ngIf="selectedPerfume.brandName || selectedPerfume.brand"
-          class="brand"
-        >
-          by {{ selectedPerfume.brandName || selectedPerfume.brand }}
-        </p>
-
-        <!-- Notes pyramid (optional fields) -->
-        <div
-          *ngIf="
-            selectedPerfume.topNotes ||
-            selectedPerfume.heartNotes ||
-            selectedPerfume.baseNotes
-          "
-          class="notes-pyramid"
-        >
-          <div *ngIf="selectedPerfume.topNotes">
-            <strong>Top Notes:</strong>
-            {{ selectedPerfume.topNotes.join(", ") }}
-          </div>
-          <div *ngIf="selectedPerfume.heartNotes">
-            <strong>Heart Notes:</strong>
-            {{ selectedPerfume.heartNotes.join(", ") }}
-          </div>
-          <div *ngIf="selectedPerfume.baseNotes">
-            <strong>Base Notes:</strong>
-            {{ selectedPerfume.baseNotes.join(", ") }}
-          </div>
+@if (selectedPerfume) {
+  <div class="modal" (click)="closeModal()">
+    <div class="modal-content" tabindex="-1" (click)="$event.stopPropagation()">
+      <div class="modal-grid">
+        <!-- LEFT: Main Image -->
+        <div class="modal-left">
+          <img
+            [src]="selectedPerfume.imageUrl"
+            alt="{{ selectedPerfume.name }}"
+            class="main-image"
+          />
         </div>
 
-        <!-- Extra images -->
-        <div *ngIf="selectedPerfume.extraImages?.length" class="extra-images">
-          <div class="extra-image-grid">
-            <img
-              *ngFor="let img of selectedPerfume.extraImages"
-              [src]="img"
-              alt="Extra image"
-            />
+        <!-- RIGHT: Details -->
+        <div class="modal-right">
+          <div class="modal-header">
+            <h2 class="perfume-name">{{ selectedPerfume.name }}</h2>
+            @if (selectedPerfume.brandName || selectedPerfume.brand) {
+              <p class="brand">{{ selectedPerfume.brandName || selectedPerfume.brand }}</p>
+            }
           </div>
-        </div>
 
-        <!-- Description -->
-        <p *ngIf="selectedPerfume.description" class="description">
-          {{ selectedPerfume.description }}
-        </p>
+          <div class="modal-divider"></div>
 
-        <!-- Categories/tags -->
-        <div *ngIf="selectedPerfume.categories?.length" class="categories">
-          <h4>Tags</h4>
-          <div class="cat-chips">
-            <span class="chip" *ngFor="let c of selectedPerfume.categories">
-              {{ c | titlecase }}
-            </span>
-          </div>
+          <!-- Extra images -->
+          @if (selectedPerfume.extraImages?.length) {
+            <div class="extra-images">
+              <div class="extra-image-grid">
+                @for (img of selectedPerfume.extraImages; track img) {
+                  <img [src]="img" alt="Extra image" />
+                }
+              </div>
+            </div>
+          }
+
+          <!-- Description -->
+          @if (selectedPerfume.description) {
+            <p class="description">{{ selectedPerfume.description }}</p>
+          }
+
+          <!-- Categories/tags -->
+          @if (selectedPerfume.categories.length) {
+            <div class="categories">
+              <span class="cat-label">Tags</span>
+              <div class="cat-chips">
+                @for (c of selectedPerfume.categories; track c) {
+                  <span class="chip">{{ c | titlecase }}</span>
+                }
+              </div>
+            </div>
+          }
         </div>
       </div>
     </div>
   </div>
-</div>
+}

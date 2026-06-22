@@ -15,6 +15,16 @@ button {
   cursor: pointer;
 }
 
+// Scent family color groups — declared before .active so active always overrides
+button.scent-aquatic  { background-color: #edf8f6; border-color: #94cfc6; }
+button.scent-floral   { background-color: #fceef1; border-color: #dbafc0; }
+button.scent-woody    { background-color: #f6ede0; border-color: #c4a070; }
+button.scent-fruity   { background-color: #fdf1e8; border-color: #e0b88a; }
+button.scent-amber    { background-color: #fdf6de; border-color: #ccaa44; }
+button.scent-lavender { background-color: #f4f0fa; border-color: #b8aad8; }
+
+button.notes-tag { background-color: #f7f4ef; border-color: #bdb5a6; }
+
 button.active {
   background-color: #abe3ff;
   border: 2px solid #6cceff;
@@ -117,10 +127,6 @@ button.active {
   cursor: pointer;
 }
 
-.modal-content {
-  animation: fadeIn 0.5s ease-in;
-}
-
 button.disabled {
   opacity: 0.3;
   cursor: not-allowed;
@@ -132,17 +138,19 @@ button.disabled {
   max-height: 90vh;
   overflow-y: auto;
   background: white;
-  padding: 2rem;
-  border-radius: 12px;
+  padding: 2.5rem;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
-  animation: fadeIn 0.5s ease-in;
+  animation: fadeIn 0.3s ease-out;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
 }
 
 .modal-grid {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 3rem;
+  align-items: center;
 }
 
 .modal-left {
@@ -153,84 +161,110 @@ button.disabled {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0;
   overflow-y: auto;
   max-height: 80vh;
   padding-right: 0.5rem;
+  justify-content: center;
 }
 
 .main-image {
   width: 100%;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
   max-height: 550px;
 }
 
-.notes-pyramid {
-  font-size: 0.95rem;
-  line-height: 1.5;
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.perfume-name {
+  font-family: "Baskervville", serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: 0.01em;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.brand {
+  font-family: "Baskervville", serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: #999;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.modal-divider {
+  width: 2.5rem;
+  height: 1px;
+  background: #c9b89a;
+  margin: 1.6rem 0;
 }
 
 .extra-image-grid {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
 
 .extra-image-grid img {
-  width: 36%; // ✅ smaller thumbnails
+  width: 36%;
   max-width: 128px;
   border-radius: 6px;
   object-fit: cover;
 }
 
 .description {
-  font-size: 0.95rem;
-  margin-top: 1rem;
+  font-family: "Baskervville", serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #444;
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
 }
 
-// .modal-right {
-//   flex: 1;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 1rem;
-//   max-height: 80vh;
-//   overflow-y: auto;
-//   padding-right: 0.5rem;
-// }
+.categories {
+  margin-top: 0.5rem;
+}
 
-// .notes-pyramid {
-//   font-size: 0.95rem;
-//   line-height: 1.7;
-//   margin-bottom: 1.5rem;
-// }
-
-// .note-title {
-//   font-weight: bold;
-//   margin-top: 0.75rem;
-//   font-family: "Baskervville", serif;
-//   font-size: 1.1rem;
-// }
-
-// .note-line {
-//   margin: 0;
-//   padding: 0;
-//   font-style: italic;
-//   color: #333;
-// }
-
-.description {
-  font-size: 1rem;
-  line-height: 1.6;
+.cat-label {
+  display: block;
   font-family: "Baskervville", serif;
-  text-align: center;
-  color: #222;
-  margin-top: 1.5rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #bbb;
+  margin-bottom: 0.75rem;
+}
+
+.cat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  font-family: "Baskervville", serif;
+  font-size: 0.9rem;
+  color: #666;
+  border: 1px solid #d4c4a8;
+  border-radius: 20px;
+  padding: 5px 14px;
+  background: transparent;
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 1024px) {
   .modal-grid {
     flex-direction: column;
+    align-items: unset;
   }
 
   .main-image {
@@ -242,7 +276,7 @@ button.disabled {
   }
 
   .modal-content {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 }
 

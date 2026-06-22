@@ -41,56 +41,77 @@ export class CatalogComponent implements OnInit {
   // existing tag buckets
   genderTags: string[] = ['male', 'female'];
   scentFamilyTags: string[] = [
-    'fresh',
-    'floral',
-    'fruity',
-    'tropical',
-    'woody',
-    'spicy',
-    'leather',
-    'sweet',
-    'creamy',
-    'gourmand',
+    'aldehydic',
+    'animalic',
     'aquatic',
     'clean',
-    'ozonic',
-    'green',
-    'musky',
-    'powdery',
-    'white floral',
-    'aldehydic',
-    'oriental',
-    'animalic',
-    'smoky',
+    'creamy',
     'earthy',
+    'floral',
+    'fresh',
+    'fruity',
+    'gourmand',
+    'green',
+    'leather',
+    'musky',
+    'oriental',
+    'ozonic',
+    'powdery',
+    'smoky',
+    'spicy',
+    'sweet',
+    'tropical',
+    'white floral',
+    'woody',
   ];
   mainNoteTags: string[] = [
-    'vanilla',
-    'sandalwood',
-    'tobacco',
-    'mango',
-    'tuberose',
-    'jasmine',
-    'mineral',
-    'amber',
-    'oud',
-    'citrus',
-    'tea',
-    'rose',
-    'lavender',
-    'vetiver',
-    'coconut',
-    'boozy',
-    'patchouli',
-    'iris',
-    'neroli',
-    'cherry',
     'almond',
-    'saffron',
+    'amber',
+    'boozy',
+    'cherry',
     'cinnamon',
-    'ylang-ylang',
+    'citrus',
+    'coconut',
+    'iris',
+    'jasmine',
+    'lavender',
+    'mango',
+    'mineral',
     'mint',
+    'neroli',
+    'oud',
+    'patchouli',
+    'rose',
+    'saffron',
+    'sandalwood',
+    'tea',
+    'tobacco',
+    'tuberose',
+    'vanilla',
+    'vetiver',
+    'ylang-ylang',
   ];
+
+  private readonly scentColorMap: Record<string, string> = {
+    // ice blue-green
+    fresh: 'scent-aquatic', aquatic: 'scent-aquatic', ozonic: 'scent-aquatic',
+    clean: 'scent-aquatic', green: 'scent-aquatic',
+    // dusty rose
+    floral: 'scent-floral', 'white floral': 'scent-floral',
+    // warm tan
+    woody: 'scent-woody', earthy: 'scent-woody', smoky: 'scent-woody', leather: 'scent-woody',
+    // soft peach
+    fruity: 'scent-fruity', tropical: 'scent-fruity', gourmand: 'scent-fruity',
+    // amber
+    oriental: 'scent-amber', spicy: 'scent-amber', animalic: 'scent-amber',
+    sweet: 'scent-amber', creamy: 'scent-amber',
+    // pale lavender
+    powdery: 'scent-lavender', musky: 'scent-lavender', aldehydic: 'scent-lavender',
+  };
+
+  getScentClass(tag: string): string {
+    return this.scentColorMap[tag] ?? '';
+  }
 
   // ✅ Run effect in injection context (field initializer), not inside ngOnInit
   private readonly syncFromStore = effect(() => {
