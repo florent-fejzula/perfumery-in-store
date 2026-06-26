@@ -2,19 +2,18 @@
 <div class="filters">
   <!-- Gender -->
   <div class="filter-section">
-    <div class="filter-row row1">
-      <button
-        *ngFor="let tag of genderTags"
-        [ngClass]="{
-          active: activeFilters.includes(tag),
-          disabled: isTagDisabled(tag)
-        }"
-        [disabled]="isTagDisabled(tag)"
-        (click)="applyFilter(tag)"
-        tabindex="-1"
-      >
-        {{ tag | titlecase }}
-      </button>
+    <div class="filter-row gender-row">
+      @for (tag of genderTags; track tag) {
+        <button
+          [ngClass]="{ active: activeFilters.includes(tag), disabled: isTagDisabled(tag) }"
+          [disabled]="isTagDisabled(tag)"
+          (click)="applyFilter(tag)"
+          tabindex="-1"
+        >
+          {{ tag | titlecase }}
+        </button>
+      }
+      <button class="summer-btn" tabindex="-1" (click)="openSummerGallery()">☀️ Summer 2026</button>
     </div>
   </div>
 
@@ -22,15 +21,16 @@
   <div class="filter-section">
     <label class="filter-label">Scent Family:</label>
     <div class="filter-row">
-      <button
-        *ngFor="let tag of scentFamilyTags"
-        [ngClass]="[getScentClass(tag), activeFilters.includes(tag) ? 'active' : '', isTagDisabled(tag) ? 'disabled' : '']"
-        [disabled]="isTagDisabled(tag)"
-        (click)="applyFilter(tag)"
-        tabindex="-1"
-      >
-        {{ tag | titlecase }}
-      </button>
+      @for (tag of scentFamilyTags; track tag) {
+        <button
+          [ngClass]="[getScentClass(tag), activeFilters.includes(tag) ? 'active' : '', isTagDisabled(tag) ? 'disabled' : '']"
+          [disabled]="isTagDisabled(tag)"
+          (click)="applyFilter(tag)"
+          tabindex="-1"
+        >
+          {{ tag | titlecase }}
+        </button>
+      }
     </div>
   </div>
 
@@ -38,15 +38,16 @@
   <div class="filter-section sec3">
     <label class="filter-label">Main Notes:</label>
     <div class="filter-row">
-      <button
-        *ngFor="let tag of mainNoteTags"
-        [ngClass]="['notes-tag', activeFilters.includes(tag) ? 'active' : '', isTagDisabled(tag) ? 'disabled' : '']"
-        [disabled]="isTagDisabled(tag)"
-        (click)="applyFilter(tag)"
-        tabindex="-1"
-      >
-        {{ tag | titlecase }}
-      </button>
+      @for (tag of mainNoteTags; track tag) {
+        <button
+          [ngClass]="['notes-tag', activeFilters.includes(tag) ? 'active' : '', isTagDisabled(tag) ? 'disabled' : '']"
+          [disabled]="isTagDisabled(tag)"
+          (click)="applyFilter(tag)"
+          tabindex="-1"
+        >
+          {{ tag | titlecase }}
+        </button>
+      }
     </div>
   </div>
 
@@ -58,20 +59,18 @@
 
 <!-- CARDS -->
 <div class="perfume-cards" @listAnimation>
-  <div
-    *ngFor="let perfume of filteredPerfumes; trackBy: trackByPerfume"
-    class="perfume-card"
-    tabindex="-1"
-    [@listAnimation]
-    (click)="openModal(perfume)"
-    title="{{ perfume.name }}"
-  >
-    <img [src]="perfume.imageUrl" alt="{{ perfume.name }}" tabindex="-1" />
-    <h3 tabindex="-1">{{ perfume.name }}</h3>
-    <!-- <p class="brand" *ngIf="perfume.brandName || perfume.brand" tabindex="-1">
-      by {{ perfume.brandName || perfume.brand }}
-    </p> -->
-  </div>
+  @for (perfume of filteredPerfumes; track perfume.id) {
+    <div
+      class="perfume-card"
+      tabindex="-1"
+      [@listAnimation]
+      (click)="openModal(perfume)"
+      title="{{ perfume.name }}"
+    >
+      <img [src]="perfume.imageUrl" alt="{{ perfume.name }}" tabindex="-1" />
+      <h3 tabindex="-1">{{ perfume.name }}</h3>
+    </div>
+  }
 </div>
 
 <!-- MODAL -->
@@ -130,4 +129,12 @@
       </div>
     </div>
   </div>
+}
+
+<!-- SUMMER GALLERY -->
+@if (showSummerGallery) {
+  <app-summer-collection
+    [perfumes]="summerPerfumes"
+    (closed)="closeSummerGallery()"
+  />
 }

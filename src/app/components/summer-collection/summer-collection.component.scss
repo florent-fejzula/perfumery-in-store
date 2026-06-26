@@ -1,0 +1,241 @@
+$ocean-image: url('https://images.unsplash.com/photo-1770110628704-86ba8c7b3b1c?auto=format&fit=crop&w=1920&q=80');
+
+.summer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 10, 30, 0.75);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.summer-panel {
+  position: relative;
+  width: 96vw;
+  height: 92vh;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(to bottom, rgba(0, 18, 48, 0.68) 0%, rgba(0, 12, 35, 0.60) 100%),
+    $ocean-image center / cover no-repeat;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.5);
+}
+
+// ── Header ───────────────────────────────────────────────────────────────────
+
+.summer-header {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.summer-title {
+  font-family: "Baskervville", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.08em;
+  flex: 1;
+}
+
+.summer-counter {
+  font-family: "Baskervville", serif;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.14em;
+  margin-right: 1.5rem;
+}
+
+.close-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  font-size: 1rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: normal;
+  transition: background 0.2s;
+
+  &:hover { background: rgba(255, 255, 255, 0.18); }
+}
+
+// ── Main slide ────────────────────────────────────────────────────────────────
+
+.summer-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 6rem;
+  overflow: hidden;
+}
+
+.summer-image-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.summer-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 24px 48px rgba(0, 0, 0, 0.55));
+  transition: opacity 0.4s ease;
+
+  &.image-loading { opacity: 0; }
+}
+
+.summer-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summer-name {
+  font-family: "Baskervville", serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 0.35rem 0;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+
+.summer-brand {
+  font-family: "Baskervville", serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0;
+  letter-spacing: 0.06em;
+}
+
+.summer-divider {
+  width: 2.5rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  margin: 1.6rem 0;
+}
+
+.summer-desc {
+  font-family: "Baskervville", serif;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+}
+
+.summer-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  font-family: "Baskervville", serif;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 20px;
+  padding: 4px 14px;
+  background: rgba(255, 255, 255, 0.08);
+  letter-spacing: 0.03em;
+}
+
+// ── Navigation arrows ─────────────────────────────────────────────────────────
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  font-size: 2.8rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: 1;
+  transition: background 0.2s;
+
+  &:hover:not(:disabled) { background: rgba(255, 255, 255, 0.2); }
+  &:disabled { opacity: 0.15; cursor: default; }
+}
+
+.nav-prev { left: 1.4rem; }
+.nav-next { right: 1.4rem; }
+
+// ── Dots ──────────────────────────────────────────────────────────────────────
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0.8rem 0 1.2rem;
+  flex-shrink: 0;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.28);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  transition: background 0.2s, transform 0.2s;
+
+  &.active {
+    background: white;
+    transform: scale(1.4);
+  }
+
+  &:hover:not(.active) { background: rgba(255, 255, 255, 0.55); }
+}
+
+// ── Empty state ───────────────────────────────────────────────────────────────
+
+.empty-state {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Baskervville", serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

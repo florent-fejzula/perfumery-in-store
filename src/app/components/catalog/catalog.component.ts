@@ -1,16 +1,19 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, effect, inject } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, effect, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 
-// Use the store you created
 import { PerfumeStore, Perfume } from '../../stores/perfume.store';
-import { BrandsStore } from '../../stores/brands.store'; // 👈 add
+import { BrandsStore } from '../../stores/brands.store';
+import { SummerCollectionComponent } from '../summer-collection/summer-collection.component';
+
+import { Firestore } from '@angular/fire/firestore';
+import { doc, getDoc } from 'firebase/firestore';
 
 @Component({
   selector: 'app-catalog',
   standalone: true,
-  imports: [RouterModule, CommonModule],
+  imports: [RouterModule, CommonModule, SummerCollectionComponent],
   templateUrl: './catalog.component.html',
   styleUrls: ['./catalog.component.scss'],
   animations: [
@@ -31,12 +34,18 @@ import { BrandsStore } from '../../stores/brands.store'; // 👈 add
 export class CatalogComponent implements OnInit {
   private store = inject(PerfumeStore);
   private brandsStore = inject(BrandsStore);
+  private firestore = inject(Firestore);
+  private cdr = inject(ChangeDetectorRef);
 
   // UI data
   perfumesAll: Perfume[] = [];
   filteredPerfumes: Perfume[] = [];
   selectedPerfume: Perfume | null = null;
   activeFilters: string[] = [];
+
+  // Summer gallery
+  showSummerGallery = false;
+  summerPerfumes: Perfume[] = [];
 
   // existing tag buckets
   genderTags: string[] = ['male', 'female'];
@@ -132,6 +141,23 @@ export class CatalogComponent implements OnInit {
     this.brandsStore.loadOnce();
   }
 
+  async openSummerGallery(): Promise<void> {
+    if (!this.summerPerfumes.length) {
+      const ref = doc(this.firestore, 'collections', 'summer-2026');
+      const snap = await getDoc(ref);
+      const names: string[] = snap.exists() ? (snap.data()['perfumeNames'] ?? []) : [];
+      this.summerPerfumes = names
+        .map((name) => this.perfumesAll.find((p) => p.searchableName === name))
+        .filter((p): p is Perfume => !!p);
+    }
+    this.showSummerGallery = true;
+    this.cdr.detectChanges();
+  }
+
+  closeSummerGallery(): void {
+    this.showSummerGallery = false;
+  }
+
   openModal(perfume: Perfume): void {
     this.selectedPerfume = perfume;
   }
@@ -161,10 +187,6 @@ export class CatalogComponent implements OnInit {
   resetFilters(): void {
     this.activeFilters = [];
     this.filteredPerfumes = this.perfumesAll;
-  }
-
-  trackByPerfume(index: number, perfume: Perfume): string {
-    return perfume.id;
   }
 
   isTagDisabled(tag: string): boolean {

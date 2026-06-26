@@ -1,0 +1,67 @@
+<div class="summer-overlay" (click)="close()">
+  <div class="summer-panel" (click)="$event.stopPropagation()">
+
+    <!-- Header -->
+    <div class="summer-header">
+      <span class="summer-title">☀️ Summer 2026</span>
+      <span class="summer-counter">{{ index() + 1 }} / {{ perfumes.length }}</span>
+      <button class="close-btn" (click)="close()">✕</button>
+    </div>
+
+    @if (perfumes.length === 0) {
+      <div class="empty-state">
+        <p>This collection is not yet curated.</p>
+      </div>
+    } @else {
+      <!-- Slide -->
+      <div class="summer-content" [@slide]="index()">
+
+        <div class="summer-image-wrap">
+          <img
+            [src]="current().imageUrl"
+            [alt]="current().name"
+            class="summer-image"
+            [class.image-loading]="!imageReady()"
+            (load)="onImageLoad()"
+          />
+        </div>
+
+        <div class="summer-info">
+          <h2 class="summer-name">{{ current().name }}</h2>
+          @if (current().brandName || current().brand) {
+            <p class="summer-brand">{{ current().brandName || current().brand }}</p>
+          }
+          <div class="summer-divider"></div>
+          @if (current().description) {
+            <p class="summer-desc">{{ current().description }}</p>
+          }
+          @if (current().categories.length) {
+            <div class="summer-chips">
+              @for (c of current().categories; track c) {
+                <span class="chip">{{ c | titlecase }}</span>
+              }
+            </div>
+          }
+        </div>
+
+      </div>
+
+      <!-- Arrows -->
+      <button class="nav-btn nav-prev" (click)="prev()" [disabled]="index() === 0">‹</button>
+      <button class="nav-btn nav-next" (click)="next()" [disabled]="index() === perfumes.length - 1">›</button>
+
+      <!-- Dots -->
+      <div class="dots">
+        @for (p of perfumes; track p.id; let i = $index) {
+          <button
+            class="dot"
+            [class.active]="i === index()"
+            (click)="goTo(i)"
+            [attr.aria-label]="'Perfume ' + (i + 1)"
+          ></button>
+        }
+      </div>
+    }
+
+  </div>
+</div>
