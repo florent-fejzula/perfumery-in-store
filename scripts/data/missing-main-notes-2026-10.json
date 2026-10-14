@@ -1,0 +1,356 @@
+{
+ "batch": "missing-main-notes-2026-10",
+ "rule": "Add a Main Notes tag the perfume lacked when that note (or a synonym, e.g. Turkish/Taif/Bulgarian Rose = rose, Yuzu/Tangerine/Mandarin = citrus, Orris = iris) has a Fragrantica pyramid icon at least 90% the size of the perfume's biggest. Found by auditing all 672 perfumes after Oajan was missing from the Cinnamon filter.",
+ "notes": [],
+ "perfumes": [
+  {
+   "id": "106",
+   "name": "Suede et Safran",
+   "add": [
+    "saffron"
+   ]
+  },
+  {
+   "id": "122",
+   "name": "Mystic Experience",
+   "add": [
+    "amber"
+   ]
+  },
+  {
+   "id": "125",
+   "name": "Narcotic Delight",
+   "add": [
+    "cherry"
+   ]
+  },
+  {
+   "id": "14",
+   "name": "Fifty Four",
+   "add": [
+    "boozy",
+    "patchouli"
+   ]
+  },
+  {
+   "id": "149",
+   "name": "Sedley",
+   "add": [
+    "mint"
+   ]
+  },
+  {
+   "id": "151",
+   "name": "Oajan",
+   "add": [
+    "cinnamon"
+   ]
+  },
+  {
+   "id": "153",
+   "name": "Delina Exclusif",
+   "add": [
+    "rose"
+   ]
+  },
+  {
+   "id": "154",
+   "name": "Delina La Rosée",
+   "add": [
+    "rose"
+   ]
+  },
+  {
+   "id": "157",
+   "name": "Bouquet de Hongrie",
+   "add": [
+    "rose"
+   ]
+  },
+  {
+   "id": "160",
+   "name": "Nuit de Sable",
+   "add": [
+    "sandalwood"
+   ]
+  },
+  {
+   "id": "165",
+   "name": "Sel d'Argent",
+   "add": [
+    "mineral"
+   ]
+  },
+  {
+   "id": "180",
+   "name": "Orpheon",
+   "add": [
+    "citrus"
+   ]
+  },
+  {
+   "id": "192",
+   "name": "Falcon Leather",
+   "add": [
+    "saffron"
+   ]
+  },
+  {
+   "id": "21",
+   "name": "Spring Dance",
+   "add": [
+    "citrus",
+    "jasmine"
+   ]
+  },
+  {
+   "id": "214",
+   "name": "Neroli Supercritique",
+   "add": [
+    "tuberose"
+   ]
+  },
+  {
+   "id": "216",
+   "name": "Ambre Superfluide",
+   "add": [
+    "boozy"
+   ]
+  },
+  {
+   "id": "22",
+   "name": "Suit of Lights",
+   "add": [
+    "citrus"
+   ]
+  },
+  {
+   "id": "23",
+   "name": "Visionary Eye",
+   "add": [
+    "iris"
+   ]
+  },
+  {
+   "id": "233",
+   "name": "J'Suis Snob",
+   "add": [
+    "boozy"
+   ]
+  },
+  {
+   "id": "247",
+   "name": "Fortuna",
+   "add": [
+    "rose"
+   ]
+  },
+  {
+   "id": "249",
+   "name": "Jupiter",
+   "add": [
+    "saffron"
+   ]
+  },
+  {
+   "id": "250",
+   "name": "Pomona Vitalis",
+   "add": [
+    "rose"
+   ]
+  },
+  {
+   "id": "252",
+   "name": "Celestial",
+   "add": [
+    "saffron"
+   ]
+  },
+  {
+   "id": "267",
+   "name": "Byron",
+   "add": [
+    "citrus"
+   ]
+  },
+  {
+   "id": "280",
+   "name": "Tamima Sillage",
+   "add": [
+    "oud"
+   ]
+  },
+  {
+   "id": "2VrGmd6TGXy52FvFNWmC",
+   "name": "Ta'if",
+   "add": [
+    "rose"
+   ]
+  },
+  {
+   "id": "33",
+   "name": "Baccarat Rouge 540",
+   "add": [
+    "saffron"
+   ]
+  },
+  {
+   "id": "35",
+   "name": "Oud",
+   "add": [
+    "saffron"
+   ]
+  },
+  {
+   "id": "42",
+   "name": "Féminin Pluriel",
+   "add": [
+    "iris"
+   ]
+  },
+  {
+   "id": "49",
+   "name": "Dia Man",
+   "add": [
+    "vetiver"
+   ]
+  },
+  {
+   "id": "57",
+   "name": "Interlude Black Iris",
+   "add": [
+    "iris"
+   ]
+  },
+  {
+   "id": "65",
+   "name": "Reflection Man",
+   "add": [
+    "neroli"
+   ]
+  },
+  {
+   "id": "7",
+   "name": "14Hour Dream",
+   "add": [
+    "patchouli"
+   ]
+  },
+  {
+   "id": "72",
+   "name": "Crimson Rocks",
+   "add": [
+    "cinnamon"
+   ]
+  },
+  {
+   "id": "7ig9oLwCgHLPbLQ6trym",
+   "name": "Marque-Page",
+   "add": [
+    "amber",
+    "patchouli"
+   ]
+  },
+  {
+   "id": "82",
+   "name": "Love Delight",
+   "add": [
+    "vanilla"
+   ]
+  },
+  {
+   "id": "85",
+   "name": "Colognise",
+   "add": [
+    "neroli",
+    "tea"
+   ]
+  },
+  {
+   "id": "9",
+   "name": "Black Powder",
+   "add": [
+    "tobacco"
+   ]
+  },
+  {
+   "id": "AD6wLtfYsNoaQhvTkwXt",
+   "name": "Gold Woman",
+   "add": [
+    "jasmine",
+    "rose"
+   ]
+  },
+  {
+   "id": "Hy9CFjHItiDOEIBw2uj2",
+   "name": "Ocean Leather",
+   "add": [
+    "citrus"
+   ]
+  },
+  {
+   "id": "IDVlKNFuCrzP8K6WAegz",
+   "name": "Sabrage",
+   "add": [
+    "jasmine"
+   ]
+  },
+  {
+   "id": "InYBBiwcdf2izwH7HH7z",
+   "name": "French Affair",
+   "add": [
+    "vetiver"
+   ]
+  },
+  {
+   "id": "KrXGSdBRdKW2owV0wTyL",
+   "name": "Borabora",
+   "add": [
+    "ylang-ylang"
+   ]
+  },
+  {
+   "id": "ROVkHZIOvIaWg46BXNKx",
+   "name": "Virtue",
+   "add": [
+    "jasmine"
+   ]
+  },
+  {
+   "id": "fbhMKL3gSf9Ppu1vxyWF",
+   "name": "303 Chili Pepper, Pink Berries, Benzoin",
+   "add": [
+    "vetiver"
+   ]
+  },
+  {
+   "id": "z5fwyNOU85knWqX18qLQ",
+   "name": "Gladiator",
+   "add": [
+    "vetiver"
+   ]
+  },
+  {
+   "id": "20",
+   "name": "Siren & Sailors",
+   "add": [
+    "rose"
+   ]
+  },
+  {
+   "id": "67",
+   "name": "Reflection Man 45",
+   "add": [
+    "iris"
+   ]
+  },
+  {
+   "id": "94",
+   "name": "Ege",
+   "add": [
+    "citrus",
+    "mint"
+   ]
+  }
+ ]
+}
