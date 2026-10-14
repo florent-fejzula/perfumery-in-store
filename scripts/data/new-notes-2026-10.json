@@ -1,0 +1,1021 @@
+{
+ "batch": "new-notes-2026-10",
+ "rule": "Tag a perfume with a note when that note (or a synonym: olibanum/frankincense = incense, pink/black pepper = pepper, any cedar = cedar) has a Fragrantica pyramid icon at least 75% the size of the perfume's biggest icon. 75% is the level at which the existing kiosk note tags best match Fragrantica (precision 0.76, recall 0.79 over 672 perfumes). Notes ranked by how many perfumes have them as a main note: incense 61, pepper 41, cardamom 35, cedar 35, tonka bean 28 (next: orange blossom 27, apple 24, caramel 23).",
+ "notes": [
+  {
+   "name": "incense",
+   "order": 26
+  },
+  {
+   "name": "pepper",
+   "order": 27
+  },
+  {
+   "name": "cardamom",
+   "order": 28
+  },
+  {
+   "name": "cedar",
+   "order": 29
+  },
+  {
+   "name": "tonka bean",
+   "order": 30
+  }
+ ],
+ "perfumes": [
+  {
+   "id": "07d0VxdJc2txKXh4SfMT",
+   "name": "Peacock Throne",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "0NwgOkN2KobVmEG2RaAp",
+   "name": "Galloway",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "107",
+   "name": "Kredo",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "108",
+   "name": "Papilefiko",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "110",
+   "name": "Tero",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "113",
+   "name": "Hacivat X",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "132",
+   "name": "Carlisle",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "139",
+   "name": "Kalan",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "140",
+   "name": "Layton",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "145",
+   "name": "Pegasus Exclusif",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "15",
+   "name": "Golden Serenade",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "150",
+   "name": "Habdan",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "151",
+   "name": "Oajan",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "158",
+   "name": "Gris Charnel",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "159",
+   "name": "Gris Charnel Extrait",
+   "add": [
+    "cardamom",
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "160",
+   "name": "Nuit de Sable",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "163",
+   "name": "Rouge Smoking",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "17",
+   "name": "Green Bubble",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "173",
+   "name": "Velvet Tonka",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "174",
+   "name": "Wood Jasmin",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "180",
+   "name": "Orpheon",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "1QdOe84M6UeUHxTMlNZ0",
+   "name": "Visions of Venice",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "1oSiovOJA2ds9Gu0vaVf",
+   "name": "Zaurac",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "203",
+   "name": "Santal Austral Extrait",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "207",
+   "name": "Iris Palladium",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "208",
+   "name": "Mécanique Intuitive",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "215",
+   "name": "Rose Supercritique",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "217",
+   "name": "Santal Superfluide",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "221",
+   "name": "B683",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "226",
+   "name": "French Lover",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "238",
+   "name": "Crazy Belle",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "245",
+   "name": "Gladiator Oud",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "255",
+   "name": "Ambra",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "267",
+   "name": "Byron",
+   "add": [
+    "cardamom",
+    "cedar"
+   ]
+  },
+  {
+   "id": "268",
+   "name": "Contessa",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "271",
+   "name": "Sahara Blue",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "273",
+   "name": "Rand",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "279",
+   "name": "Scirocco",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "28",
+   "name": "Thé Matcha 26",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "280",
+   "name": "Tamima Sillage",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "281",
+   "name": "Amberesque",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "287",
+   "name": "Cocktail Maracuja",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "29",
+   "name": "Thé Noir 29",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "2VrGmd6TGXy52FvFNWmC",
+   "name": "Ta'if",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "30",
+   "name": "Tonka 25",
+   "add": [
+    "cedar",
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "31",
+   "name": "Vetiver 46",
+   "add": [
+    "incense",
+    "pepper"
+   ]
+  },
+  {
+   "id": "3LZdc2q0AGBZbiV7PteU",
+   "name": "Sakura",
+   "add": [
+    "pepper",
+    "cedar"
+   ]
+  },
+  {
+   "id": "3tRchEdCukSZ9BFu98Nm",
+   "name": "Remain",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "43",
+   "name": "Amyris Homme",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "49",
+   "name": "Dia Man",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "51",
+   "name": "Epic Man",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "53",
+   "name": "Gold Man",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "60",
+   "name": "Journey Man",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "6KdckGi7RVVz2eqXrOCZ",
+   "name": "Stellar Silk",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "6zmHpKQqeSSGEmYmQsKs",
+   "name": "Nous Sommes Amants M.D.",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "72",
+   "name": "Crimson Rocks",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "76",
+   "name": "Lineage",
+   "add": [
+    "incense",
+    "pepper"
+   ]
+  },
+  {
+   "id": "77",
+   "name": "Purpose",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "79",
+   "name": "Blossom Love",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "7ig9oLwCgHLPbLQ6trym",
+   "name": "Marque-Page",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "80",
+   "name": "Lilac Love",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "8BSARRXZlQ9WagyoUxMh",
+   "name": "Elevation",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "8GG8Uj4rNFrCHWM0yWOy",
+   "name": "Pacific Drive",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "96WwLJgBC36ma5qGxHpU",
+   "name": "Bianco Oro",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "9E1Y7pBURF9zrLShtCet",
+   "name": "Reasons",
+   "add": [
+    "pepper",
+    "cardamom"
+   ]
+  },
+  {
+   "id": "9I7b3dPEM2mbw0CVDi1M",
+   "name": "Outlands",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "AD6wLtfYsNoaQhvTkwXt",
+   "name": "Gold Woman",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "AFxSv50AlKusmB6DOVYa",
+   "name": "J'approchais un Mystère A.C.",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "Av6WvO7TwcwgfXjJGuTE",
+   "name": "Citrus Splash",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "B3q1D5AAOiBVnEZblFfB",
+   "name": "603 Leather, Incense, Tonka Bean",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "BADta8kOiKvUNzf5emUg",
+   "name": "Dandy or Not G.A.",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "BZlV27WI9OkG35y6mL3m",
+   "name": "Supreme Oud",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "BdsDpwqNjzkpmFpdInej",
+   "name": "Explicite",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "BwlUqpN5D8hMFS1QDPWn",
+   "name": "The Queen and the Viper",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "C6fry4xEdeyN3slQ6wy1",
+   "name": "901 Nutmeg, Almond, Patchouli",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "C8s6xfewT4SRqub1wHmn",
+   "name": "Blue Forest",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "CidzHJBYcX6zPPyKFqIi",
+   "name": "Silver Ceremony",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "DyxSIKnXdKxuDcXXaitz",
+   "name": "Amabile",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "FjNNC9HXfLV3YqP8Derl",
+   "name": "Rivière",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "FvtXOUQ2JP2sVAq4Q9wi",
+   "name": "Mandorle",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "HWcnonFruLv49lIMh36J",
+   "name": "Rosso Radice",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "HizBaAYAWB8hGKFALMmN",
+   "name": "Cash Flower",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "MIqX5brfUjcJiyX0W2wI",
+   "name": "Opus VII – Reckless Leather",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "MilgdBLapnhzMSNNdn6K",
+   "name": "Ithaque",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "NNjLm1sC1QhA5SejE8Hh",
+   "name": "Romance in Florence",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "NuSTQ325goF3ohNBdyCl",
+   "name": "Oud Paradisio",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "P5eHF7fHQL1eafAe7t25",
+   "name": "Carios",
+   "add": [
+    "pepper",
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "PFuJ9B8CeKt4uaxZfMHj",
+   "name": "Red",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "PsYe2uddvISssF8aHRAl",
+   "name": "Borntostandout",
+   "add": [
+    "pepper",
+    "cedar"
+   ]
+  },
+  {
+   "id": "QPcjQPc6SwS3S2N27ueT",
+   "name": "Wild Desires",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "RIVdlB2DEYiR5Z5iPNx6",
+   "name": "Royal Amber",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "SHM90vQ6o0jTDspfLrqx",
+   "name": "African Leather",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "SiR0SX2tGdpT2p1jn6Ev",
+   "name": "Lift Me Up",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "TsNOiqxjyOUo4h1Njx2s",
+   "name": "Centre Stage",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "VBz3c1m4E5Lp5p3gmMoN",
+   "name": "Odéon",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "W9aQm1uc2I52uSlmiMmI",
+   "name": "Acte d'Amour Furtif A.N.",
+   "add": [
+    "pepper",
+    "cedar"
+   ]
+  },
+  {
+   "id": "WHXAPet4Rt7eQD3y7miP",
+   "name": "Latte Pistachio",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "X6N4r968YGxnZzonUIeu",
+   "name": "Oriental Leather",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "X8zgg8fGm1E9PLRZrl6o",
+   "name": "Carved Oud",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "XAGlhuYSv0fME4CnIy4w",
+   "name": "Musc Ravageur",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "Y3uaqwZiiSljSDA6I5sD",
+   "name": "Toi Toi Toi",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "YbXCPokl12mL8J0CZbCu",
+   "name": "Electric Wood",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "ZG6FLGXXqYxOZogl2w7y",
+   "name": "Yvonne Extrait",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "a7tH1nuz6YhOU6kRXMmV",
+   "name": "Montabaco Flor",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "cH1yG3TWlW4WlBsbG4LV",
+   "name": "Lustre",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "cSwQ1zxLZy0ZJABqR6HY",
+   "name": "Amber Sky",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "coOTIHYnWiA8E3O9vdWf",
+   "name": "602 Pepper, Cedar, Patchouli",
+   "add": [
+    "pepper",
+    "cedar"
+   ]
+  },
+  {
+   "id": "e9tizLIfQOUPS61zSppu",
+   "name": "Angel Dust Extrait",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "eUThOBzYJuhKlQcRSdGq",
+   "name": "Shaman",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "fbhMKL3gSf9Ppu1vxyWF",
+   "name": "303 Chili Pepper, Pink Berries, Benzoin",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "g5EDypSasFWosIwFRVk3",
+   "name": "Rosso Rubino",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "g7SG1vHFnCBGGVBPCDyr",
+   "name": "Ormonde Woman",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "hNNFcf8SgmbL4glr1tee",
+   "name": "602 Bois Narcotique Intense",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "hVHORUU7evB1N6drbG0g",
+   "name": "Mandorle Extrait",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "hnP8l3KTVsEDH8xsCirG",
+   "name": "Yesterday",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "hviYLWqQzxjr5mLSyvUB",
+   "name": "Saint Tropez Éclat du Soleil",
+   "add": [
+    "incense",
+    "pepper"
+   ]
+  },
+  {
+   "id": "iVZ7NOgVOjBdw6hunKUt",
+   "name": "Cullinan Diamond",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "jgLMz7sYM2JHZiOaa4aa",
+   "name": "Erotika Maximale",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "kBIyukj5DuneFdpE4rr4",
+   "name": "Honour Man",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "nNbKgkkKZnVYKV9SM8pb",
+   "name": "Vanilla Haze",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "nl3XakunhxD4tqC8nd6b",
+   "name": "Bordeaux Plaisir de la Nuit",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "o6qLQfNc8FUBP5rYUrU4",
+   "name": "Regent Leather",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "pX19EfjQnlXIJoyJWg9o",
+   "name": "Plumeria Supercritique",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "pwzKlm3wUOA8Yp9AuLSq",
+   "name": "Bohemian Infusion",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "qf26UKJGhegvr8avSlDO",
+   "name": "Bois d'Hiver",
+   "add": [
+    "cardamom",
+    "cedar"
+   ]
+  },
+  {
+   "id": "s5OOHs019Q7P9ahbEd1U",
+   "name": "Muscat",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "uEP99THQjFcoTUcdAzen",
+   "name": "Existence",
+   "add": [
+    "incense"
+   ]
+  },
+  {
+   "id": "uZc9pgIf7tkFeyIR5m0O",
+   "name": "Berlin Fever",
+   "add": [
+    "cardamom"
+   ]
+  },
+  {
+   "id": "upUrl7rQEJr9WToq3tJI",
+   "name": "Imperial Crown",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "vUmflYLEEgKA7tNPlSBR",
+   "name": "Paris Mon Amour",
+   "add": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "vjutyT6UkFK3Yx7wVkqt",
+   "name": "Les Ombres Fantastiques A.R.",
+   "add": [
+    "cardamom",
+    "cedar"
+   ]
+  },
+  {
+   "id": "vlmqdRGsbCp2ywX1SJPn",
+   "name": "Cedar N'Pepper",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "whtcdPAqJUp8D9n4ePJD",
+   "name": "Atlas Fever",
+   "add": [
+    "incense",
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "yBvsF6dzWbXi1KLXZ1Mv",
+   "name": "Ormonde Man",
+   "add": [
+    "pepper",
+    "cardamom",
+    "cedar"
+   ]
+  },
+  {
+   "id": "yIQefQZaEEg4Xmqqheq6",
+   "name": "Le Passant",
+   "add": [
+    "tonka bean"
+   ]
+  },
+  {
+   "id": "ypfqKftAjnixoeFR2yPd",
+   "name": "Fugazzi Parfum",
+   "add": [
+    "incense",
+    "pepper",
+    "cedar"
+   ]
+  },
+  {
+   "id": "186",
+   "name": "Tam Dao edt",
+   "add": [
+    "cedar"
+   ]
+  },
+  {
+   "id": "54",
+   "name": "Epic Woman 56",
+   "add": [
+    "incense",
+    "pepper"
+   ]
+  },
+  {
+   "id": "nSvDIcnrUYdJwyztA1Yu",
+   "name": "Nawab of Oudh Intensivo",
+   "add": [
+    "cardamom"
+   ]
+  }
+ ]
+}
