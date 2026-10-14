@@ -2,7 +2,7 @@ import { Injectable, signal } from '@angular/core';
 import { Firestore, collection, doc, docData, getDocs } from '@angular/fire/firestore';
 
 /**
- * The stock sync (scripts/stock-sync) runs every 30 minutes during the day. A status older than a
+ * The stock sync (functions/sync-stock.js) runs every 30 minutes during the day. A status older than a
  * day means it has stopped, and an out-of-date "Out of Stock" is worse than none.
  */
 const STOCK_MAX_AGE_MS = 24 * 60 * 60 * 1000;

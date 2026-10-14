@@ -1,5 +1,5 @@
 // Links kiosk perfumes to the shop app's products (maison-loyalty `products`) for the stock sync
-// (scripts/stock-sync). Each perfume gets:
+// (functions/sync-stock.js). Each perfume gets:
 //   shopBases     product names without size, e.g. "MARLY Delina edp", so a new size is picked up
 //   shopBarcodes  the products' barcodes, so a product renamed in the shop stays linked
 //
@@ -11,7 +11,7 @@
 import { readFileSync } from 'node:fs';
 import { initializeApp, cert } from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
-import { baseName, isTesterOrSample, normalize } from './stock-sync/shop-names.mjs';
+import { baseName, isTesterOrSample, normalize } from '../functions/shop-names.js';
 
 const ALL = process.argv.includes('--all');
 const WRITE = process.argv.includes('--write');
