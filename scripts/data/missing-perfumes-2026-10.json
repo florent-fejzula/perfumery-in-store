@@ -1,0 +1,5096 @@
+{
+  "batch": "maison-sync-2026-10",
+  "brands": [
+    {
+      "id": "amouage",
+      "name": "Amouage"
+    },
+    {
+      "id": "anomalia-paris",
+      "name": "Anomalia Paris"
+    },
+    {
+      "id": "bdk",
+      "name": "BDK"
+    },
+    {
+      "id": "birkholz",
+      "name": "Birkholz"
+    },
+    {
+      "id": "bon-parfumeur",
+      "name": "Bon Parfumeur"
+    },
+    {
+      "id": "d-orsay",
+      "name": "D'Orsay"
+    },
+    {
+      "id": "diptyque",
+      "name": "Diptyque"
+    },
+    {
+      "id": "ex-nihilo",
+      "name": "Ex Nihilo"
+    },
+    {
+      "id": "frederic-malle",
+      "name": "Frederic Malle"
+    },
+    {
+      "id": "fugazzi",
+      "name": "Fugazzi"
+    },
+    {
+      "id": "giardini-di-toscana",
+      "name": "Giardini di Toscana"
+    },
+    {
+      "id": "initio",
+      "name": "Initio"
+    },
+    {
+      "id": "le-labo",
+      "name": "Le Labo"
+    },
+    {
+      "id": "les-eaux-primordiales",
+      "name": "Les Eaux Primordiales"
+    },
+    {
+      "id": "marc-antoine-barrois",
+      "name": "Marc Antoine Barrois"
+    },
+    {
+      "id": "matiere-premiere",
+      "name": "Matiere Premiere"
+    },
+    {
+      "id": "memo-paris",
+      "name": "Memo Paris"
+    },
+    {
+      "id": "new-notes",
+      "name": "New Notes"
+    },
+    {
+      "id": "ormaie",
+      "name": "Ormaie"
+    },
+    {
+      "id": "parfums-de-marly",
+      "name": "Parfums de Marly"
+    },
+    {
+      "id": "perroy-parfum",
+      "name": "Perroy parfum"
+    },
+    {
+      "id": "room-1015",
+      "name": "Room 1015"
+    },
+    {
+      "id": "sora-dora",
+      "name": "Sora Dora"
+    },
+    {
+      "id": "spirit-of-kings",
+      "name": "Spirit Of Kings"
+    },
+    {
+      "id": "stephane-humbert-lucas",
+      "name": "Stephane Humbert Lucas"
+    },
+    {
+      "id": "thameen",
+      "name": "Thameen"
+    },
+    {
+      "id": "xerjoff",
+      "name": "Xerjoff"
+    }
+  ],
+  "perfumes": [
+    {
+      "name": "Decision",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "incense",
+        "spicy",
+        "amber",
+        "vanilla",
+        "male"
+      ],
+      "description": "Frankincense and myrrh smoke drift over crushed juniper berries and cardamom, cut with a bright flash of bergamot. Vanilla and cedar slowly settle the air, the hush of a stone chapel just after its doors swing open onto a cold, sunny street.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.103892.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Decision-103892.html",
+      "shopNames": "Decision"
+    },
+    {
+      "name": "Dia Woman 40",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "aldehydic",
+        "floral",
+        "powdery",
+        "musky",
+        "clean",
+        "female"
+      ],
+      "description": "A burst of sparkling aldehydes and white musk lifts cyclamen, rose and carnation into the brightness of freshly pressed linen in a sunlit room. Orris and sandalwood soften the finish into the powdery calm of a silk scarf taken from a cedar drawer.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.87957.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Dia-40-Woman-87957.html",
+      "shopNames": "Dia Woman 40 Extrait"
+    },
+    {
+      "name": "Existence",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "aldehydic",
+        "floral",
+        "white floral",
+        "rose",
+        "amber",
+        "female"
+      ],
+      "description": "Aldehydes flash over lily of the valley and dewy rose, the clean shine of a white-tiled bathhouse filled with fresh flowers. Frankincense, benzoin and white musk warm the skin underneath with a soft amber glow that stays close and quiet.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.103893.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Existence-103893.html",
+      "shopNames": "Existence"
+    },
+    {
+      "name": "Gold Woman",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "floral",
+        "white floral",
+        "powdery",
+        "musky",
+        "animalic",
+        "female"
+      ],
+      "description": "Lily of the valley, rose and jasmine bloom over civet, musk and frankincense, the opulence of a golden ballroom in 1980s Muscat. Orris and sandalwood leave a powdery, fur-soft trail that belongs with evening gloves and pearls.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.917.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Gold-Woman-917.html",
+      "shopNames": "Gold Woman; Gold Woman Exclusive"
+    },
+    {
+      "name": "Guidance 46",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "rose",
+        "floral",
+        "fruity",
+        "sandalwood",
+        "creamy",
+        "sweet",
+        "female"
+      ],
+      "description": "Rose water and juicy pear meet roasted hazelnut and bitter almond, a pastry-shop window glowing on a frosty evening. Creamy sandalwood and vanilla carry the rose deep into the night, richer and darker than the original Guidance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.94033.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Guidance-46-94033.html",
+      "shopNames": "Guidance 46 Extrait"
+    },
+    {
+      "name": "Honour Man",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "spicy",
+        "woody",
+        "incense",
+        "vetiver",
+        "male"
+      ],
+      "description": "Cracked black and pink pepper burn bright over geranium and elemi, then frankincense smoke curls through vetiver and cedar. It is crisp tailoring and a starched white shirt, worn into an ancient temple courtyard at noon.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.12763.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Honour-Man-12763.html",
+      "shopNames": "Honour Man"
+    },
+    {
+      "name": "Jubilation Man 40",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "fruity",
+        "amber",
+        "incense",
+        "oud",
+        "male"
+      ],
+      "description": "Dark blackberry and cassis spill over frankincense, opoponax and cinnamon-dusted bay leaf, a royal feast laid out in a candlelit Omani fort. Oud, patchouli and myrrh deepen the finish into resinous, fruit-stained wood that grows richer by the hour.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.87958.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Jubilation-40-Man-87958.html",
+      "shopNames": "Jubilation Man 40 Extrait"
+    },
+    {
+      "name": "Line 618",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "coconut",
+        "creamy",
+        "woody",
+        "sandalwood",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Creamy coconut milk and frankincense smoke drift over pine needles and a slice of pineapple, sunlit resin on a tropical temple trail. Sandalwood and soft leather settle it into a warm, milky woodiness that feels both exotic and comforting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.121882.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Line-618-121882.html",
+      "shopNames": "Line 618"
+    },
+    {
+      "name": "Lustre",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "amber",
+        "spicy",
+        "incense",
+        "sandalwood",
+        "male",
+        "female"
+      ],
+      "description": "Glowing myrrh and benzoin meet green cardamom and creamy sandalwood, polished amber resin catching candlelight in a dark wooden room. Vanilla, labdanum and a hint of orris give it a warm, burnished sheen that hugs the skin.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97927.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Lustre-97927.html",
+      "shopNames": "Lustre"
+    },
+    {
+      "name": "Opus XII – Rose Incense",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "rose",
+        "floral",
+        "incense",
+        "amber",
+        "male",
+        "female"
+      ],
+      "description": "Damask rose petals smoulder in olibanum smoke, with a stroke of ink and elemi for an almost liturgical edge. Myrrh, vanilla and sandalwood turn it into the warm, resinous air of a rose-strewn chapel.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.74282.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Opus-XII-Rose-Incense-74282.html",
+      "shopNames": "Opus XII Rose Incense"
+    },
+    {
+      "name": "Outlands",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "amber",
+        "incense",
+        "spicy",
+        "vanilla",
+        "patchouli",
+        "male"
+      ],
+      "description": "Frankincense, cardamom and a squeeze of lemon open over patchouli, anise and saffron, a caravan fire crackling under desert stars. Vanilla, amber and benzoin pull everything into a deep resinous warmth, threaded with a quiet line of oud.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97924.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Outlands-97924.html",
+      "shopNames": "Outlands; Outlands 2026"
+    },
+    {
+      "name": "Reasons",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "woody",
+        "spicy",
+        "incense",
+        "sandalwood",
+        "male",
+        "female"
+      ],
+      "description": "Palo santo and pine resin burn slowly beside cardamom, pink pepper and toasted hazelnut, a forest cabin scented with sacred wood. Myrrh, sandalwood and benzoin give it a calm, meditative warmth that settles deep into a wool sweater.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97925.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Reasons-97925.html",
+      "shopNames": "Reasons"
+    },
+    {
+      "name": "Remain",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "amber",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Rich vanilla and tonka bean melt over ylang-ylang and allspice, a mug of warm spiced milk beside a crackling fireplace. Frankincense, patchouli and guaiac wood keep the sweetness grown-up and leave a cozy amber trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.121883.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Remain-121883.html",
+      "shopNames": "Remain"
+    },
+    {
+      "name": "Sequence",
+      "brandId": "amouage",
+      "brandName": "Amouage",
+      "tags": [
+        "fruity",
+        "leather",
+        "oud",
+        "sweet",
+        "rose",
+        "male",
+        "female"
+      ],
+      "description": "Tart raspberry and lychee are pressed into supple black leather, a red-lacquered jewelry box opened in a dim lounge. Rose, saffron and a smoky thread of oud give the fruit a dark, polished edge.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.121884.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Amouage/Sequence-121884.html",
+      "shopNames": "Sequence"
+    },
+    {
+      "name": "Abed",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "white floral",
+        "tuberose",
+        "jasmine",
+        "mineral",
+        "vanilla",
+        "female"
+      ],
+      "description": "Tuberose, tiare flower and jasmine sambac bloom against salty iodine and warm stone, a flower garland drying on sun-baked rocks by the sea. Vanilla and a touch of myrrh give the white flowers a creamy, skin-warm finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77618.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Abed-77618.html",
+      "shopNames": "Abed"
+    },
+    {
+      "name": "Aquatic Ozonic",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "aquatic",
+        "fresh",
+        "woody",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Salty sea spray crashes over pine needles and chamomile on a wind-whipped cliff path above the ocean. Cedar and a soft hint of vanilla dry it down into sun-bleached driftwood.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77617.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Aquatic-Ozonic-77617.html",
+      "shopNames": "Aquatic Ozonic"
+    },
+    {
+      "name": "Cérémonie",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "smoky",
+        "leather",
+        "fruity",
+        "male",
+        "female"
+      ],
+      "description": "Smoke and black leather wrap around a slice of caramelized pineapple, the afterglow of a bonfire ritual on a summer night. Olibanum, cedar and patchouli leave a dark, sweet, smouldering trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77613.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Ceremonie-77613.html",
+      "shopNames": "Ceremonie"
+    },
+    {
+      "name": "Entre-Acte",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "white floral",
+        "tuberose",
+        "rose",
+        "patchouli",
+        "leather",
+        "male",
+        "female"
+      ],
+      "description": "Honeyed immortelle and tuberose collide with rose and earthy patchouli, the heady air of a theatre dressing room during intermission. Leather, orange blossom and a powdery haze close the act with backstage glamour.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77614.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Entre-Acte-77614.html",
+      "shopNames": "Enre-Acte"
+    },
+    {
+      "name": "Jardins Humanistes",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "white floral",
+        "floral",
+        "green",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Lily of the valley, hyacinth and gardenia bloom in a green, dewy morning garden, stems still wet from the sprinklers. Mimosa and a touch of tuberose add soft, sunny petals to a fresh, airy floral.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77615.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Jardin-Humanistes-77615.html",
+      "shopNames": "Jardin Humanistes"
+    },
+    {
+      "name": "Narcotic Bohemic",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "iris",
+        "spicy",
+        "powdery",
+        "leather",
+        "male",
+        "female"
+      ],
+      "description": "Buttery orris root meets cardamom, clove and a shot of black coffee in the smoky back room of a bohemian Paris café. Leather, tonka and tobacco wrap the iris in warm, earthy suede.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77616.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Narcotic-Bohemic-77616.html",
+      "shopNames": "Narcotic Bohemic"
+    },
+    {
+      "name": "Rock Rose",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "amber",
+        "patchouli",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Earthy patchouli and incense smoke rise from warm amber and labdanum, the resin-sticky air of a rockrose hillside under Mediterranean sun. Cedar and musk keep it dry, deep and quietly rock'n'roll.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77612.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Rock-Rose-77612.html",
+      "shopNames": "Rock Rose"
+    },
+    {
+      "name": "Sabrage",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "white floral",
+        "fruity",
+        "sweet",
+        "musky",
+        "tuberose",
+        "female"
+      ],
+      "description": "Pear, passion fruit and cassis fizz open with champagne brightness over orange blossom, jasmine and tuberose, a rooftop celebration at golden hour. A soft cloud of musk, amber and sandalwood keeps the sparkle glowing on skin.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.90478.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Sabrage-90478.html",
+      "shopNames": "Sabrage"
+    },
+    {
+      "name": "Sahara 4800",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "leather",
+        "mineral",
+        "spicy",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "Sun-scorched sand, saffron and nutmeg meet supple leather and a splash of champagne at a desert expedition camp at dusk. Ink, cedar and patchouli give it a dry, mineral, adventurous edge.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.94590.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Sahara-4800-94590.html",
+      "shopNames": "Sahara 4800"
+    },
+    {
+      "name": "Shaman",
+      "brandId": "anomalia-paris",
+      "brandName": "Anomalia Paris",
+      "tags": [
+        "woody",
+        "leather",
+        "smoky",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Smoky guaiac wood and raw leather crackle with black pepper, a ritual fire burning in a forest clearing. A cool touch of iris and magnolia adds a strange, powdery calm to the smoke.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.90116.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Anomalia-Paris/Shaman-90116.html",
+      "shopNames": "Shaman"
+    },
+    {
+      "name": "Oud Paradisio",
+      "brandId": "bdk",
+      "brandName": "BDK",
+      "tags": [
+        "oud",
+        "fruity",
+        "sweet",
+        "spicy",
+        "rose",
+        "male",
+        "female"
+      ],
+      "description": "Juicy pineapple and a scoop of vanilla ice cream melt into saffron, incense and Bulgarian rose, an exotic dessert served in a palace garden. A deep, smoky oud base gives the sweetness a regal, resinous backbone.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.132889.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/BDK-Parfums/Oud-Paradisio-132889.html",
+      "shopNames": "Oud Paradisio"
+    },
+    {
+      "name": "Silver Ceremony",
+      "brandId": "bdk",
+      "brandName": "BDK",
+      "tags": [
+        "citrus",
+        "fresh",
+        "spicy",
+        "oud",
+        "male"
+      ],
+      "description": "Sparkling Italian lemon, green mandarin and fresh ginger fizz over a clean thread of oud, a silver tray of iced citrus drinks in a marble lobby. Atlas cedar and labdanum give the brightness a smooth, woody polish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.132890.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/BDK-Parfums/Silver-Ceremony-132890.html",
+      "shopNames": "Silver Ceremony"
+    },
+    {
+      "name": "Stellar Silk",
+      "brandId": "bdk",
+      "brandName": "BDK",
+      "tags": [
+        "vanilla",
+        "powdery",
+        "creamy",
+        "iris",
+        "sandalwood",
+        "male",
+        "female"
+      ],
+      "description": "Bourbon vanilla and melted butter swirl with orris and tonka bean, soft as a silk robe warmed by the fire. Creamy white sandalwood and a pinch of cinnamon give it a glowing, powdery finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.132892.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/BDK-Parfums/Stellar-Silk-132892.html",
+      "shopNames": "Stellar Silk"
+    },
+    {
+      "name": "Vanille Caviar",
+      "brandId": "bdk",
+      "brandName": "BDK",
+      "tags": [
+        "vanilla",
+        "amber",
+        "gourmand",
+        "male",
+        "female"
+      ],
+      "description": "Dark vanilla pods and Peru balsam meet bitter cacao and labdanum, a luxurious dessert of black vanilla served in a candlelit salon. Calamus and osmanthus add an earthy, apricot-tinged depth to the resinous amber.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.115952.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/BDK-Parfums/Vanille-Caviar-115952.html",
+      "shopNames": "Vanille Caviar"
+    },
+    {
+      "name": "Amber Intense",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "rose",
+        "floral",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "A bold rose dusted with saffron and crisp apple glows over patchouli, cedar and guaiac wood. Vanilla, labdanum and sandalwood warm the petals into a rich, amber-tinted finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59875.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Amber-Intense-59875.html",
+      "shopNames": "Amber Intense"
+    },
+    {
+      "name": "Berlin Fever",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "spicy",
+        "tobacco",
+        "vanilla",
+        "sweet",
+        "cinnamon",
+        "male",
+        "female"
+      ],
+      "description": "Tobacco leaf, cinnamon and nutmeg crackle with cardamom and ginger in a smoky Berlin bar at two in the morning. Vanilla, tonka and amber sweeten the haze into a warm, spiced trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59843.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Berlin-Fever-59843.html",
+      "shopNames": "Berlin Fever"
+    },
+    {
+      "name": "Berlin Heaven",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "fruity",
+        "sweet",
+        "rose",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Crisp pear, lychee and raspberry tumble over dewy rose and lily of the valley, a bright Sunday brunch on a Berlin balcony. Soft musk, amber and woods keep the fruit light and airy.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59845.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Berlin-Heaven-59845.html",
+      "shopNames": "Berlin Heaven"
+    },
+    {
+      "name": "Berlin Soul",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "woody",
+        "boozy",
+        "gourmand",
+        "oud",
+        "male",
+        "female"
+      ],
+      "description": "Roasted hazelnut and a pour of smoky whiskey meet oud and tobacco leaf, a leather armchair in a late-night Kreuzberg bar. Cedar, sandalwood and iris smooth the edges into a soft, woody glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59842.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Berlin-Soul-59842.html",
+      "shopNames": "Berlin Soul"
+    },
+    {
+      "name": "Black Weed",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "spicy",
+        "saffron",
+        "amber",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Saffron, coriander and cinnamon spark over sticky benzoin and nutmeg in a spice market lit by lanterns after dark. Musk, sandalwood and vanilla leave a smooth, leathery amber on skin.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59897.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Black-Weed-59897.html",
+      "shopNames": "Black Weed"
+    },
+    {
+      "name": "Charm Mystery",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "vanilla",
+        "citrus",
+        "powdery",
+        "white floral",
+        "sweet",
+        "female"
+      ],
+      "description": "Tangerine and lemon sparkle over jasmine and soft peach, then sink into a creamy cloud of vanilla and musk. Sweet, powdery and bright, it is a silk dress twirling at a summer garden party.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59878.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Charm-Mystery-59878.html",
+      "shopNames": "Charm Mystery"
+    },
+    {
+      "name": "Citrus Splash",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "citrus",
+        "fresh",
+        "neroli",
+        "male",
+        "female"
+      ],
+      "description": "Sun-drenched bergamot and neroli splash over crisp cedar, an ice-cold lemonade on a terrace in July. Tea rose, freesia and musk keep it clean, sparkling and effortless.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59853.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Citrus-Splash-59853.html",
+      "shopNames": "Citrush Splash"
+    },
+    {
+      "name": "First Spring",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "floral",
+        "fruity",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Apple blossom, juicy peach and lemon zest throw open the windows on the first warm day of the year. Freesia and jasmine float over a soft base of cedar, musk and sandalwood.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59852.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/First-Spring-59852.html",
+      "shopNames": "First Spring"
+    },
+    {
+      "name": "Flora Femina",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "white floral",
+        "floral",
+        "fruity",
+        "powdery",
+        "musky",
+        "female"
+      ],
+      "description": "Heady white lily and ripe apricot bloom with tangerine and stephanotis, a vase of lilies glowing in a sunny hallway. Musk and light amber give the petals a soft, powdery skin-warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59850.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Flora-Femina-59850.html",
+      "shopNames": "Flora Femina"
+    },
+    {
+      "name": "Forest Fantasy",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "green",
+        "fresh",
+        "citrus",
+        "lavender",
+        "mint",
+        "male",
+        "female"
+      ],
+      "description": "Rosemary, lime and cool mint rush through lavender and green apple on a morning hike through a dew-soaked herb forest. Geranium, guaiac wood and pink pepper add a crisp, aromatic trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59898.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Forest-Fantasy-59898.html",
+      "shopNames": "Forest Fantasy"
+    },
+    {
+      "name": "Bordeaux Plaisir de la Nuit",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "spicy",
+        "woody",
+        "patchouli",
+        "male",
+        "female"
+      ],
+      "description": "Warm cardamom and clary sage drift over patchouli, sandalwood and vanilla, an evening in a Bordeaux wine cellar lit by candles. A touch of apple, jasmine and rose softens the spice into velvet.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91113.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Bordeaux-Plaisir-de-la-Nuit-91113.html",
+      "shopNames": "French Collection – Bordeaux"
+    },
+    {
+      "name": "Corsica Baiser de la Mer",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "citrus",
+        "aquatic",
+        "ozonic",
+        "green",
+        "mineral",
+        "male",
+        "female"
+      ],
+      "description": "Sea salt, lime and crushed violet leaves sting the air of a rocky Corsican cove, with mint and lavender carried in from the maquis. Musk, moss and sandalwood dry down into sun-warmed skin after a swim.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91116.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Corsica-Baiser-de-la-Mer-91116.html",
+      "shopNames": "French Collection – Corsica"
+    },
+    {
+      "name": "Grasse Fleur de Provence",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "leather",
+        "floral",
+        "powdery",
+        "fruity",
+        "male",
+        "female"
+      ],
+      "description": "Violet petals and blackberry tangle with licorice and red thyme on a perfumer's workbench in Grasse, covered in flowers and herbs. Supple leather and vetiver give the bouquet a dark, earthy backbone.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91115.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Grasse-Fleur-de-Provence-91115.html",
+      "shopNames": "French Collection – Grasse"
+    },
+    {
+      "name": "Paris Mon Amour",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "amber",
+        "vanilla",
+        "spicy",
+        "sweet",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Toasted sesame and pink pepper meet ylang-ylang, rose and orchid at a late supper on a Paris balcony at the blue hour. Warm amber and vanilla wrap it all in a sweet, powdery hug.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91111.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Paris-Mon-Amour-91111.html",
+      "shopNames": "French Collection – Paris"
+    },
+    {
+      "name": "Saint Tropez Éclat du Soleil",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "musky",
+        "amber",
+        "woody",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Pink pepper, ginger and angelica flash with harbour sunlight in Saint-Tropez, while ambrette musk glows on salt-warmed skin. Olibanum, guaiac wood and sandalwood leave a smooth, ambery trail into the evening.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91114.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Saint-Tropez-Eclat-du-Soleil-91114.html",
+      "shopNames": "French Collection – Saint Tropez"
+    },
+    {
+      "name": "Versailles Trésor de Jardin",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "lavender",
+        "spicy",
+        "citrus",
+        "vetiver",
+        "male",
+        "female"
+      ],
+      "description": "Lavender from the royal gardens meets bergamot, pink pepper and a dusting of cinnamon on a stroll along the clipped hedges of Versailles. Haitian vetiver and patchouli ground it in earthy, aristocratic elegance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91112.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Versailles-Tresor-de-Jardin-91112.html",
+      "shopNames": "French Collection – Versailles"
+    },
+    {
+      "name": "Green Garden",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "floral",
+        "rose",
+        "white floral",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Fresh bamboo and freesia open onto wild rose and jasmine in a walled garden after a spring shower. Tuberose, musk and sandalwood add a creamy floral softness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59848.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Green-Garden-59848.html",
+      "shopNames": "Green Garden"
+    },
+    {
+      "name": "Mornings in Milano",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "vanilla",
+        "coconut",
+        "white floral",
+        "sweet",
+        "creamy",
+        "male",
+        "female"
+      ],
+      "description": "Creamy coconut, vanilla and white peach melt into jasmine, plumeria and gardenia, a cappuccino and a sweet pastry at a sunlit Milan café. White musk keeps the sweetness soft and milky.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.74872.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Mornings-In-Milano-74872.html",
+      "shopNames": "Italian Collection - Mornings in Milano"
+    },
+    {
+      "name": "Nights in Noto",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "spicy",
+        "saffron",
+        "musky",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Saffron and fresh ginger glow over amber and jasmine on a warm Sicilian night among the honey-coloured baroque churches of Noto. White musk and sandalwood leave a soft, powdery trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.74874.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Nights-In-Noto-74874.html",
+      "shopNames": "Italian Collection – Nights in Noto"
+    },
+    {
+      "name": "Portraits of Portofino",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "citrus",
+        "fresh",
+        "white floral",
+        "male",
+        "female"
+      ],
+      "description": "Juicy mandarin, bergamot and lemon burst over magnolia, an aperitivo on the pastel waterfront of Portofino. Amber, soft woods and musk keep the sunshine on skin.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.74869.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Portraits-Of-Portofino-74869.html",
+      "shopNames": "Italian Collection – Portraits of Portofino"
+    },
+    {
+      "name": "Roads of Rome",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "woody",
+        "green",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Resinous cypress lines an ancient Roman road, green and sun-warmed under a cloudless sky. A soft hint of white flowers keeps the aromatic woods fresh and elegant.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.74860.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Roads-Of-Rome-74860.html",
+      "shopNames": "Italian Collection – Roads of Rome"
+    },
+    {
+      "name": "Romance in Florence",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "vanilla",
+        "spicy",
+        "saffron",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Golden saffron and cardamom melt into vanilla and tonka bean over a candlelit dinner above the Arno. Guaiac wood and white musk give the sweetness a smooth, smoky depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.74859.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Romance-In-Florence-74859.html",
+      "shopNames": "Italian Collection – Romance in Florence"
+    },
+    {
+      "name": "Visions of Venice",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "rose",
+        "floral",
+        "woody",
+        "powdery",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "A bright rose with pineapple and apple floats over cedar and musk at a masked ball in a candlelit Venetian palazzo. Amber and violet add a powdery, romantic glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.74870.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Visions-Of-Venice-74870.html",
+      "shopNames": "Italian Collection – Visions of Venice"
+    },
+    {
+      "name": "Luxury Passion",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "woody",
+        "aquatic",
+        "spicy",
+        "sandalwood",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Watery notes and sweet anise ripple over mint, geranium and orange blossom, a cool breeze through the cabin of a sailing yacht. Creamy sandalwood and amber give it a smooth, woody finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59874.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Luxury-Passion-59874.html",
+      "shopNames": "Luxury Passion"
+    },
+    {
+      "name": "Ocean Hills",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "citrus",
+        "green",
+        "fruity",
+        "fresh",
+        "male"
+      ],
+      "description": "Zesty lime and crisp green apple roll in with mint and pink pepper, a sea breeze over grassy coastal hills. Lavender, cedar, oakmoss and a touch of leather keep it clean and classic.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59883.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Ocean-Hills-59883.html",
+      "shopNames": "Ocean Hills"
+    },
+    {
+      "name": "Pacific Drive",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "woody",
+        "citrus",
+        "fresh",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Sharp lemon and green leaves cut through sun-warmed cedar on a convertible drive along the Pacific coast. Orange blossom, magnolia and musk soften the dry woods into easy elegance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59847.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Pacific-Drive-59847.html",
+      "shopNames": "Pacific Drive"
+    },
+    {
+      "name": "Secret Rendezvous",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "powdery",
+        "musky",
+        "white floral",
+        "almond",
+        "female"
+      ],
+      "description": "Almond-soft heliotrope and orange blossom drift over a deep bed of musk, a secret meeting in a dim hotel corridor. Cedar, vetiver and patchouli give the powdery florals a mysterious, woody edge.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59882.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Secret-Rendezvous-59882.html",
+      "shopNames": "Secret Rendezvous"
+    },
+    {
+      "name": "Seductive Rose",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "fruity",
+        "rose",
+        "floral",
+        "sweet",
+        "vanilla",
+        "female"
+      ],
+      "description": "Black currant, ripe peach and tangerine burst over a velvety rose, red roses delivered with a box of fruit bonbons. Vanilla and patchouli give the sweetness a warm, flirtatious finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59851.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Seductive-Rose-59851.html",
+      "shopNames": "Seductive Rose"
+    },
+    {
+      "name": "Supreme Oud",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "amber",
+        "oud",
+        "spicy",
+        "musky",
+        "cinnamon",
+        "male",
+        "female"
+      ],
+      "description": "Pink pepper and cinnamon glow over warm amber, musk and smooth oud in an incense-scented majlis at nightfall. Patchouli and vetiver give it a dry, woody depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59876.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Supreme-Oud-59876.html",
+      "shopNames": "Supreme Oud"
+    },
+    {
+      "name": "Vanilla Vibes",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "lavender",
+        "vanilla",
+        "powdery",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Fresh lavender and bergamot melt into creamy vanilla, a scoop of lavender-vanilla ice cream eaten in the shade. Soft amber and musk keep it cozy, powdery and easy to love.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59879.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Vanilla-Vibes-59879.html",
+      "shopNames": "Vanilla Vibes"
+    },
+    {
+      "name": "Velvet Orchid",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "powdery",
+        "iris",
+        "musky",
+        "floral",
+        "male",
+        "female"
+      ],
+      "description": "Velvety iris and orchid rest on a cushion of musk, amber and powdery notes, a vintage compact opened in a silk-lined boudoir. A touch of citrus and jasmine adds a soft glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59877.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Velvet-Orchid-59877.html",
+      "shopNames": "Velvet Orchid"
+    },
+    {
+      "name": "Wild Desires",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "citrus",
+        "woody",
+        "fruity",
+        "fresh",
+        "male"
+      ],
+      "description": "Crunchy green apple and bergamot meet cedar needles and a hint of cinnamon on an adventurous walk through a mountain forest. Cedar, vanilla and tonka bean give the freshness a warm, woody finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59880.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Wild-Desires-59880.html",
+      "shopNames": "Wild Desires"
+    },
+    {
+      "name": "Cedar N'Pepper",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "woody",
+        "musky",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Soft cashmere wood and white cedar are sprinkled with pink pepper, a minimalist Scandinavian interior on a crisp morning. Musk and amber make the woods feel smooth, clean and skin-close.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59820.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Cedar-N-Pepper-59820.html",
+      "shopNames": "Wood Collection – Cedar N’Pepper"
+    },
+    {
+      "name": "Incense N'Fire",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "amber",
+        "incense",
+        "patchouli",
+        "male",
+        "female"
+      ],
+      "description": "Olibanum smoke rises from glowing labdanum resin and dark patchouli, a fire pit burning beneath a starry desert sky. Sandalwood and vanilla smooth the embers into warm, woody amber.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.103037.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Incense-N-Fire-103037.html",
+      "shopNames": "Wood Collection – Incense n’Fire"
+    },
+    {
+      "name": "Iris N'Wood",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "woody",
+        "iris",
+        "powdery",
+        "sandalwood",
+        "creamy",
+        "male",
+        "female"
+      ],
+      "description": "Cool iris and cardamom drift over creamy sandalwood and cashmere wood, a tailored suit of soft grey flannel. Musk and a touch of cumin add a warm, skin-like elegance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59821.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Iris-N-Wood-59821.html",
+      "shopNames": "Wood Collection – Iris N Wood"
+    },
+    {
+      "name": "Lady Cannabis",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "leather",
+        "fruity",
+        "green",
+        "spicy",
+        "tea",
+        "female"
+      ],
+      "description": "Velvety apricot, rum and black pepper meet green tea, neroli and a hint of cannabis at a rebellious garden party at dusk. Supple leather, osmanthus and cashmere wood give it a smooth, daring finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59816.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Lady-Cannabis-59816.html",
+      "shopNames": "Wood Collection – Lady Cannabis"
+    },
+    {
+      "name": "Royal Amber",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "lavender",
+        "spicy",
+        "sweet",
+        "sandalwood",
+        "male",
+        "female"
+      ],
+      "description": "Lavender and cardamom meet a rich swirl of praline, a regal dessert served in a wood-panelled library. Sandalwood, patchouli and rose give the sweetness a warm, majestic depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.103034.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Royal-Amber-103034.html",
+      "shopNames": "Wood Collection – Royal Amber"
+    },
+    {
+      "name": "Sir Santal",
+      "brandId": "birkholz",
+      "brandName": "Birkholz",
+      "tags": [
+        "woody",
+        "sandalwood",
+        "creamy",
+        "powdery",
+        "iris",
+        "male"
+      ],
+      "description": "Creamy sandalwood and buttery orris root meet cardamom and soft leather, a gentleman's coat lined with silk. Benzoin, amber and musk give the woods a warm, powdery glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59817.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Birkholz/Sir-Santal-59817.html",
+      "shopNames": "Wood Collection – Sir Santal"
+    },
+    {
+      "name": "001 Orange Blossom, Petitgrain, Bergamot",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "citrus",
+        "fresh",
+        "white floral",
+        "neroli",
+        "male",
+        "female"
+      ],
+      "description": "Neroli, orange blossom and petitgrain bloom over sparkling bergamot and citron, an orange grove at sunrise with dew still on the leaves. Rosemary, jasmine and a soft musk keep it crisp, clean and luminous.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51015.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/001-orange-blossom-petitgrain-bergamot-51015.html",
+      "shopNames": "001 edp"
+    },
+    {
+      "name": "003 Yuzu, Violet Leaves, Vetiver",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "citrus",
+        "fresh",
+        "green",
+        "ozonic",
+        "male",
+        "female"
+      ],
+      "description": "Tangy yuzu, bergamot and lime snap open over crisp violet leaves, a citrus stall in Kyoto after summer rain. Jasmine, neroli and vetiver dry down into a clean, green, airy finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.69029.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/003-yuzu-feuilles-de-violette-vetiver-69029.html",
+      "shopNames": "003 edp"
+    },
+    {
+      "name": "101 Rose, Sweet Pea, White Cedar",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "rose",
+        "floral",
+        "woody",
+        "musky",
+        "female"
+      ],
+      "description": "Turkish rose and sweet pea bloom with lily of the valley over pale white cedar, a ribbon-tied bouquet on a sunny windowsill. Lavender, cardamom and soft musk give it an airy, modern elegance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.50998.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/101-rose-sweet-pea-white-cedar-50998.html",
+      "shopNames": "101 edp"
+    },
+    {
+      "name": "103 Tiare Flower, Jasmine, Hibiscus",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "white floral",
+        "floral",
+        "jasmine",
+        "tropical",
+        "female"
+      ],
+      "description": "Tiare flower, jasmine sambac and frangipani bloom in the warm air of a Polynesian lagoon, brightened by hibiscus and bergamot. Musk, vanilla and warm sand leave a creamy, sun-kissed trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51000.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/103-tiare-flower-jasmine-hibiscus-51000.html",
+      "shopNames": "103 edp"
+    },
+    {
+      "name": "104 Green Orange, Hyacinth, Ivy",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "green",
+        "aquatic",
+        "floral",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Galbanum, hyacinth and cool aquatic notes rise from wet earth, an old stone garden wall overgrown with ivy after the rain. Frankincense, amber and vetiver give the greenery a soft, resinous depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.69031.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/104-orange-verte-jacynthe-lierre-69031.html",
+      "shopNames": "104 Extrait"
+    },
+    {
+      "name": "107 Nappa Tuberosa",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "tuberose",
+        "white floral",
+        "leather",
+        "creamy",
+        "woody",
+        "male",
+        "female"
+      ],
+      "description": "Creamy tuberose and ylang-ylang are wrapped in soft nappa suede, a pair of supple leather gloves resting on a bouquet of white flowers. Saffron, cashmeran and papyrus add a warm, woody, skin-like finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97156.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/107-Nappa-Tuberosa-97156.html",
+      "shopNames": "107 Extrait"
+    },
+    {
+      "name": "203 Raspberry, Vanilla, Blackberry",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "fruity",
+        "vanilla",
+        "sweet",
+        "white floral",
+        "female"
+      ],
+      "description": "Juicy raspberry, blackberry and pear spill over a scoop of vanilla, a summer fruit tart cooling on a sunny kitchen counter. Neroli, jasmine and soft woods keep the sweetness bright and airy.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51003.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/203-raspberry-vanilla-blackberry-51003.html",
+      "shopNames": "203 edp"
+    },
+    {
+      "name": "204 Fig, Edamame, Ambrette",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "woody",
+        "fruity",
+        "musky",
+        "iris",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Ripe fig and crisp violet leaves meet ambrette seeds and soft iris in a shaded Mediterranean courtyard where the fig trees hang heavy with fruit. Sandalwood and cedar wrap it in a velvety, powdery woodiness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.109066.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/204-Figue-Edamame-Essence-d-Ambrette-109066.html",
+      "shopNames": "204 edp"
+    },
+    {
+      "name": "302 Amber, Iris, Sandalwood",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "amber",
+        "powdery",
+        "sandalwood",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Golden amber and creamy sandalwood glow under a haze of incense and orris, a vinyl record spinning in a lamp-lit living room. Vanilla, cardamom and musk make it warm, powdery and irresistibly smooth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51005.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/302-amber-iris-sandalwood-51005.html",
+      "shopNames": "302 edp"
+    },
+    {
+      "name": "303 Chili Pepper, Pink Berries, Benzoin",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "spicy",
+        "amber",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Pink pepper and cardamom crackle over tolu balsam and benzoin, the glow of a fireplace on a winter night. Patchouli, ylang-ylang and amberwood leave a rich, spicy-sweet trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.69034.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/303-piment-baie-rose-benjoin-69034.html",
+      "shopNames": "303 LES EXTRAITS"
+    },
+    {
+      "name": "402 Vanilla, Caramel, Sandalwood",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "gourmand",
+        "powdery",
+        "female"
+      ],
+      "description": "Madagascar vanilla, golden caramel and spun sugar melt over almond blossom, a toffee shop window glowing on a winter night. Sandalwood, heliotrope and benzoin give the indulgence a soft, powdery finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51007.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/402-vanilla-toffee-sandalwood-51007.html",
+      "shopNames": "402 edp"
+    },
+    {
+      "name": "403 Myrrh Shadow",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "amber",
+        "spicy",
+        "incense",
+        "vanilla",
+        "male",
+        "female"
+      ],
+      "description": "Dark myrrh and benzoin smoulder beneath bitter orange, timur pepper and basil, a shadowy chapel lit by a single candle. Vanilla, cedar and akigalawood give the resin a velvety, woody warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.103049.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/403-Myrrh-Shadow-103049.html",
+      "shopNames": "403 Extrait"
+    },
+    {
+      "name": "502 Iris Cartagena",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "woody",
+        "gourmand",
+        "iris",
+        "boozy",
+        "male",
+        "female"
+      ],
+      "description": "Dark cocoa and a splash of rum meet powdery iris and mandarin in a colonial café in Cartagena at dusk. Coffee, sandalwood and vetiver give it a rich, woody, slightly bitter warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.119821.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/502-Iris-Cartagena-EDP-119821.html",
+      "shopNames": "502 edp"
+    },
+    {
+      "name": "502 Iris Cartagena Extrait",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "woody",
+        "iris",
+        "gourmand",
+        "powdery",
+        "sandalwood",
+        "male",
+        "female"
+      ],
+      "description": "Rich cocoa and roasted coffee are folded into buttery iris and creamy sandalwood, an old Cartagena chocolate house with powder-blue walls. Rum, papyrus and sugar cane give this extrait a deeper, woodier intensity.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97157.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/502-Iris-Cartagena-97157.html",
+      "shopNames": "502 Extrait"
+    },
+    {
+      "name": "602 Pepper, Cedar, Patchouli",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "woody",
+        "spicy",
+        "incense",
+        "vetiver",
+        "male",
+        "female"
+      ],
+      "description": "Cracked black pepper and bay leaf meet dry cedar and incense smoke, a woodshed beside a mountain chalet. Vetiver, patchouli and a touch of neroli add an earthy, resinous depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51010.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/602-pepper-cedar-patchouli-51010.html",
+      "shopNames": "602 edp"
+    },
+    {
+      "name": "602 Bois Narcotique Intense",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "woody",
+        "spicy",
+        "incense",
+        "vetiver",
+        "male"
+      ],
+      "description": "Frankincense and three kinds of pepper burn over crisp apple and neroli, a bonfire in a cedar forest on an autumn night. Cedar, vetiver, moss and amber make this extrait deeper, earthier and more resinous.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97158.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/602-Bois-Narcotique-Intense-97158.html",
+      "shopNames": "602 Extrait"
+    },
+    {
+      "name": "603 Leather, Incense, Tonka Bean",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "leather",
+        "woody",
+        "amber",
+        "vanilla",
+        "male",
+        "female"
+      ],
+      "description": "Nutmeg and violet leaf open onto labdanum, clary sage and smooth leather, an old travel trunk lined with soft suede. Tonka bean, cashmeran and nagarmotha leave a warm, ambery, woody trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.69035.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/603-cuir-encens-feve-tonka-69035.html",
+      "shopNames": "603 Extrait"
+    },
+    {
+      "name": "801 Sea Spray, Cedar, Grapefruit",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "aquatic",
+        "citrus",
+        "fresh",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Sea spray, grapefruit and rosemary blow in off the coast on a windy morning along a Mediterranean seafront. Cypress, cedar and white musk dry it into salty, sunlit woods.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51012.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/801-sea-spray-cedar-grapefruit-51012.html",
+      "shopNames": "801 edp"
+    },
+    {
+      "name": "901 Nutmeg, Almond, Patchouli",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "spicy",
+        "woody",
+        "vanilla",
+        "almond",
+        "male"
+      ],
+      "description": "Ginger, black pepper and nutmeg spark over blond woods and toasted almond, a well-cut jacket for an evening out. Tonka bean, patchouli and musk melt the spice into a warm, creamy trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51013.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/901-nutmeg-almond-patchouli-51013.html",
+      "shopNames": "901 edp"
+    },
+    {
+      "name": "903 Nepal Berries, Saffron, Oud",
+      "brandId": "bon-parfumeur",
+      "brandName": "Bon Parfumeur",
+      "tags": [
+        "spicy",
+        "patchouli",
+        "oud",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "Saffron and Sichuan pepper flare over dark patchouli and smoky oud, a caravanserai deep in the Zagros mountains. Sandalwood, iris and musk soften the spice into a smooth, earthy woodiness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.69038.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Bon-Parfumeur/903-baies-du-nepal-safran-oud-69038.html",
+      "shopNames": "903 Extrait"
+    },
+    {
+      "name": "À Cœur Perdu L.B.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "white floral",
+        "citrus",
+        "powdery",
+        "iris",
+        "neroli",
+        "female"
+      ],
+      "description": "Orange blossom and neroli glow over cool iris and a flash of aldehydes, a love letter sealed with wax and left on a sunny windowsill. Bergamot, cashmeran and moss give it a clean, powdery tenderness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.83241.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/A-coeur-perdu-L-B-83241.html",
+      "shopNames": "L.B. A Coeur Perdu"
+    },
+    {
+      "name": "Acte d'Amour Furtif A.N.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "spicy",
+        "woody",
+        "iris",
+        "male",
+        "female"
+      ],
+      "description": "Black pepper and warm cumin flare over powdery iris, a stolen moment in the shadow of a Paris doorway. Virginia cedar and amberwood leave a dry, skin-warm woodiness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63979.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Acte-d-Amour-Furtif-A-N-63979.html",
+      "shopNames": "A.N. Acte d’Amour Furtif"
+    },
+    {
+      "name": "C'est Toujours Agréable d'Être Attendu O.W.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "citrus",
+        "fresh",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Bright bergamot and bitter orange with a twist of ginger, the joy of spotting someone waiting for you at the station. Soft musk, amber and woods keep the citrus warm and close.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63986.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/C-est-Toujours-Agreable-d-Etre-Attendu-O-W-63986.html",
+      "shopNames": "O.W. C’est Toujours Agreable d’Etre Attendu"
+    },
+    {
+      "name": "Dandy or Not G.A.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "leather",
+        "spicy",
+        "woody",
+        "tea",
+        "male",
+        "female"
+      ],
+      "description": "Smoky black tea and cardamom meet polished leather and grapefruit, a dandy's afternoon in a wood-panelled Paris club. Orange blossom, cedar and patchouli add a refined, slightly rebellious elegance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76312.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Dandy-or-not-G-A-76312.html",
+      "shopNames": "G.A. Dandy or Not"
+    },
+    {
+      "name": "Il N'y a Pas de Bien Ni de Mal T.J.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "amber",
+        "oud",
+        "vanilla",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Golden resins and labdanum smoulder with incense and smoke in a dim chapel where good and evil blur together. Oud, vanilla and patchouli give it a deep, ambery sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63987.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Il-N-y-a-Pas-De-Bien-Ni-De-Mal-T-J-63987.html",
+      "shopNames": "T.J. Il N’y a Pas De Bien Ni De Mal"
+    },
+    {
+      "name": "J'ai l'Air de Ce Que Je Suis J.R.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "powdery",
+        "floral",
+        "iris",
+        "musky",
+        "female"
+      ],
+      "description": "Velvety iris and lilac bloom over cardamom and clementine, a confident stroll down a Paris boulevard in springtime. Narcissus, musk and sandalwood leave a powdery, self-assured trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63982.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/J-ai-L-air-De-Ce-Que-Je-Suis-J-R-63982.html",
+      "shopNames": "J.R. J’ai L’air De Ce Que Je Suis"
+    },
+    {
+      "name": "J'approchais un Mystère A.C.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "woody",
+        "green",
+        "sandalwood",
+        "male",
+        "female"
+      ],
+      "description": "Atlas and Virginia cedar meet green fig leaf and creamy sandalwood on a quiet walk into a misty forest where something mysterious waits. A dash of pink pepper keeps the woods bright.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63980.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/J-approchais-Un-Mystere-A-C-63980.html",
+      "shopNames": "A.C. J’Approchais un Mystere"
+    },
+    {
+      "name": "Je Suis le Plus Grand M.A.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "musky",
+        "amber",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "A radiant cloud of ambroxan, Iso E Super and white musk, clean skin glowing with confidence. Angelica, iris and violet add a soft, powdery shimmer to the woods.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63989.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Je-Suis-Le-Plus-Grand-M-A-63989.html",
+      "shopNames": "M.A. Je Suis Le Plus Grand"
+    },
+    {
+      "name": "Jusqu'à Toi P.S.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "floral",
+        "rose",
+        "fresh",
+        "vetiver",
+        "male",
+        "female"
+      ],
+      "description": "Geranium and rosy grapefruit sparkle with pink pepper, a postscript scribbled at the bottom of a love letter. Magnolia, cypress and Haitian vetiver dry it into fresh, earthy woods.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.83242.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Jusqu-a-toi-P-S-83242.html",
+      "shopNames": "P.S. Jusqu’a Toi"
+    },
+    {
+      "name": "Les Ombres Fantastiques A.R.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "woody",
+        "vetiver",
+        "iris",
+        "spicy",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Cardamom and bergamot flicker over cool iris, strange shadows thrown on a wall by candlelight. Haitian vetiver, cedar and white musk ground it in earthy, powdery woods.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63988.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Les-Ombres-Fantastiques-A-R-63988.html",
+      "shopNames": "A.R. Les Ombres Fantastiques"
+    },
+    {
+      "name": "Nous Sommes Amants M.D.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "woody",
+        "sandalwood",
+        "fresh",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Palo santo and juniper berries crackle over sandalwood and cedar, two lovers sharing a blanket by a woodland fire. Bamboo, pepper and a touch of leather keep the woods fresh and intimate.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.75330.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Nous-Sommes-Amants-M-D-75330.html",
+      "shopNames": "M.D. Nous Sommes Amants"
+    },
+    {
+      "name": "Quelque Chose dans l'Air S.C.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "leather",
+        "floral",
+        "white floral",
+        "fruity",
+        "citrus",
+        "male",
+        "female"
+      ],
+      "description": "Magnolia, lily and juicy yellow fruits drift over soft leather, a feeling in the air that something is about to happen. Mandarin, arnica, musk and sandalwood add a bright, animalic glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63984.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Quelque-Chose-Dans-L-air-S-C-63984.html",
+      "shopNames": "S.C. Quelque Chose Dans L’air"
+    },
+    {
+      "name": "Songe à la Douceur C.B.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "citrus",
+        "powdery",
+        "musky",
+        "vetiver",
+        "male",
+        "female"
+      ],
+      "description": "Carrot seed and grapefruit open onto silky magnolia, a soft daydream on a lazy Sunday morning. Vetiver and white musk give it a powdery, earthy tenderness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63981.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Songe-a-La-Douceur-C-B-63981.html",
+      "shopNames": "C.B. Songe a la Doucer"
+    },
+    {
+      "name": "Sur Tes Lèvres E.Q.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "powdery",
+        "iris",
+        "amber",
+        "musky",
+        "female"
+      ],
+      "description": "Buttery iris and pink pepper meet soft cashmeran, the trace of a kiss on warm skin. Jasmine, amber and patchouli give it a creamy, powdery, irresistibly close finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.83243.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Sur-tes-levres-E-Q-83243.html",
+      "shopNames": "E.Q. Sur Tes Levres"
+    },
+    {
+      "name": "Te Dire Oui V.H.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "leather",
+        "spicy",
+        "amber",
+        "smoky",
+        "male",
+        "female"
+      ],
+      "description": "Saffron, pink and black pepper spark over supple leather and Damask rose in the moment before saying yes. Incense, styrax and benzoin wrap it in a smoky, ambery warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76533.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Te-Dire-Oui-V-H-76533.html",
+      "shopNames": "V.H. Te Dire Oui"
+    },
+    {
+      "name": "Une Rose au Paradis R.B.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "musky",
+        "rose",
+        "floral",
+        "powdery",
+        "aldehydic",
+        "female"
+      ],
+      "description": "Sparkling aldehydes lift Turkish rose and freesia into a soft, cloudlike musk, a rose petal floating in a sunlit sky. Cashmeran, sandalwood and a hint of incense keep it gentle and luminous.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.85906.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Une-rose-au-paradis-R-B-85906.html",
+      "shopNames": "R.B. Une Rose Au Paradis"
+    },
+    {
+      "name": "Vouloir Être Ailleurs C.G.",
+      "brandId": "d-orsay",
+      "brandName": "D'Orsay",
+      "tags": [
+        "floral",
+        "green",
+        "sweet",
+        "powdery",
+        "female"
+      ],
+      "description": "Honeyed linden blossom and acacia drift over sun-dried hay and beeswax, a daydream of escaping to a meadow in June. Angelica and lemon leaf keep the sweetness green and fresh.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63983.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/D-ORSAY/Vouloir-Etre-Ailleurs-C-G-63983.html",
+      "shopNames": "C.G. Vouloir Etre Ailleurs"
+    },
+    {
+      "name": "Eau Duelle edp",
+      "brandId": "diptyque",
+      "brandName": "Diptyque",
+      "tags": [
+        "vanilla",
+        "amber",
+        "smoky",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Bourbon vanilla is wrapped in wisps of incense, cardamom and pink pepper, a spice caravan resting in the desert at dusk. Nagarmotha gives the creamy vanilla a dry, smoky, resinous edge.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.49100.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Diptyque/Eau-Duelle-Eau-de-Parfum-49100.html",
+      "shopNames": "EDP Eau Duelle"
+    },
+    {
+      "name": "Philosykos edt",
+      "brandId": "diptyque",
+      "brandName": "Diptyque",
+      "tags": [
+        "green",
+        "woody",
+        "fresh",
+        "fruity",
+        "male",
+        "female"
+      ],
+      "description": "Crushed fig leaves, green sap and sun-warmed fig wood, a lazy afternoon under a fig tree on a Greek hillside. Lighter and fresher than the eau de parfum, with a milky trace of ripe fruit.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.72040.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Diptyque/Philosykos-Eau-de-Toilette-72040.html",
+      "shopNames": "EDT Philosykos"
+    },
+    {
+      "name": "Blue Talisman Extrait de Parfum",
+      "brandId": "ex-nihilo",
+      "brandName": "Ex Nihilo",
+      "tags": [
+        "fruity",
+        "citrus",
+        "white floral",
+        "sweet",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Juicy pear and bergamot glow over orange blossom and jasmine, the talisman's bright energy turned up to extrait strength. Amberwood, sandalwood, vanilla and musk give it a smoother, warmer trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.110848.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ex-Nihilo/Blue-Talisman-Extrait-de-Parfum-110848.html",
+      "shopNames": "Blue Talisman Extrait"
+    },
+    {
+      "name": "Lust in Paradise Extrait de Parfum",
+      "brandId": "ex-nihilo",
+      "brandName": "Ex Nihilo",
+      "tags": [
+        "floral",
+        "rose",
+        "fruity",
+        "fresh",
+        "musky",
+        "female"
+      ],
+      "description": "Dewy rose and juicy blackcurrant burst with pink pepper and ginger, a pink sunset over a tropical garden. Jasmine sambac, musk and akigalawood make the extrait richer, rosier and longer-lasting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.123614.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ex-Nihilo/Lust-in-Paradise-Extrait-123614.html",
+      "shopNames": "Lust in Paradise Extrait"
+    },
+    {
+      "name": "Musc Ravageur",
+      "brandId": "frederic-malle",
+      "brandName": "Frederic Malle",
+      "tags": [
+        "spicy",
+        "musky",
+        "vanilla",
+        "cinnamon",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Cinnamon and clove burn over lavender and tangerine, then sink into a warm, animal-soft musk with vanilla and tonka bean. It is skin after a long night out, spiced, powdery and unapologetically magnetic.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.1801.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Frederic-Malle-Editions-de-Parfums/Musc-Ravageur-1801.html",
+      "shopNames": "Musc Ravageur"
+    },
+    {
+      "name": "Angel Dust",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "musky",
+        "powdery",
+        "amber",
+        "male",
+        "female"
+      ],
+      "description": "Soft cashmeran and cashmere musk wrap around a pinch of pepper and bergamot, a freshly washed cashmere sweater pulled over warm skin. White amber gives the cloud a smooth, cosy glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.73921.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Angel-Dust-73921.html",
+      "shopNames": "Angel Dust"
+    },
+    {
+      "name": "Angel Dust Extrait",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "woody",
+        "amber",
+        "musky",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Pink pepper sparkles over cashmere wood and cashmeran, the softest blanket on a cold morning. At extrait strength the white amber and woods glow deeper and stay on skin all day.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.108493.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Angel-Dust-108493.html",
+      "shopNames": "Angel Dust Extrait"
+    },
+    {
+      "name": "Borntostandout",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "rose",
+        "floral",
+        "spicy",
+        "woody",
+        "tobacco",
+        "male",
+        "female"
+      ],
+      "description": "A peppery rose blooms over geranium and bergamot, then darkens with cedar, tobacco and soft leather, a rock star's dressing room after the encore. Akigalawood and amber give it a bold, smoky, unforgettable trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.99256.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/BORNTOSTANDOUT-by-FUGAZZI-99256.html",
+      "shopNames": "Borntostandout"
+    },
+    {
+      "name": "Cash Flower",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "rose",
+        "floral",
+        "musky",
+        "spicy",
+        "female"
+      ],
+      "description": "A flood of fresh rose petals with a crack of pepper, a bouquet bought on impulse on the way to a celebration. Cashmere wood, musk and amber make the rose soft, modern and easy to wear.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81519.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Cash-Flower-81519.html",
+      "shopNames": "Cash Flower"
+    },
+    {
+      "name": "Goudh",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "oud",
+        "rose",
+        "leather",
+        "animalic",
+        "male",
+        "female"
+      ],
+      "description": "Smoky agarwood meets Bulgarian rose, leather and a burst of grapefruit, a gilded oud ritual in a modern Amsterdam loft. Black currant, patchouli and benzoin add depth to the animalic woods.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.66537.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Goudh-66537.html",
+      "shopNames": "Goudh"
+    },
+    {
+      "name": "In Love With The Cocos",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "coconut",
+        "citrus",
+        "musky",
+        "white floral",
+        "fresh",
+        "female"
+      ],
+      "description": "Cool coconut water and lemon zest splash over orange blossom and geranium, a fresh coconut sipped through a straw on a white-sand beach. Soft musk and amber keep it airy and sunlit.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.66538.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/In-Love-With-The-Cocos-66538.html",
+      "shopNames": "In Love With The Cocos"
+    },
+    {
+      "name": "NoCologne",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "citrus",
+        "fresh",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Pink grapefruit, mandarin, bergamot and lemon fizz with fresh ginger, a cologne that refuses to play by the old rules. Clary sage, mimosa, ambrette and oakmoss give the citrus a smooth, modern finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81518.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/NoCologne-81518.html",
+      "shopNames": "Nocologne"
+    },
+    {
+      "name": "Orange Crush",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "citrus",
+        "sweet",
+        "amber",
+        "male",
+        "female"
+      ],
+      "description": "Juicy, sparkling orange bursts with soda-pop brightness over Iso E Super and white amber. It is the first sip of an ice-cold orange drink on a scorching afternoon.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.73920.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Orange-Crush-73920.html",
+      "shopNames": "Orange Crush"
+    },
+    {
+      "name": "Orange Crush Extrait",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "citrus",
+        "musky",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Freshly squeezed orange, bergamot and a hint of blackcurrant burst over Iso E Super and white amber, a basket of oranges in a sunny market. Akigalawood, musk and oakmoss give the extrait a longer, woodier glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.107684.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Orange-Crush-Extrait-de-Parfum-107684.html",
+      "shopNames": "Orange Crush Extrait"
+    },
+    {
+      "name": "Fugazzi Parfum",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "woody",
+        "fruity",
+        "green",
+        "citrus",
+        "male",
+        "female"
+      ],
+      "description": "Tart black currant, mandarin and peppermint open over davana, frankincense and pink pepper, the signature that started the Amsterdam house. Patchouli, cedar and sandalwood give it a green, woody depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59675.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Fugazzi-Parfum-1-59675.html",
+      "shopNames": "Parfum"
+    },
+    {
+      "name": "Passionfroudh",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "oud",
+        "tropical",
+        "fruity",
+        "mango",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Ripe passion fruit and mango meet black tea and ginger, a tropical cocktail served in an oud-scented lounge. Smoky agarwood and cypriol turn the juicy fruit dark, woody and addictive.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.102896.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Passionfroudh-102896.html",
+      "shopNames": "Passionfroudh"
+    },
+    {
+      "name": "Pomegranoudh",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "fruity",
+        "oud",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Glossy pomegranate seeds and red berries burst over a smoky core of oud, jewel-red fruit piled in a dark wooden bowl. Patchouli, amber and vanilla give the tart fruit a warm, resinous finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.127883.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Pomegranoudh-127883.html",
+      "shopNames": "Pomegranoudh"
+    },
+    {
+      "name": "Sugardaddy",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "fruity",
+        "spicy",
+        "citrus",
+        "male",
+        "female"
+      ],
+      "description": "Juicy tangerine and black currant collide with clove and nutmeg at a cocktail party where the drinks are on someone else. Cashmeran, ambergris and patchouli give the spice a polished, expensive glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.66510.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Sugardaddy-66510.html",
+      "shopNames": "Sugardaddy"
+    },
+    {
+      "name": "Vanilla Haze",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "gourmand",
+        "almond",
+        "creamy",
+        "female"
+      ],
+      "description": "Vanilla pods, toasted hazelnut and almond melt into coconut milk and golden caramel, a warm bakery filling the street with sugar-scented air. Tonka bean, musk and cashmere wood keep it soft and cosy.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.95955.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Vanilla-Haze-95955.html",
+      "shopNames": "Vanilla Haze"
+    },
+    {
+      "name": "Vanilla Haze Extrait",
+      "brandId": "fugazzi",
+      "brandName": "Fugazzi",
+      "tags": [
+        "vanilla",
+        "spicy",
+        "sweet",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "Bourbon vanilla is warmed with saffron and clove, then folded into hazelnut, coconut milk and caramel. The extrait is spicier and deeper, a vanilla haze glowing at golden hour.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.113631.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Fugazzi/Vanilla-Haze-Extrait-de-Parfum-113631.html",
+      "shopNames": "Vanilla Haze Extrait"
+    },
+    {
+      "name": "Almafolia",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "white floral",
+        "tuberose",
+        "creamy",
+        "ylang-ylang",
+        "vanilla",
+        "female"
+      ],
+      "description": "Lush tuberose, ylang-ylang and jasmine bloom over peach and sweet orange, a Tuscan villa garden heavy with flowers at dusk. Coconut, vanilla and benzoin give it a creamy, sun-warmed sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.87933.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Almafolia-87933.html",
+      "shopNames": "Almafolia"
+    },
+    {
+      "name": "Bianco Latte",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "gourmand",
+        "creamy",
+        "female"
+      ],
+      "description": "Warm caramel, honey and vanilla swirl into a cup of sweet, milky latte, a cosy café corner on a rainy afternoon. White musk keeps the gourmand cloud soft, creamy and comforting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.64757.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Bianco-Latte-64757.html",
+      "shopNames": "Bianco Latte"
+    },
+    {
+      "name": "Bianco Oro",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "woody",
+        "spicy",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Pink and black pepper glitter over creamy Javanol sandalwood and a soft rose, white gold catching the light. Cetalox amber and patchouli leave a clean, warm, woody trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.64756.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Bianco-Oro-64756.html",
+      "shopNames": "Bianco Oro"
+    },
+    {
+      "name": "Blu Indaco",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "musky",
+        "almond",
+        "floral",
+        "sweet",
+        "powdery",
+        "female"
+      ],
+      "description": "Sweet almond and frangipani float over bergamot and a cloud of musk, a swim in an indigo sea followed by almond biscotti. Vanilla and ambroxan give it a soft, powdery, sun-warmed finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.64760.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Blu-Indaco-64760.html",
+      "shopNames": "Blu Indaco"
+    },
+    {
+      "name": "Blu Mare",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "aquatic",
+        "fresh",
+        "citrus",
+        "green",
+        "male"
+      ],
+      "description": "Salty sea notes and cypress sweep over bergamot, grapefruit and pink pepper, a sailboat leaving a Tuscan harbour at dawn. Oakmoss and ambergris give it a deep, mineral, classic freshness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.92752.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Blu-Mare-92752.html",
+      "shopNames": "Blu Mare"
+    },
+    {
+      "name": "Borabora",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "white floral",
+        "coconut",
+        "creamy",
+        "sweet",
+        "tropical",
+        "female"
+      ],
+      "description": "Tiare flower, ylang-ylang and jasmine bloom over creamy coconut milk, a flower crown worn on a Polynesian beach at sunset. Vanilla, caramel and white musk make it sweet, soft and holiday-warm.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81632.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Borabora-81632.html",
+      "shopNames": "Borabora"
+    },
+    {
+      "name": "Celeste",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "powdery",
+        "floral",
+        "vanilla",
+        "sweet",
+        "female"
+      ],
+      "description": "Sugared violets and raspberry drift over a breath of sea water, a pastel sky above the Tuscan coast. Vanilla sugar and ambroxan make it powdery, sweet and dreamy.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.64788.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Celeste-64788.html",
+      "shopNames": "Celeste"
+    },
+    {
+      "name": "Christos",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "incense",
+        "amber",
+        "smoky",
+        "male",
+        "female"
+      ],
+      "description": "Clouds of incense rise over amber and labdanum, an ancient Tuscan church on a winter morning. Sandalwood, benzoin, patchouli and vanilla give the smoke a warm, resinous softness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81631.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Christos-81631.html",
+      "shopNames": "Christos"
+    },
+    {
+      "name": "Colonia Nobile",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "citrus",
+        "fresh",
+        "neroli",
+        "white floral",
+        "male",
+        "female"
+      ],
+      "description": "Bergamot, petitgrain and neroli sparkle in a classic noble cologne, freshly ironed linen in a Florentine palazzo. Jasmine, benzoin and oakmoss give it an elegant, lasting finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.77063.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Colonia-Nobile-77063.html",
+      "shopNames": "Colonia Nobile"
+    },
+    {
+      "name": "Rosso Radice",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "musky",
+        "spicy",
+        "vetiver",
+        "male",
+        "female"
+      ],
+      "description": "Pink pepper and clary sage spark over earthy vetiver roots and soft cashmeran, red Tuscan soil after a summer storm. Ambroxan and ambrette musk leave a warm, clean, woody trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.64759.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Rosso-Radice-64759.html",
+      "shopNames": "Rosso Radice"
+    },
+    {
+      "name": "Rosso Rubino",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "woody",
+        "citrus",
+        "earthy",
+        "spicy",
+        "female"
+      ],
+      "description": "Bergamot, orange and lemon open onto cacao pod and wild berries, a ruby-red sunset over a mossy Tuscan forest. Oakmoss, pink pepper, cashmeran and patchouli give it a rich, modern chypre depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.64790.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Rosso-Rubino-64790.html",
+      "shopNames": "Rosso Rubino"
+    },
+    {
+      "name": "Scintilla",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "woody",
+        "fruity",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Pineapple, apple and black currant sparkle over a radiant cloud of Iso E Super, a spark of light on polished wood. Iris, violet, oakmoss and amber give the fruit a smooth, powdery, woody glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81630.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Scintilla-81630.html",
+      "shopNames": "Scintilla"
+    },
+    {
+      "name": "Shabby Chic",
+      "brandId": "giardini-di-toscana",
+      "brandName": "Giardini di Toscana",
+      "tags": [
+        "rose",
+        "floral",
+        "musky",
+        "fresh",
+        "female"
+      ],
+      "description": "Fresh peony and Bulgarian rose bloom in a vintage enamel jug on a whitewashed table, all lace curtains and soft light. Musk, Javanol and cedar give the petals a clean, powdery finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.64758.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Giardini-Di-Toscana/Shabby-Chic-64758.html",
+      "shopNames": "Shabby Chic"
+    },
+    {
+      "name": "Can't Get Enough",
+      "brandId": "initio",
+      "brandName": "Initio",
+      "tags": [
+        "rose",
+        "floral",
+        "vanilla",
+        "sweet",
+        "gourmand",
+        "female"
+      ],
+      "description": "A plush Turkish rose dipped in golden caramel and vanilla, a box of rose chocolates opened far too quickly. Hedione, tonka and pink pepper keep the sweetness bright and addictive.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.114319.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Can-t-Get-Enough-114319.html",
+      "shopNames": "Can't Get Enough"
+    },
+    {
+      "name": "Lift Me Up",
+      "brandId": "initio",
+      "brandName": "Initio",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "musky",
+        "powdery",
+        "floral",
+        "female"
+      ],
+      "description": "Magnolia and bergamot float over creamy ylang-ylang and tonka, a sunny morning that starts with a smile. Vanilla and soft musk wrap the skin in a powdery, uplifting warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.115367.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Lift-Me-Up-115367.html",
+      "shopNames": "Lift Me Up"
+    },
+    {
+      "name": "Sugar Blast",
+      "brandId": "initio",
+      "brandName": "Initio",
+      "tags": [
+        "sweet",
+        "vanilla",
+        "gourmand",
+        "male",
+        "female"
+      ],
+      "description": "Vanilla and praline explode in a sugar rush with a splash of rum and creamy coconut, a candy-store window at a seaside fair. Ambroxan and cashmeran keep the sweetness airy and radiant.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.129499.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Sugar-Blast-129499.html",
+      "shopNames": "Sugar Blast"
+    },
+    {
+      "name": "Baie 19",
+      "brandId": "le-labo",
+      "brandName": "Le Labo",
+      "tags": [
+        "fresh",
+        "ozonic",
+        "green",
+        "patchouli",
+        "male",
+        "female"
+      ],
+      "description": "Rain falling on hot stone and green leaves, with crushed juniper berries in the air, the smell of a summer storm rolling in. Earthy patchouli, musk and ambroxan keep it cool, grey and quietly addictive.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.57513.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Le-Labo/Baie-19-57513.html",
+      "shopNames": "Baie 19"
+    },
+    {
+      "name": "Fleur d'Oranger 27",
+      "brandId": "le-labo",
+      "brandName": "Le Labo",
+      "tags": [
+        "fresh",
+        "floral",
+        "white floral",
+        "citrus",
+        "neroli",
+        "male",
+        "female"
+      ],
+      "description": "Pure orange blossom in full bloom, sharpened with petitgrain, bergamot and lemon, a whitewashed courtyard in Seville in April. Clean, luminous and sunny, it is a fresh white shirt worn on a warm day.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.6331.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Le-Labo/Fleur-d-Oranger-27-6331.html",
+      "shopNames": "Fleur d’Oranger 27"
+    },
+    {
+      "name": "Jasmin 17",
+      "brandId": "le-labo",
+      "brandName": "Le Labo",
+      "tags": [
+        "floral",
+        "white floral",
+        "jasmine",
+        "neroli",
+        "citrus",
+        "female"
+      ],
+      "description": "Jasmine and orange blossom bloom with bitter orange and neroli, a garden of white flowers glowing in late afternoon sun. Vanilla, musk and sandalwood give the brightness a soft, sheer warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.6337.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Le-Labo/Jasmin-17-6337.html",
+      "shopNames": "Jasmin 17"
+    },
+    {
+      "name": "Labdanum 18",
+      "brandId": "le-labo",
+      "brandName": "Le Labo",
+      "tags": [
+        "amber",
+        "musky",
+        "vanilla",
+        "animalic",
+        "powdery",
+        "oriental",
+        "male",
+        "female"
+      ],
+      "description": "Warm labdanum resin melts into vanilla, musk and a purr of civet and castoreum, a cashmere throw beside the fire. Tonka, birch and cinnamon give it a powdery, animalic glow, the warmth of skin under soft wool.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.7848.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Le-Labo/Labdanum-18-7848.html",
+      "shopNames": "Labdanum 18"
+    },
+    {
+      "name": "Neroli 36",
+      "brandId": "le-labo",
+      "brandName": "Le Labo",
+      "tags": [
+        "white floral",
+        "neroli",
+        "aldehydic",
+        "musky",
+        "clean",
+        "citrus",
+        "female"
+      ],
+      "description": "Orange blossom and sparkling aldehydes meet mandarin and jasmine, freshly laundered sheets drying in a Mediterranean breeze. Soft musk, vanilla and tonka leave a clean, glowing, slightly sweet trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.6330.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Le-Labo/Neroli-36-6330.html",
+      "shopNames": "Neroli 36"
+    },
+    {
+      "name": "Ambre Supermassive",
+      "brandId": "les-eaux-primordiales",
+      "brandName": "Les Eaux Primordiales",
+      "tags": [
+        "amber",
+        "spicy",
+        "sweet",
+        "fruity",
+        "boozy",
+        "male",
+        "female"
+      ],
+      "description": "Cinnamon, peach and apple are drenched in rum and honey, a spiced fruit compote bubbling on a winter stove. Amber, vanilla, tobacco and saffron give it a dense, glowing, supermassive warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.95535.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Les-EAUX-Primordiales/Ambre-Supermassive-95535.html",
+      "shopNames": "Ambre Supermasive"
+    },
+    {
+      "name": "Plumeria Supercritique",
+      "brandId": "les-eaux-primordiales",
+      "brandName": "Les Eaux Primordiales",
+      "tags": [
+        "vanilla",
+        "powdery",
+        "almond",
+        "iris",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Almond, red berries and heliotrope melt into creamy iris and plumeria, a frangipani garden at dusk with marzipan on the breeze. Tonka bean and black vanilla husk give it a sweet, powdery, gourmand depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.80606.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Les-EAUX-Primordiales/Plumeria-Supercritique-80606.html",
+      "shopNames": "Plumeria Supercritique"
+    },
+    {
+      "name": "Superose",
+      "brandId": "les-eaux-primordiales",
+      "brandName": "Les Eaux Primordiales",
+      "tags": [
+        "rose",
+        "floral",
+        "fruity",
+        "spicy",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "A radiant rose bursts with peach, pear and lychee, then glows with saffron and mandarin, a supernova of petals. Patchouli, white musk and vanilla give it a warm, modern finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.105775.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Les-EAUX-Primordiales/Superose-105775.html",
+      "shopNames": "Superose"
+    },
+    {
+      "name": "Aldebaran",
+      "brandId": "marc-antoine-barrois",
+      "brandName": "Marc Antoine Barrois",
+      "tags": [
+        "tuberose",
+        "white floral",
+        "spicy",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "A bold, green tuberose spiced with smoky paprika and maté, the brightest star burning in a night sky. Tonka bean softens the edges into a modern, genderless white floral.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.105331.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Marc-Antoine-Barrois/Aldebaran-105331.html",
+      "shopNames": "Aldebaran"
+    },
+    {
+      "name": "Metal Lavender",
+      "brandId": "matiere-premiere",
+      "brandName": "Matiere Premiere",
+      "tags": [
+        "lavender",
+        "musky",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Two lavenders, cultivated and wild, are polished to a cool metallic sheen, a lavender field glinting under a silver morning sky. Musk and cashmeran turn it soft, powdery and modern.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.131224.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Matiere-Premiere/Metal-Lavender-131224.html",
+      "shopNames": "Metal Lavender"
+    },
+    {
+      "name": "Vanilla Powder Extrait",
+      "brandId": "matiere-premiere",
+      "brandName": "Matiere Premiere",
+      "tags": [
+        "vanilla",
+        "powdery",
+        "coconut",
+        "musky",
+        "sweet",
+        "female"
+      ],
+      "description": "Pure vanilla absolute and coconut powder are concentrated into a velvety extrait, warm sand on sun-kissed skin. Tonka bean, white musk and palo santo make it creamier, deeper and longer-lasting than the original.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.112581.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Matiere-Premiere/Vanilla-Powder-112581.html",
+      "shopNames": "Vanilla Powder Extrait"
+    },
+    {
+      "name": "Ithaque",
+      "brandId": "memo-paris",
+      "brandName": "Memo Paris",
+      "tags": [
+        "citrus",
+        "fruity",
+        "fresh",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Bergamot, bitter orange and three peppers burst over currant buds, red currant and juniper, a sailboat gliding into the harbour of Ithaca. Texas cedar and patchouli give the brightness a dry, woody wake.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.79533.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Memo-Paris/Ithaque-79533.html",
+      "shopNames": "Ithaque"
+    },
+    {
+      "name": "Odéon",
+      "brandId": "memo-paris",
+      "brandName": "Memo Paris",
+      "tags": [
+        "rose",
+        "floral",
+        "amber",
+        "sweet",
+        "powdery",
+        "female"
+      ],
+      "description": "A velvety rose and spoonfuls of rose jam glow under the lights of a Paris theatre on opening night. Sandalwood, tonka, amber and musk wrap the petals in a warm, powdery, sweet finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.62839.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Memo-Paris/Odeon-62839.html",
+      "shopNames": "Odeon"
+    },
+    {
+      "name": "Zante",
+      "brandId": "memo-paris",
+      "brandName": "Memo Paris",
+      "tags": [
+        "citrus",
+        "fresh",
+        "neroli",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Neroli, petitgrain and bergamot shimmer over rosemary and lavender, a sunlit terrace on the Greek island of Zakynthos. Amber and patchouli give the fresh citrus a soft, warm finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.109058.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Memo-Paris/Zante-109058.html",
+      "shopNames": "Zante"
+    },
+    {
+      "name": "Latte Pistachio",
+      "brandId": "new-notes",
+      "brandName": "New Notes",
+      "tags": [
+        "gourmand",
+        "creamy",
+        "spicy",
+        "sandalwood",
+        "female"
+      ],
+      "description": "Roasted pistachio and warm milk swirl with cardamom and coriander, a pistachio latte steaming in a Milan coffee bar. Creamy sandalwood, musk and amber keep it soft, nutty and cosy.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.101460.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/New-Notes/Latte-Pistachio-101460.html",
+      "shopNames": "Latte Pistachio"
+    },
+    {
+      "name": "18-12",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "cherry",
+        "sweet",
+        "almond",
+        "rose",
+        "powdery",
+        "female"
+      ],
+      "description": "Glossy cherry, lychee and rose petals meet sweet almond and sugared violets, a box of marzipan cherries on a dressing table. Vanilla and sandalwood give it a soft, powdery, nostalgic finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.88295.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/18-12-88295.html",
+      "shopNames": "18-12"
+    },
+    {
+      "name": "28°",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "white floral",
+        "citrus",
+        "neroli",
+        "fresh",
+        "female"
+      ],
+      "description": "Orange blossom, lemon and mandarin bask in 28-degree sunshine on a white villa terrace above the Mediterranean. Tuberose, jasmine, vanilla and immortelle add a warm, solar softness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52504.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/280-52504.html",
+      "shopNames": "28"
+    },
+    {
+      "name": "Le Passant",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "lavender",
+        "vanilla",
+        "sweet",
+        "male"
+      ],
+      "description": "Fresh French lavender and marigold meet bergamot, a passer-by leaving a trail of clean warmth on a Paris street. Tonka bean, amyris and vanilla make it smooth, sweet and comforting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52507.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Le-Passant-52507.html",
+      "shopNames": "Le Passant"
+    },
+    {
+      "name": "Les Brumes",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "citrus",
+        "fresh",
+        "spicy",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Fresh ginger and lemon cut through the morning mist, with sage and cardamom carried on a cool breeze over a quiet lake. Maté, cedar and vetiver keep it crisp, green and serene.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52503.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Les-Brumes-52503.html",
+      "shopNames": "Les Brumes"
+    },
+    {
+      "name": "L'Ivrée Bleue",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "vanilla",
+        "gourmand",
+        "boozy",
+        "iris",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "A splash of dark rum and cacao pod meet powdery iris and violet, a midnight-blue evening of chocolate and conversation. Vanilla, benzoin and patchouli give it a rich, velvety, tipsy warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52508.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/L-ivree-Bleue-52508.html",
+      "shopNames": "Livree Bleue"
+    },
+    {
+      "name": "Marque-Page",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "woody",
+        "leather",
+        "oud",
+        "smoky",
+        "male",
+        "female"
+      ],
+      "description": "Incense, davana and artemisia rise from the leather binding of an old book, a bookmark left between dusty pages in a candlelit library. Oud, nagarmotha, amber and patchouli give it a deep, smoky, woody warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.69685.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Marque-Page-69685.html",
+      "shopNames": "Marque-Page"
+    },
+    {
+      "name": "Papier Carbone",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "spicy",
+        "woody",
+        "musky",
+        "patchouli",
+        "female"
+      ],
+      "description": "Star anise, coffee and cardamom sketch the outline of carbon paper and ink, a writer's desk in a sunny Paris apartment. Clary sage, ambrette, patchouli and guaiac wood fill in a warm, spicy, woody portrait.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52505.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Papier-Carbone-52505.html",
+      "shopNames": "Papier Carbone"
+    },
+    {
+      "name": "Tableau Parisien",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "tuberose",
+        "white floral",
+        "vanilla",
+        "spicy",
+        "tobacco",
+        "female"
+      ],
+      "description": "Opulent tuberose meets warm spices and blond tobacco, a Parisian painting of a woman lounging on a velvet sofa. Vanilla, tonka bean and benzoin give the flowers a creamy, sweet glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76581.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Tableau-Parisien-76581.html",
+      "shopNames": "Tableau Parisien"
+    },
+    {
+      "name": "Toi Toi Toi",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "woody",
+        "vanilla",
+        "incense",
+        "sandalwood",
+        "earthy",
+        "male",
+        "female"
+      ],
+      "description": "Incense and black pepper open onto sandalwood, cedar and patchouli, a good-luck wish before stepping on stage. Vanilla and nagarmotha make the woods smooth, smoky and comforting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52509.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Toi-Toi-Toi-52509.html",
+      "shopNames": "Toi Toi Toi"
+    },
+    {
+      "name": "Toi Toi Toi Extrait",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "woody",
+        "amber",
+        "incense",
+        "fruity",
+        "leather",
+        "male",
+        "female"
+      ],
+      "description": "Frankincense and bitter orange flare over raspberry, osmanthus and supple leather in this richer extrait. Sandalwood, Atlas cedar and amber leave a warm, resinous, slightly fruity trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97500.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Toi-Toi-Toi-Extrait-de-Parfum-97500.html",
+      "shopNames": "Toi Toi Toi Extract"
+    },
+    {
+      "name": "Yvonne",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "fruity",
+        "floral",
+        "rose",
+        "sweet",
+        "female"
+      ],
+      "description": "Black currant, juicy peach and marigold sparkle over rose and jasmine, a portrait of a spirited woman in a flowery dress. Patchouli, vanilla and tonka give it a warm chypre backbone.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52506.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Yvonne-52506.html",
+      "shopNames": "Yvonne"
+    },
+    {
+      "name": "Yvonne Extrait",
+      "brandId": "ormaie",
+      "brandName": "Ormaie",
+      "tags": [
+        "fruity",
+        "patchouli",
+        "sweet",
+        "female"
+      ],
+      "description": "Dark plum and Turkish rose melt into a deep bed of patchouli, Yvonne dressed for the evening. Peach, jasmine, tonka bean and amber give the extrait a rich, sweet glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97499.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Ormaie/Yvonne-Extrait-de-Parfum-97499.html",
+      "shopNames": "Yvonne Extract"
+    },
+    {
+      "name": "Althair",
+      "brandId": "parfums-de-marly",
+      "brandName": "Parfums de Marly",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "spicy",
+        "cinnamon",
+        "male"
+      ],
+      "description": "Bourbon vanilla and praline are warmed with cinnamon, cardamom and orange blossom, a gentleman's dessert served by candlelight. Musk, ambroxan and guaiac wood give the sweetness a smooth, elegant finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.84109.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Althair-84109.html",
+      "shopNames": "Althair"
+    },
+    {
+      "name": "Carios",
+      "brandId": "parfums-de-marly",
+      "brandName": "Parfums de Marly",
+      "tags": [
+        "spicy",
+        "amber",
+        "fresh",
+        "citrus",
+        "saffron",
+        "male"
+      ],
+      "description": "Saffron, mandarin and pink pepper crackle over black pepper and geranium, a sharp suit worn to a late-night party. Ambroxan and tonka bean leave a radiant, ambery, spicy trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.116242.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Carios-116242.html",
+      "shopNames": "Carios Extrait"
+    },
+    {
+      "name": "Galloway",
+      "brandId": "parfums-de-marly",
+      "brandName": "Parfums de Marly",
+      "tags": [
+        "citrus",
+        "musky",
+        "powdery",
+        "fresh",
+        "male"
+      ],
+      "description": "Bright citrus and pepper open onto orange blossom and iris, the crisp elegance of a racing stable at dawn. Clean musk and amber give it a smooth, powdery finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.23271.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Galloway-23271.html",
+      "shopNames": "Galloway"
+    },
+    {
+      "name": "Palatine",
+      "brandId": "parfums-de-marly",
+      "brandName": "Parfums de Marly",
+      "tags": [
+        "powdery",
+        "floral",
+        "musky",
+        "fruity",
+        "female"
+      ],
+      "description": "Sweet violet and juicy pear bloom over bergamot and lavender, a lilac silk scarf in a sunlit palace garden. Musk, sandalwood and vanilla give it a soft, powdery, graceful finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.96023.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Palatine-96023.html",
+      "shopNames": "Palatine"
+    },
+    {
+      "name": "Valaya Exclusif",
+      "brandId": "parfums-de-marly",
+      "brandName": "Parfums de Marly",
+      "tags": [
+        "powdery",
+        "almond",
+        "white floral",
+        "musky",
+        "citrus",
+        "female"
+      ],
+      "description": "Sweet almond and mandarin float over orange blossom and soft powder, a white silk gown at a summer soirée. Vanilla, sandalwood, ambroxan and white musk give the Exclusif a creamier, richer trail than Valaya.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.102806.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Valaya-Exclusif-102806.html",
+      "shopNames": "Valaya Exclusif"
+    },
+    {
+      "name": "Valero",
+      "brandId": "parfums-de-marly",
+      "brandName": "Parfums de Marly",
+      "tags": [
+        "lavender",
+        "spicy",
+        "fresh",
+        "citrus",
+        "male"
+      ],
+      "description": "Citron, bergamot and juniper sparkle over lavender, geranium and nutmeg, a classic barbershop ritual reinvented as an extrait. Ambrox, patchouli and sandalwood give it a clean, ambery, woody depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.116244.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Parfums-de-Marly/Valero-116244.html",
+      "shopNames": "Valero Extrait"
+    },
+    {
+      "name": "Azure Blush",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "fresh",
+        "floral",
+        "fruity",
+        "rose",
+        "female"
+      ],
+      "description": "Fluffy pink peony and juicy lychee with a tart snap of rhubarb, a blush-pink sky over a calm blue sea. Simple, fresh and joyful, it is a bouquet held up to the morning sun.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91139.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Azureblush-91139.html",
+      "shopNames": "Azure Blush"
+    },
+    {
+      "name": "Blond Purple",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "fruity",
+        "tropical",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Dark, juicy black currant meets ripe mango and a touch of ylang-ylang, a purple sorbet melting in the summer sun. Playful, fruity and sweet, with a soft woody base.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91143.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Blondpurple-91143.html",
+      "shopNames": "Blond Purple"
+    },
+    {
+      "name": "Blue Forest",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "woody",
+        "spicy",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Crisp cedar and a crack of pepper, a walk through a blue-green forest on a cold, clear morning. Soft musk keeps the woods clean and close to the skin.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91144.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Blueforest-91144.html",
+      "shopNames": "Blue Forest"
+    },
+    {
+      "name": "Gold Fawn",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "woody",
+        "vanilla",
+        "sandalwood",
+        "creamy",
+        "male",
+        "female"
+      ],
+      "description": "Golden vanilla melts into creamy sandalwood and a touch of cedar, sunlight on a fawn's soft coat in an autumn wood. Warm, powdery and comforting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91145.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Goldfawn-91145.html",
+      "shopNames": "Gold Fawn"
+    },
+    {
+      "name": "Ivory Sky",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "woody",
+        "vetiver",
+        "citrus",
+        "earthy",
+        "male",
+        "female"
+      ],
+      "description": "Earthy vetiver and creamy sandalwood under a bright stroke of bergamot, an ivory-white sky over open fields. Clean, dry and effortlessly elegant.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91137.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Ivorysky-91137.html",
+      "shopNames": "Ivory Sky"
+    },
+    {
+      "name": "Mahogany Sun",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "vanilla",
+        "creamy",
+        "tropical",
+        "fruity",
+        "sweet",
+        "female"
+      ],
+      "description": "Creamy vanilla, ripe fig and frangipani glow in the late-afternoon sun of a tropical island. Sweet, milky and warm, it is suntanned skin at golden hour.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91140.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Mahoganysun-91140.html",
+      "shopNames": "Mahogany Sun"
+    },
+    {
+      "name": "Pink Fire",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "woody",
+        "amber",
+        "fruity",
+        "male",
+        "female"
+      ],
+      "description": "Tart pomegranate and raspberry spark over a glowing bed of amberwood, pink flames flickering in a fireplace. Warm, woody and quietly radiant.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91141.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Pinkfire-91141.html",
+      "shopNames": "Pink Fire"
+    },
+    {
+      "name": "Tangerine Pearl",
+      "brandId": "perroy-parfum",
+      "brandName": "Perroy parfum",
+      "tags": [
+        "citrus",
+        "fresh",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Juicy pomelo and zesty ginger sparkle over a soft pearl of iris, a glass of fresh citrus juice on a bright morning. Clean, lively and easy to wear.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91138.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Perroy/Tangerinepearl-91138.html",
+      "shopNames": "Tangerine Pearl"
+    },
+    {
+      "name": "Cherry Punk",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "cherry",
+        "leather",
+        "sweet",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Black cherry and saffron crash into a black leather jacket at a punk gig in a sweaty basement club. Tonka bean, violet and patchouli give the rebellion a sweet, smoky edge.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.61264.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Cherry-Punk-61264.html",
+      "shopNames": "Cherry Punk"
+    },
+    {
+      "name": "Cherry Punk Extrait",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "cherry",
+        "sweet",
+        "spicy",
+        "leather",
+        "male",
+        "female"
+      ],
+      "description": "Juicy cherry and Sichuan pepper meet black leather in a louder, deeper extrait, the encore of the punk show. Saffron, tonka and patchouli keep it sweet, spiky and long-lasting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.89051.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Cherry-Punk-Extrait-de-Parfum-89051.html",
+      "shopNames": "Cherry Punk Extrait"
+    },
+    {
+      "name": "Electric Wood",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "woody",
+        "amber",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Crackling cedar and oak glow with ambroxan and warm resins, an electric guitar case lined with velvet. Iris and nutmeg add a dry, powdery hum to the woods.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.30278.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Electric-Wood-30278.html",
+      "shopNames": "Electric Wood"
+    },
+    {
+      "name": "Holly Rose",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "rose",
+        "floral",
+        "leather",
+        "fruity",
+        "animalic",
+        "male",
+        "female"
+      ],
+      "description": "A dark rose and black currant are thrown against cracked leather and black pepper in a rock-and-roll hotel room in Hollywood. Patchouli gives the rose a dirty, glamorous edge.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.46824.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Hollyrose-46824.html",
+      "shopNames": "Holly Rose"
+    },
+    {
+      "name": "Jasmine Freak",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "white floral",
+        "jasmine",
+        "tuberose",
+        "tropical",
+        "mango",
+        "female"
+      ],
+      "description": "Egyptian jasmine and Indian tuberose explode with juicy mango and sweet orange, a wild night at a flower market in full bloom. Ylang-ylang, musk and cashmere wood make it creamy, fruity and unapologetic.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.102590.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Jasmine-Freak-102590.html",
+      "shopNames": "Jasmine Freak"
+    },
+    {
+      "name": "Love-O-Matic",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "musky",
+        "fruity",
+        "ozonic",
+        "sweet",
+        "female"
+      ],
+      "description": "Strawberry and bubble gum float in a cloud of ozonic notes and soft musk, a vintage photo booth on a pastel boardwalk. Ambrette and cedar keep the sweetness airy and skin-close.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.108668.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Love-O-Matic-108668.html",
+      "shopNames": "Love-o-Matic"
+    },
+    {
+      "name": "Purple Mantra",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "incense",
+        "amber",
+        "smoky",
+        "lavender",
+        "male",
+        "female"
+      ],
+      "description": "Incense and myrrh drift over lavender, clary sage and iris, a meditation room glowing in purple light. Ambroxan and musk give the smoke a calm, resinous warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.73651.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Purple-Mantra-73651.html",
+      "shopNames": "Purple Mantra"
+    },
+    {
+      "name": "Sonic Flower",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "powdery",
+        "musky",
+        "iris",
+        "female"
+      ],
+      "description": "Buttery orris and carrot seed hum over soft musk, the quiet feedback of a guitar amp in a pastel studio. Ambroxan and cashmeran give the powdery iris a warm, skin-like glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.80011.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Sonic-Flower-80011.html",
+      "shopNames": "Sonic Flower"
+    },
+    {
+      "name": "Sweet Leaf",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "green",
+        "citrus",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Green cannabis leaves and cool eucalyptus meet grapefruit and angelica, a hazy studio session in 1970s California. Musk and woods give the herbal haze a smooth, smoky finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.67270.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Sweet-Leaf-67270.html",
+      "shopNames": "Sweet Leaf"
+    },
+    {
+      "name": "Ten Fifteen",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "woody",
+        "sandalwood",
+        "creamy",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Creamy sandalwood and violet glow with saffron and mandarin, the signature of a legendary hotel room where rock stars once stayed. Guaiac wood and papyrus give it a dry, powdery, effortlessly cool finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55031.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Ten-Fifteen-55031.html",
+      "shopNames": "Ten Fifteen"
+    },
+    {
+      "name": "Wave Child",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "aquatic",
+        "ozonic",
+        "fruity",
+        "coconut",
+        "female"
+      ],
+      "description": "Juicy watermelon and creamy coconut ride an ozonic wave, a surf session at sunset with salt drying on the skin. Mandarin, ambergris and a touch of cacao keep it sunny, sweet and carefree.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91364.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Wavechild-91364.html",
+      "shopNames": "Wave Child"
+    },
+    {
+      "name": "Yesterday",
+      "brandId": "room-1015",
+      "brandName": "Room 1015",
+      "tags": [
+        "lavender",
+        "spicy",
+        "green",
+        "vetiver",
+        "citrus",
+        "male"
+      ],
+      "description": "Cardamom, thyme and bergamot open onto lavender and geranium, a vintage barbershop on a Sunday morning in the sixties. Vetiver, sandalwood and white musk leave a clean, nostalgic trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.43085.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Room-1015/Yesterday-43085.html",
+      "shopNames": "Yesterday"
+    },
+    {
+      "name": "7",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "woody",
+        "musky",
+        "amber",
+        "spicy",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Thyme and myrrh smoulder over yellow mandarin and nutmeg, a lucky number scrawled in smoke. White musk, cashmeran, ambroxan and oud leave a warm, woody, magnetic trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97346.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/7-97346.html",
+      "shopNames": "7 Extrait"
+    },
+    {
+      "name": "Gladiator",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "citrus",
+        "fruity",
+        "green",
+        "fresh",
+        "mint",
+        "male"
+      ],
+      "description": "Pineapple, green apple and peppermint charge in with lemon and grapefruit, a gladiator's victory lap under a blazing sun. Vetiver, cedar and patchouli give the freshness a strong, woody backbone.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.95926.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Gladiator-95926.html",
+      "shopNames": "Gladiator edp"
+    },
+    {
+      "name": "Gladiator Extrait",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "citrus",
+        "fresh",
+        "mint",
+        "fruity",
+        "male"
+      ],
+      "description": "Icy peppermint, green apple and grapefruit clash with pineapple and bitter orange in the original, more intense extrait. Cedar, vetiver and patchouli leaf keep it sharp, green and powerful.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.75824.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Gladiator-75824.html",
+      "shopNames": "Gladiator Extrait"
+    },
+    {
+      "name": "Greasque",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "green",
+        "fresh",
+        "spicy",
+        "mint",
+        "male",
+        "female"
+      ],
+      "description": "Clary sage, peppermint and galbanum rush over basil and clove, a wild herb garden on a Greek hillside. Cedar, caramel and violet add a soft, unexpected sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.95927.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Greasque-95927.html",
+      "shopNames": "Greasque edp"
+    },
+    {
+      "name": "Greasque Extrait",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "green",
+        "fresh",
+        "mint",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Sweet basil and peppermint lead a burst of green herbs and currant buds, a Mediterranean kitchen garden at noon. Galbanum, vetiver and cedar make the extrait deeper and greener.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.75825.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Greasque-75825.html",
+      "shopNames": "Greasque Extrait"
+    },
+    {
+      "name": "Jany",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "gourmand",
+        "fruity",
+        "sweet",
+        "cinnamon",
+        "vanilla",
+        "female"
+      ],
+      "description": "Baked apple, flaky puff pastry and Ceylon cinnamon, a warm apple strudel straight from a Viennese oven. Vanilla, caramel, almond and nuts make it irresistibly sweet and cosy.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.87648.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Jany-87648.html",
+      "shopNames": "Jany Extrait"
+    },
+    {
+      "name": "Red",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "woody",
+        "sweet",
+        "spicy",
+        "gourmand",
+        "coconut",
+        "male",
+        "female"
+      ],
+      "description": "Roasted hazelnut, cardamom and coconut meet fig, clementine and nutmeg, a red velvet box of spiced pralines. Caramel, sandalwood and musk give it a warm, sweet, woody finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.92291.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Red-92291.html",
+      "shopNames": "Jovoy Red"
+    },
+    {
+      "name": "Mallow",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "powdery",
+        "sweet",
+        "vanilla",
+        "fruity",
+        "musky",
+        "female"
+      ],
+      "description": "The fluffy sweetness of raspberry, vanilla sugar and heliotrope, a pink marshmallow cloud. Violet and black musk give it a soft, powdery, grown-up finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.87381.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Mallow-87381.html",
+      "shopNames": "Mallow Extrait"
+    },
+    {
+      "name": "Mandorle",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "vanilla",
+        "almond",
+        "powdery",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Tonka bean, sweet almond and heliotrope melt into vanilla and soft suede, almond biscotti beside a cup of hot chocolate. Cashmere wood, rum and caramel make it warm and comforting.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.95077.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Mandorle-Eau-de-Parfum-95077.html",
+      "shopNames": "Mandorle edp"
+    },
+    {
+      "name": "Mandorle Extrait",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "vanilla",
+        "leather",
+        "almond",
+        "boozy",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Soft suede soaked in rum meets tonka bean, vanilla and almond in the richer, original extrait. Heliotrope, caramel and cashmere wood give it a velvety, gourmand depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.75827.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Mandorle-75827.html",
+      "shopNames": "Mandorle Extrait"
+    },
+    {
+      "name": "Orchidée Rouge",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "boozy",
+        "citrus",
+        "almond",
+        "spicy",
+        "sweet",
+        "male",
+        "female"
+      ],
+      "description": "Dark rum and orange are spiced with cinnamon and swirled into almond milk and heliotrope, a red orchid cocktail served at sunset. Caramel, vanilla and benzoin give it a sweet, festive finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.95925.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Orchidee-Rouge-Eau-de-Parfum-95925.html",
+      "shopNames": "Orchidee Rouge edp"
+    },
+    {
+      "name": "Orchidée Rouge Extrait",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "almond",
+        "creamy",
+        "boozy",
+        "male",
+        "female"
+      ],
+      "description": "Vanilla absolute, caramel and almond milk swirl with rum and heliotrope in the creamier original extrait. Bergamot, cinnamon and benzoin give it a warm, glowing sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.75828.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Orchidee-Rouge-75828.html",
+      "shopNames": "Orchidee Rouge Extrait"
+    },
+    {
+      "name": "Ylop",
+      "brandId": "sora-dora",
+      "brandName": "Sora Dora",
+      "tags": [
+        "fruity",
+        "tea",
+        "floral",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Velvety apricot and osmanthus meet green tea and crisp apple, a sunny tea house in a blossoming orchard. Toasted sesame, almond and vanilla add a creamy, nutty softness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.93157.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Sora-Dora/Ylop-93157.html",
+      "shopNames": "Ylop Extrait"
+    },
+    {
+      "name": "Acamar",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "rose",
+        "floral",
+        "musky",
+        "powdery",
+        "patchouli",
+        "male",
+        "female"
+      ],
+      "description": "A luminous rose with bergamot and violet rests on a soft cushion of musk and patchouli, a royal garden at twilight. Amber gives it a warm, powdery, chypre-like elegance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58240.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Acamar-58240.html",
+      "shopNames": "Acamar"
+    },
+    {
+      "name": "Affinity",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "spicy",
+        "woody",
+        "lavender",
+        "earthy",
+        "male",
+        "female"
+      ],
+      "description": "Warm nutmeg and bergamot open onto lavender and geranium, a gentleman's study with a crackling fire. Moss, amber, sandalwood and olibanum leave a classic, mossy, woody trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76948.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Affinity-76948.html",
+      "shopNames": "Affinity"
+    },
+    {
+      "name": "Allegiance",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "rose",
+        "floral",
+        "woody",
+        "male",
+        "female"
+      ],
+      "description": "A noble rose and magnolia rise over juniper and bergamot, a vow of loyalty sworn in a royal court. Olibanum, vetiver, cedar and musk give the flowers a smoky, woody, ambery strength.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76955.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Allegiance-76955.html",
+      "shopNames": "Allegiance"
+    },
+    {
+      "name": "Altair",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "earthy",
+        "woody",
+        "spicy",
+        "patchouli",
+        "male",
+        "female"
+      ],
+      "description": "Black truffle, black currant and ylang-ylang meet warm spices, an earthy feast in a candlelit hall. Patchouli, amber, vanilla and vetiver give it a rich, dark, opulent depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58236.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Altair-58236.html",
+      "shopNames": "Altair"
+    },
+    {
+      "name": "Aludra",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "floral",
+        "rose",
+        "fresh",
+        "fruity",
+        "female"
+      ],
+      "description": "Turkish rose and peony bloom with juicy lychee and rhubarb, a bouquet of pink flowers in a sunlit palace. Vanilla, musk, cashmeran and a touch of incense keep it fresh and radiant.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58233.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Aludra-58233.html",
+      "shopNames": "Aludra"
+    },
+    {
+      "name": "Amity",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "fruity",
+        "sweet",
+        "amber",
+        "male",
+        "female"
+      ],
+      "description": "Juicy strawberry, raspberry and pineapple glow with saffron and orris, a basket of summer berries at a royal picnic. Benzoin, moss, amber and vanilla give the fruit a warm, sweet, resinous base.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76947.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Amity-76947.html",
+      "shopNames": "Amity"
+    },
+    {
+      "name": "Arrakis",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "citrus",
+        "amber",
+        "fresh",
+        "male"
+      ],
+      "description": "A blast of sparkling grapefruit over ambroxan and dry woods, the sun rising over endless desert dunes. Clean, bright and magnetic, it stays fresh all day.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58242.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Arrakis-58242.html",
+      "shopNames": "Arrakis"
+    },
+    {
+      "name": "Dedication",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "rose",
+        "floral",
+        "woody",
+        "sweet",
+        "oud",
+        "male",
+        "female"
+      ],
+      "description": "Raspberry, saffron and ylang-ylang meet a lush Moroccan rose, a gift of devotion wrapped in red silk. Labdanum, Cambodian oud and sandalwood give it a deep, sweet, regal finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76958.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Dedication-76958.html",
+      "shopNames": "Dedication"
+    },
+    {
+      "name": "Elevation",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "woody",
+        "spicy",
+        "fresh",
+        "citrus",
+        "vetiver",
+        "male",
+        "female"
+      ],
+      "description": "Black pepper, cypress and lemon rush up a mountain path, with sage and orris in the cool air. Vetiver, sandalwood and soft leather give it a dry, elevated woodiness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76961.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Elevation-76961.html",
+      "shopNames": "Elevation"
+    },
+    {
+      "name": "Errai",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "powdery",
+        "iris",
+        "vanilla",
+        "musky",
+        "floral",
+        "female"
+      ],
+      "description": "Velvety iris and rose with a hint of lemon float over green notes and passion fruit, a cool morning in a royal orangery. Musk, vanilla and amber leave a soft, powdery, elegant trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58239.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Errai-58239.html",
+      "shopNames": "Errai"
+    },
+    {
+      "name": "Fidelity",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "rose",
+        "patchouli",
+        "vanilla",
+        "oud",
+        "male",
+        "female"
+      ],
+      "description": "A deep rose and dark patchouli intertwine with sweet vanilla, a promise of faithfulness sealed with red wax. Agarwood, benzoin and amber give it a smoky, resinous richness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76956.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Fidelity-76956.html",
+      "shopNames": "Fidelity"
+    },
+    {
+      "name": "Hadar",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "rose",
+        "musky",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Sugared rose petals and lemon melt into creamy vanilla and white musk, a rose macaron on a silver plate. Soft, sweet and powdery, with a light watery freshness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58238.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Hadar-58238.html",
+      "shopNames": "Hadar"
+    },
+    {
+      "name": "Harmony",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "fruity",
+        "tropical",
+        "sweet",
+        "fresh",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Passion fruit, pineapple and bergamot burst over rose and violet leaves, a tropical sunrise over a calm lagoon. Musk, vanilla, moss and soft woods keep it balanced, sweet and fresh.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76949.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Harmony-76949.html",
+      "shopNames": "Harmony"
+    },
+    {
+      "name": "Honor",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "spicy",
+        "amber",
+        "oud",
+        "incense",
+        "rose",
+        "male",
+        "female"
+      ],
+      "description": "Saffron and clove glow over ripe fig and rose, then dissolve into incense smoke and agarwood, an honour guard in a torch-lit palace hall. Amber gives the oud a warm, regal finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76953.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Honor-76953.html",
+      "shopNames": "Honor"
+    },
+    {
+      "name": "Intuition",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "spicy",
+        "oud",
+        "vanilla",
+        "leather",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "Saffron, cardamom and ginger crackle over violet leaves, then sink into Cambodian oud and vanilla, a gut feeling in a dark, resinous room. Castoreum and benzoin add a leathery, animalic depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76960.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Intuition-76960.html",
+      "shopNames": "Intuition"
+    },
+    {
+      "name": "Kursa",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "rose",
+        "oud",
+        "citrus",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "A bold rose and mandarin bloom over musk and patchouli in classic Middle Eastern rose-oud style. Rich agarwood and labdanum give the petals a smoky, majestic finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58241.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Kursa-58241.html",
+      "shopNames": "Kursa"
+    },
+    {
+      "name": "Loyalty",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "woody",
+        "boozy",
+        "spicy",
+        "vanilla",
+        "male",
+        "female"
+      ],
+      "description": "Dark rum and saffron warm a glass beside a crackling fire, a toast to old friendships. Labdanum, oud, patchouli and vanilla wrap it in a smooth, boozy, woody warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76957.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Loyalty-76957.html",
+      "shopNames": "Loyalty"
+    },
+    {
+      "name": "Matar",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "fruity",
+        "woody",
+        "smoky",
+        "earthy",
+        "male"
+      ],
+      "description": "Juicy pineapple, black currant and apple meet smoky birch and patchouli, a victory celebration in an ancient stone fortress. Oakmoss, ambergris and musk give it a classic, confident, smoky-fruity trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58237.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Matar-58237.html",
+      "shopNames": "Matar"
+    },
+    {
+      "name": "Mercy",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "amber",
+        "sweet",
+        "vanilla",
+        "musky",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Golden amber and warm caramel melt together, a honey-coloured glow in a quiet royal chapel. Musk, vanilla, moss and ambergris give it a soft, powdery, comforting sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76950.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Mercy-76950.html",
+      "shopNames": "Mercy"
+    },
+    {
+      "name": "Nobility",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "aquatic",
+        "fresh",
+        "fruity",
+        "sweet",
+        "male"
+      ],
+      "description": "Watery notes and juicy pineapple sparkle with lavender, plum and saffron, a royal yacht cutting through blue water. Heliotrope, immortelle, musk and sandalwood leave a smooth, sweet freshness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76954.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Nobility-76954.html",
+      "shopNames": "Nobility"
+    },
+    {
+      "name": "Notion",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "woody",
+        "patchouli",
+        "iris",
+        "earthy",
+        "powdery",
+        "male"
+      ],
+      "description": "Eucalyptus, saffron and lime brighten a heart of orris and Bulgarian rose, an idea taking shape in a quiet study. Earthy patchouli and Haitian vetiver give it a powdery, woody depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76962.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Notion-76962.html",
+      "shopNames": "Notion"
+    },
+    {
+      "name": "Perception",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "woody",
+        "leather",
+        "smoky",
+        "boozy",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Smoky birch, cognac and tart rhubarb meet ylang-ylang and orris, a hunting lodge with a decanter on the table. Thyme, rosemary and soft leather give it an aromatic, woody sophistication.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76959.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Perception-76959.html",
+      "shopNames": "Perception"
+    },
+    {
+      "name": "Sagira",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "citrus",
+        "rose",
+        "fruity",
+        "patchouli",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Sparkling grapefruit and peach brighten a Damask rose and violet, a little star shining in the evening sky. Patchouli, musk and moss give it a soft chypre finish with a hint of toffee.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58235.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Sagira-58235.html",
+      "shopNames": "Sagira"
+    },
+    {
+      "name": "Tabana",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "leather",
+        "spicy",
+        "oud",
+        "saffron",
+        "animalic",
+        "male"
+      ],
+      "description": "Agarwood, saffron and cardamom smoulder over rich black leather, a falconer's saddle in a desert camp. Pepper and ambergris give it a bold, animalic, spicy power.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58234.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Tabana-58234.html",
+      "shopNames": "Tabana"
+    },
+    {
+      "name": "Verity",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "fruity",
+        "citrus",
+        "sweet",
+        "patchouli",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Juicy pineapple and bergamot sparkle with aldehydes, the plain truth of a sunny morning. Leather, jasmine, patchouli and oakmoss give the fruit a confident, chypre-like depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76952.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Verity-76952.html",
+      "shopNames": "Verity"
+    },
+    {
+      "name": "Virtue",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "spicy",
+        "woody",
+        "white floral",
+        "lavender",
+        "patchouli",
+        "male",
+        "female"
+      ],
+      "description": "Nutmeg, lavender and marigold open onto jasmine and white woods, a noble character in a sunlit cloister. Patchouli, vetiver, olibanum and brown sugar give it a warm, woody, slightly sweet finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76951.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Virtue-76951.html",
+      "shopNames": "Virtue"
+    },
+    {
+      "name": "Zaurac",
+      "brandId": "spirit-of-kings",
+      "brandName": "Spirit Of Kings",
+      "tags": [
+        "spicy",
+        "oud",
+        "vanilla",
+        "male"
+      ],
+      "description": "Green cardamom and Sichuan pepper spark over smoky agarwood, a spice caravan at the edge of the desert. Tonka bean, sandalwood, amber and vanilla smooth the oud into a warm, sweet trail.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58232.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Spirit-Of-Kings/Zaurac-58232.html",
+      "shopNames": "Zaurac"
+    },
+    {
+      "name": "Black Gemstone",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "amber",
+        "woody",
+        "incense",
+        "oriental",
+        "male"
+      ],
+      "description": "Dark resins and myrrh glow inside a black gemstone, the hush of a desert temple at night. Teak wood, olibanum and tonka give it a deep, smoky, ambery richness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.18312.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Black-Gemstone-18312.html",
+      "shopNames": "Black Gemstone"
+    },
+    {
+      "name": "Crying of Evil",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "leather",
+        "amber",
+        "spicy",
+        "fruity",
+        "male"
+      ],
+      "description": "Spices and red berries meet a dark heart of leather and sandalwood, the cry of a villain echoing through a gothic hall. Amber, olibanum and patchouli give it a smoky, animalic depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.72383.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Crying-of-Evil-72383.html",
+      "shopNames": "Crying Of Evil"
+    },
+    {
+      "name": "God of Fire",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "fruity",
+        "tropical",
+        "mango",
+        "sweet",
+        "citrus",
+        "male",
+        "female"
+      ],
+      "description": "Juicy mango bursts with lemon, ginger and red berries, a blazing sunset over a tropical volcano. Musk, oud, amber and nagarmotha give the fire a smooth, woody glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.72381.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/God-of-Fire-72381.html",
+      "shopNames": "God Of Fire"
+    },
+    {
+      "name": "Isra & Miraj",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "vanilla",
+        "powdery",
+        "spicy",
+        "amber",
+        "cinnamon",
+        "male",
+        "female"
+      ],
+      "description": "Nutmeg, cinnamon and mandarin open onto heliotrope and osmanthus, a night flight across a starlit desert sky. Vanilla, ambergris, sandalwood and a touch of oud leave a powdery, ambery warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.58894.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Isra-Miraj-58894.html",
+      "shopNames": "Isra & Miraj"
+    },
+    {
+      "name": "Khôl de Bahreïn",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "amber",
+        "powdery",
+        "iris",
+        "sweet",
+        "female"
+      ],
+      "description": "Sweet resins and violet melt into buttery iris and ambergris, kohl-lined eyes glinting in a Bahraini souk. Peru balsam and sandalwood give it a warm, powdery, velvety glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.18311.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Khol-de-Bahrein-18311.html",
+      "shopNames": "Khol de Bahrein"
+    },
+    {
+      "name": "Lady White Snake",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "white floral",
+        "tuberose",
+        "leather",
+        "neroli",
+        "female"
+      ],
+      "description": "Tuberose, orange blossom and honeysuckle coil around soft white leather, the Chinese legend of a white serpent in a moonlit garden. Magnolia, jasmine and white musk keep it creamy and hypnotic.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.72388.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Lady-White-Snake-72388.html",
+      "shopNames": "Lady White Snake"
+    },
+    {
+      "name": "Le 8",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "floral",
+        "citrus",
+        "tea",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Hibiscus, yuzu and fragrant tea blossom with cherry flowers and strawberry, a lucky number eight painted in red on a paper lantern. Sandalwood, tonka, vanilla and saffron give it a soft, warm finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.110493.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Le-8-110493.html",
+      "shopNames": "le 8"
+    },
+    {
+      "name": "Mortal Skin",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "amber",
+        "incense",
+        "fruity",
+        "smoky",
+        "male",
+        "female"
+      ],
+      "description": "Black ink and blackberry stain the skin over incense and myrrh, a tattoo needle buzzing in a candlelit studio. Opoponax, iris, styrax and cedar give it a dark, resinous, smoky depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.31518.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Mortal-Skin-31518.html",
+      "shopNames": "Mortal Skin"
+    },
+    {
+      "name": "O Hira",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "amber",
+        "animalic",
+        "male"
+      ],
+      "description": "Rare, pure ambergris washed ashore on a remote beach, salty, warm and gently animalic. It glows golden and skin-like, growing richer the longer you wear it.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.25344.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/O-Hira-25344.html",
+      "shopNames": "O Hira"
+    },
+    {
+      "name": "Oumma",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "oud",
+        "rose",
+        "amber",
+        "oriental",
+        "male",
+        "female"
+      ],
+      "description": "Three roses from Morocco, Bulgaria and Grasse bloom over rich tolu and Peru balsams, a mother's warm hug in a rose-scented home. Smoky agarwood and nagarmotha give it a deep, resinous, regal finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.18310.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Oumma-18310.html",
+      "shopNames": "Oumma"
+    },
+    {
+      "name": "Panthéa",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "powdery",
+        "citrus",
+        "musky",
+        "iris",
+        "white floral",
+        "female"
+      ],
+      "description": "Tangerine and bergamot brighten a heart of iris, jasmine and violet, a marble goddess in a sunlit temple. White musk, sandalwood and tonka give it a clean, powdery serenity.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.44261.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Panthea-44261.html",
+      "shopNames": "Panthea"
+    },
+    {
+      "name": "Panthéa Iris",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "powdery",
+        "iris",
+        "floral",
+        "musky",
+        "female"
+      ],
+      "description": "Iris in its purest, most velvety form, wrapped in violet and a hint of tangerine. White musk, tonka bean, tobacco and sandalwood make it powdery, soft and elegant.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.54939.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Panthea-Iris-54939.html",
+      "shopNames": "Panthea Iris"
+    },
+    {
+      "name": "Pink Boa",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "fruity",
+        "sweet",
+        "boozy",
+        "female"
+      ],
+      "description": "Raspberry, blackberry and strawberry are shaken with vodka and basil, a pink feather boa twirling at a cabaret party. Musk, peach and sandalwood keep the fun sweet and lively.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.75021.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Pink-Boa-75021.html",
+      "shopNames": "Pink Boa"
+    },
+    {
+      "name": "Rose de Petra",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "rose",
+        "floral",
+        "spicy",
+        "fruity",
+        "male",
+        "female"
+      ],
+      "description": "A dewy rose and lychee bloom against warm cardamom, pepper and cumin, the rose-red cliffs of Petra at sunrise. Spicy, fresh and fiery, it is a rose with a desert soul.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.18309.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Rose-de-Petra-18309.html",
+      "shopNames": "Rose de Petra"
+    },
+    {
+      "name": "Sand Dance",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "woody",
+        "gourmand",
+        "boozy",
+        "sandalwood",
+        "male",
+        "female"
+      ],
+      "description": "A splash of whiskey and dark cacao swirl over creamy sandalwood, dunes shifting under a golden desert moon. Tonka, benzoin, styrax and vanilla give it a smooth, warm, gourmand finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.72384.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Sand-Dance-72384.html",
+      "shopNames": "Sand Dance"
+    },
+    {
+      "name": "Sea My Love",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "aquatic",
+        "mineral",
+        "leather",
+        "amber",
+        "male"
+      ],
+      "description": "Salty sea air and marine notes meet supple leather, a love letter written on the deck of a sailboat. Mandarin, jasmine, amber and benzoin give the ocean breeze a warm, ambery finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.95809.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Sea-My-Love-95809.html",
+      "shopNames": "Sea My Love"
+    },
+    {
+      "name": "Soleil de Jeddah",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "floral",
+        "leather",
+        "animalic",
+        "fruity",
+        "male",
+        "female"
+      ],
+      "description": "Sun-drenched chamomile and apricot-tinged osmanthus glow over soft leather, the blazing sun of Jeddah reflected on the Red Sea. Ambergris, iris and vanilla give it a warm, animalic, golden radiance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.18306.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Soleil-de-Jeddah-18306.html",
+      "shopNames": "Soleil de Jeddah"
+    },
+    {
+      "name": "Soleil de Jeddah Afterglow",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "amber",
+        "incense",
+        "spicy",
+        "iris",
+        "male",
+        "female"
+      ],
+      "description": "Chamomile and incense glow in the last light of a Jeddah sunset, with myrrh and iris butter warming the air. Benzoin, vetiver, vanilla and styrax leave a soft, resinous afterglow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81914.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Soleil-de-Jeddah-Afterglow-81914.html",
+      "shopNames": "Soleil de Jeddah Afterglow"
+    },
+    {
+      "name": "Soleil de Jeddah Mango Kiss",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "tropical",
+        "mango",
+        "sweet",
+        "fruity",
+        "coconut",
+        "male",
+        "female"
+      ],
+      "description": "Ripe mango and coconut melt into chamomile and ylang-ylang, a sun-warmed kiss on a tropical beach. Vanilla, iris butter and benzoin give it a creamy, golden sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81913.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Soleil-de-Jeddah-Mango-Kiss-81913.html",
+      "shopNames": "Soleil de Jeddah Mango Kiss"
+    },
+    {
+      "name": "Taklamakan",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "woody",
+        "amber",
+        "vanilla",
+        "powdery",
+        "male",
+        "female"
+      ],
+      "description": "Benzoin, labdanum and vanilla glow over guaiac wood and iris, a caravan crossing the endless Taklamakan desert at dusk. Patchouli, sandalwood and musk give it a warm, powdery, resinous depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.37670.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Taklamakan-37670.html",
+      "shopNames": "Taklamakan"
+    },
+    {
+      "name": "The Queen and the Viper",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "amber",
+        "citrus",
+        "smoky",
+        "tobacco",
+        "sweet",
+        "male"
+      ],
+      "description": "Incense, bergamot and spearmint sharpen a dark brew of dates, tobacco and birch smoke, a queen's chamber guarded by a coiled viper. Resins, saffron and labdanum give it a sweet, smoky, ambery power.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.115147.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/The-Queen-and-the-Viper-115147.html",
+      "shopNames": "The Queen And The Viper"
+    },
+    {
+      "name": "Une Nuit à Doha",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "tobacco",
+        "sweet",
+        "vanilla",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Honeyed tobacco and immortelle glow over fennel, ginger and mandarin, a warm night on a Doha rooftop overlooking the Gulf. Vanilla and vetiver give it a sweet, smooth, golden finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.25346.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Une-Nuit-a-Doha-25346.html",
+      "shopNames": "Une Nuit A Doha"
+    },
+    {
+      "name": "Venom Incarnat",
+      "brandId": "stephane-humbert-lucas",
+      "brandName": "Stephane Humbert Lucas",
+      "tags": [
+        "fruity",
+        "sweet",
+        "leather",
+        "vanilla",
+        "male",
+        "female"
+      ],
+      "description": "Wild strawberries and raspberry drip with caramel over Russian leather, a poisoned fairy-tale apple gone deliciously wrong. Vanilla, tonka and patchouli give the sweetness a dark, seductive edge.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.72387.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Stephane-Humbert-Lucas-777/Venom-Incarnat-72387.html",
+      "shopNames": "Venom Incarnat"
+    },
+    {
+      "name": "Amber Room",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "amber",
+        "rose",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Golden amber glows with Turkish rose, coriander and spices, the legendary Amber Room of a Russian palace lit by candles. Cedar and bergamot keep the warmth bright and regal.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.20508.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Amber-Room-20508.html",
+      "shopNames": "Amber Room"
+    },
+    {
+      "name": "Blue Heart",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "vanilla",
+        "powdery",
+        "coconut",
+        "saffron",
+        "musky",
+        "male",
+        "female"
+      ],
+      "description": "Saffron and creamy coconut melt into orris, vanilla and tonka, a blue diamond glowing on velvet. White musk, nagarmotha and amber give it a soft, earthy, powdery sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.75055.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Blue-Heart-75055.html",
+      "shopNames": "Blue Heart"
+    },
+    {
+      "name": "Bohemian Infusion",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "citrus",
+        "fresh",
+        "spicy",
+        "green",
+        "male"
+      ],
+      "description": "Grapefruit, petitgrain and cardamom fizz with ginger, myrtle and artemisia, a free-spirited afternoon in an herb garden. Patchouli, ambroxan, labdanum and amber give it a warm, modern finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.81870.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Bohemian-Infusion-81870.html",
+      "shopNames": "Bohemian Infusion"
+    },
+    {
+      "name": "Bold As Love",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "spicy",
+        "leather",
+        "lavender",
+        "fruity",
+        "male"
+      ],
+      "description": "Fresh ginger, pineapple and mandarin crackle over lavender and geranium, a guitar riff played loud and bold. Supple leather, vetiver and patchouli give it a confident, rock-and-roll depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.93490.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Bold-As-Love-93490.html",
+      "shopNames": "Bold As Love"
+    },
+    {
+      "name": "Bravi",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "floral",
+        "white floral",
+        "tuberose",
+        "sweet",
+        "citrus",
+        "female"
+      ],
+      "description": "Creamy tuberose and golden honey sparkle with bitter orange and ginger, a standing ovation on an opera opening night. Walnut milk, vanilla and a hint of tobacco give it a warm, gourmand finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.85182.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Bravi-85182.html",
+      "shopNames": "Bravi"
+    },
+    {
+      "name": "Carved Oud",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "woody",
+        "oud",
+        "spicy",
+        "patchouli",
+        "male"
+      ],
+      "description": "Smooth agarwood is carved alongside cedar and patchouli, with green cardamom and pink pepper sparking at the edges. Musk, sandalwood and vanilla polish it into an elegant, wearable oud.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.20509.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Carved-Oud-20509.html",
+      "shopNames": "Carved Oud"
+    },
+    {
+      "name": "Centre Stage",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "amber",
+        "lavender",
+        "white floral",
+        "iris",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Lavender and cardamom step into the spotlight with orris and orange blossom, the moment the curtain rises. Amberwood, styrax and a touch of animalic warmth make the applause last.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.97102.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Centre-Stage-97102.html",
+      "shopNames": "Centre Stage"
+    },
+    {
+      "name": "Chords",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "leather",
+        "woody",
+        "tobacco",
+        "sweet",
+        "smoky",
+        "male"
+      ],
+      "description": "Golden honey and tobacco leaf glow over rich black leather, the opening chords of a blues song in a smoky bar. Bergamot, orange blossom and cedar give it a smooth, woody resonance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.91003.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Chords-91003.html",
+      "shopNames": "Chords"
+    },
+    {
+      "name": "Cullinan Diamond",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "powdery",
+        "musky",
+        "rose",
+        "spicy",
+        "iris",
+        "male",
+        "female"
+      ],
+      "description": "A peppery rose rests on a bed of cashmere musk and orris, the brilliant cut of the world's largest diamond. Vanilla, amber and cedar give it a soft, powdery sparkle.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.66846.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Cullinan-Diamond-66846.html",
+      "shopNames": "Cullinan Diamond (Blue); Cullinian Diamond (Red)"
+    },
+    {
+      "name": "Diadem",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "spicy",
+        "amber",
+        "lavender",
+        "incense",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "Lavender, olibanum and cardamom glitter with saffron, a jewelled diadem catching candlelight in a royal chapel. Amber, patchouli and vanilla give it a warm, resinous depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55048.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Diadem-55048.html",
+      "shopNames": "Diadem"
+    },
+    {
+      "name": "Fanfare",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "citrus",
+        "fresh",
+        "neroli",
+        "boozy",
+        "green",
+        "male",
+        "female"
+      ],
+      "description": "Lemon, neroli and bergamot blaze like trumpets with vermouth, juniper berry and rosemary, a celebration on a sunny terrace. Vetiver, musk and patchouli keep it crisp and elegant.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.79558.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Fanfare-79558.html",
+      "shopNames": "Fanfare"
+    },
+    {
+      "name": "Green Pearl",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "green",
+        "citrus",
+        "fresh",
+        "tea",
+        "fruity",
+        "male"
+      ],
+      "description": "Crisp green apple, bergamot and neroli meet green tea and artemisia, a rare green pearl glistening in clear water. Oakmoss, musk and tonka give it a fresh, clean, elegant finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.43203.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Green-Pearl-43203.html",
+      "shopNames": "Green Pearl"
+    },
+    {
+      "name": "Imperial Crown",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "spicy",
+        "woody",
+        "leather",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Elemi and black pepper flash over olibanum and leather, the imperial crown carried through a smoky cathedral. Guaiac wood and patchouli give it a dry, regal, resinous finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55047.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Imperial-Crown-55047.html",
+      "shopNames": "Imperial Crown"
+    },
+    {
+      "name": "Insignia",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "woody",
+        "boozy",
+        "spicy",
+        "citrus",
+        "male",
+        "female"
+      ],
+      "description": "A dram of whiskey meets bay leaf, fig and bitter orange, a royal insignia stamped in a wood-panelled club. Sandalwood, vetiver and suede give it a smooth, dry, distinguished finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76890.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Insignia-76890.html",
+      "shopNames": "Insignia"
+    },
+    {
+      "name": "Noorolain Taif",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "rose",
+        "floral",
+        "spicy",
+        "oud",
+        "female"
+      ],
+      "description": "Precious Taif rose glows with coriander and pink pepper in a desert garden at dawn. A thread of agarwood, cashmere wood and amber gives the petals a warm, Arabian depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.20507.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Noorolain-Taif-20507.html",
+      "shopNames": "Noorolain Taif"
+    },
+    {
+      "name": "Patiala",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "rose",
+        "floral",
+        "aldehydic",
+        "white floral",
+        "fresh",
+        "female"
+      ],
+      "description": "A radiant rose sparkles with aldehydes and citrus, the famous diamond necklace of an Indian maharaja. Orange blossom, amber, musk and oakmoss give it a clean, luminous elegance.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55050.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Patiala-55050.html",
+      "shopNames": "Patiala"
+    },
+    {
+      "name": "Peacock Throne",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "rose",
+        "floral",
+        "woody",
+        "patchouli",
+        "earthy",
+        "female"
+      ],
+      "description": "Taif rose and orris root bloom on a throne of dark patchouli and vetiver, the jewelled seat of the Mughal emperors. Pink pepper and vanilla add a soft, powdery, earthy glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.20511.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Peacock-Throne-20511.html",
+      "shopNames": "Peacock Throne"
+    },
+    {
+      "name": "Peregrina",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "rose",
+        "floral",
+        "amber",
+        "sweet",
+        "vanilla",
+        "female"
+      ],
+      "description": "Damask rose and gardenia melt into golden caramel and vanilla, the legendary Peregrina pearl glowing against warm skin. Amber, myrrh and white musk give it a rich, powdery sweetness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.59756.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Peregrina-59756.html",
+      "shopNames": "Peregrina"
+    },
+    {
+      "name": "Regent Leather",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "spicy",
+        "woody",
+        "vanilla",
+        "saffron",
+        "animalic",
+        "male"
+      ],
+      "description": "Saffron and cardamom warm a rich heart of vanilla and animalic notes, the polished leather of a Regency carriage. Cedar, labdanum and gurjan balsam give it a smooth, resinous, aristocratic finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.43204.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Regent-Leather-43204.html",
+      "shopNames": "Regent Leather"
+    },
+    {
+      "name": "Rivière",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "leather",
+        "spicy",
+        "rose",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "Saffron and black pepper flow into Turkish rose and supple leather, a rivière of diamonds draped over black suede. Sage, carnation and nagarmotha add an earthy, smoky depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.43202.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Riviere-43202.html",
+      "shopNames": "Riviere"
+    },
+    {
+      "name": "Royal Sapphire",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "citrus",
+        "white floral",
+        "neroli",
+        "amber",
+        "male",
+        "female"
+      ],
+      "description": "Sparkling mandarin and bergamot open onto radiant orange blossom and jasmine, a royal sapphire glinting in Mediterranean sunlight. Warm amber, oakmoss and patchouli give it an elegant, glowing depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55049.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Royal-Sapphire-55049.html",
+      "shopNames": "Royal Sapphire"
+    },
+    {
+      "name": "Sceptre",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "amber",
+        "spicy",
+        "sweet",
+        "fruity",
+        "incense",
+        "male",
+        "female"
+      ],
+      "description": "Velvety peach and ylang-ylang meet pink pepper and clove, a jewelled sceptre held high in a candlelit throne room. Myrrh, amber, ambergris and benzoin give it a rich, resinous, golden warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55046.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/Sceptre-55046.html",
+      "shopNames": "Sceptre"
+    },
+    {
+      "name": "The Cora",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "floral",
+        "white floral",
+        "rose",
+        "spicy",
+        "patchouli",
+        "male",
+        "female"
+      ],
+      "description": "Wisteria, Bulgarian rose and jasmine bloom with spicy carnation and lily of the valley, a cascade of flowers named after a legendary diamond. Benzoin, patchouli, white musk and amber give it a warm, elegant base.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.47282.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/The-Cora-47282.html",
+      "shopNames": "The Cora"
+    },
+    {
+      "name": "The Hope",
+      "brandId": "thameen",
+      "brandName": "Thameen",
+      "tags": [
+        "spicy",
+        "cinnamon",
+        "amber",
+        "incense",
+        "oud",
+        "male",
+        "female"
+      ],
+      "description": "Cinnamon, clove and myrrh glow with the deep blue fire of the legendary Hope diamond. Cedar, oud, immortelle and black amber give the spice a dark, resinous richness.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.31788.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Thameen/The-Hope-31788.html",
+      "shopNames": "The Hope"
+    },
+    {
+      "name": "Accento",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "musky",
+        "powdery",
+        "fruity",
+        "sweet",
+        "floral",
+        "male",
+        "female"
+      ],
+      "description": "Juicy pineapple and green hyacinth sparkle over powdery iris and pink pepper, an Italian accent that is bright, playful and elegant. A soft bed of musk, amber and vetiver keeps it smooth and luminous.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55156.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Accento-55156.html",
+      "shopNames": "Accento"
+    },
+    {
+      "name": "Alexandria II",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "woody",
+        "oud",
+        "lavender",
+        "amber",
+        "spicy",
+        "male",
+        "female"
+      ],
+      "description": "Rosewood, lavender and cinnamon open onto rose and cedar, the grandeur of an ancient library in Alexandria. Smooth oud, sandalwood, amber and vanilla give it a regal, powdery, woody depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.17786.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Alexandria-II-17786.html",
+      "shopNames": "Alexandria II"
+    },
+    {
+      "name": "Alexandria Orientale",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "oud",
+        "rose",
+        "spicy",
+        "tobacco",
+        "leather",
+        "male"
+      ],
+      "description": "Smoky agarwood and Bulgarian rose meet leather, basil and green apple in a spice market of an ancient eastern port. Tobacco leaf, cedar and vanilla give it a rich, dark warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.51439.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Alexandria-Orientale-51439.html",
+      "shopNames": "Alexandria Orientale"
+    },
+    {
+      "name": "Amabile",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "citrus",
+        "fruity",
+        "spicy",
+        "vanilla",
+        "fresh",
+        "male",
+        "female"
+      ],
+      "description": "Crisp green apple, Amalfi lemon and bergamot sparkle over Guatemalan cardamom, a sunny Italian piazza on a spring morning. Mexican vanilla, cedar and white musk give it a soft, lovable warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.63876.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Amabile-63876.html",
+      "shopNames": "Amabile"
+    },
+    {
+      "name": "Aqua Regia",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "leather",
+        "woody",
+        "powdery",
+        "iris",
+        "fruity",
+        "male"
+      ],
+      "description": "Supple leather and black currant meet violet and orris root, an alchemist's laboratory dissolving gold. Patchouli, caramel, cedar and vanilla give it a powdery, woody, gilded finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.80268.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Aqua-Regia-80268.html",
+      "shopNames": "Aqua Regia"
+    },
+    {
+      "name": "Astaral",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "amber",
+        "oud",
+        "rose",
+        "oriental",
+        "male",
+        "female"
+      ],
+      "description": "Precious shamama attar, rose and pink pepper glow over amberwood and labdanum, a starlit night in an Indian palace garden. Rich agarwood, amber, moss and patchouli give it a deep, resinous, majestic finish.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.80265.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Astaral-80265.html",
+      "shopNames": "Astral"
+    },
+    {
+      "name": "Erba Gold",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "citrus",
+        "fruity",
+        "fresh",
+        "sweet",
+        "aquatic",
+        "male",
+        "female"
+      ],
+      "description": "Juicy melon, Brazilian orange and pear sparkle with lemon and ginger, a golden summer afternoon by an Italian pool. White musk, vanilla and amber give the fruit a soft, sunny warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.76683.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Erba-Gold-76683.html",
+      "shopNames": "Erba Gold"
+    },
+    {
+      "name": "Holysm",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "woody",
+        "spicy",
+        "tobacco",
+        "oud",
+        "green",
+        "male"
+      ],
+      "description": "Balsam fir, clary sage and smoky cade oil meet tobacco and caraway, a mountain hermitage warmed by a wood fire. Vietnamese oud, patchouli and sandalwood give it a dark, aromatic, almost sacred depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.80264.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Holysm-80264.html",
+      "shopNames": "Holysm"
+    },
+    {
+      "name": "More Than Words",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "amber",
+        "oud",
+        "fruity",
+        "floral",
+        "male",
+        "female"
+      ],
+      "description": "Smooth oud is softened by juicy fruits and a bouquet of flowers, a love letter that says more than words ever could. Ambergris, olibanum and labdanum give it a warm, resinous, ambery glow.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.16450.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/More-Than-Words-16450.html",
+      "shopNames": "More Than Words"
+    },
+    {
+      "name": "Muse",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "fruity",
+        "sweet",
+        "amber",
+        "white floral",
+        "female"
+      ],
+      "description": "Dark plum and raspberry meet white flowers and soft leather, a muse posing for a painter in a velvet-draped studio. Amber, benzoin, labdanum and patchouli give the fruit a rich, chypre-like warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55161.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Muse-55161.html",
+      "shopNames": "Muse"
+    },
+    {
+      "name": "Naxos",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "sweet",
+        "tobacco",
+        "vanilla",
+        "lavender",
+        "male"
+      ],
+      "description": "Golden honey and lavender drip over tobacco leaf, a sun-baked afternoon on the island of Naxos. Bergamot, cinnamon, vanilla and tonka bean make it sweet, warm and irresistibly smooth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.30529.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/XJ-1861-Naxos-30529.html",
+      "shopNames": "Naxos"
+    },
+    {
+      "name": "Ouverture",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "woody",
+        "citrus",
+        "green",
+        "amber",
+        "male",
+        "female"
+      ],
+      "description": "Fig leaf and juicy orange open the curtain over cinnamon, ylang-ylang and jasmine, the first notes of an opera overture. Sandalwood, amber, vanilla and incense give it a warm, golden finale.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55164.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Ouverture-55164.html",
+      "shopNames": "Ouverture"
+    },
+    {
+      "name": "Soprano",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "rose",
+        "fruity",
+        "floral",
+        "oud",
+        "female"
+      ],
+      "description": "A lush Bulgarian rose sings with lychee and juicy fruits over a hint of milk and osmanthus, a soprano's aria in a gilded opera house. Oud, patchouli and soft leather give the high notes a velvety, dark depth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55160.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Soprano-55160.html",
+      "shopNames": "Soprano"
+    },
+    {
+      "name": "Torino 21",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "fresh",
+        "green",
+        "mint",
+        "citrus",
+        "male"
+      ],
+      "description": "Cool mint, lemon and basil burst over thyme and rosemary, a fresh herbal tonic sipped in a sunny Turin courtyard. Black currant, lavender and musk keep it crisp, green and endlessly refreshing.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.70424.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Torino21-70424.html",
+      "shopNames": "Torino 21"
+    },
+    {
+      "name": "Via Cavour I",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "sweet",
+        "fruity",
+        "gourmand",
+        "rose",
+        "vanilla",
+        "male",
+        "female"
+      ],
+      "description": "Golden quince and white peach meet dark chocolate, red berries and Moroccan rose, a luxurious pâtisserie on Turin's Via Cavour. Caramel, vanilla, oud and amber make it rich, sweet and indulgent.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.47871.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Via-Cavour-I-47871.html",
+      "shopNames": "Via Cavour I"
+    },
+    {
+      "name": "Wardasina",
+      "brandId": "xerjoff",
+      "brandName": "Xerjoff",
+      "tags": [
+        "rose",
+        "tobacco",
+        "spicy",
+        "patchouli",
+        "saffron",
+        "male",
+        "female"
+      ],
+      "description": "A deep Bulgarian rose wrapped in tobacco leaf and saffron, a rose garden at dusk with smoke drifting from a nearby pipe. Patchouli, cedar, musk and vanilla give it a dark, sweet, sophisticated warmth.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55163.jpg",
+      "fragrantica": "https://www.fragrantica.com/perfume/Xerjoff/Wardasina-55163.html",
+      "shopNames": "Wardasina"
+    }
+  ]
+}
