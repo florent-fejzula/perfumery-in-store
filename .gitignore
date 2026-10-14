@@ -44,3 +44,6 @@ Thumbs.db
 # Scripts — credentials & env
 scripts/service-account.json
 .env
+
+# Claude Code local settings
+.claude/settings.local.json
