@@ -163,14 +163,16 @@ export class AddPerfumeComponent implements OnInit {
   }
 
   // -------- Checkbox toggle helper --------
-  toggleTag(tagId: string, checked: boolean) {
+  // Stores the tag *name* (e.g. "white floral"), not the doc id ("white-floral"):
+  // the catalog filters compare perfume tags against tag names.
+  toggleTag(tagName: string, checked: boolean) {
     const current = this.tagsControl.value ?? [];
     if (checked) {
-      if (!current.includes(tagId)) {
-        this.tagsControl.setValue([...current, tagId]);
+      if (!current.includes(tagName)) {
+        this.tagsControl.setValue([...current, tagName]);
       }
     } else {
-      this.tagsControl.setValue(current.filter((id) => id !== tagId));
+      this.tagsControl.setValue(current.filter((t) => t !== tagName));
     }
   }
 
@@ -191,7 +193,7 @@ export class AddPerfumeComponent implements OnInit {
 
     const name = this.form.value.name!.trim();
     const description = (this.form.value.description ?? '').trim();
-    const tagIds = Array.from(new Set(this.form.value.tags ?? []));
+    const tagNames = Array.from(new Set(this.form.value.tags ?? []));
 
     // brand from dropdown
     const brandId = this.form.value.brandId || '';
@@ -234,8 +236,8 @@ export class AddPerfumeComponent implements OnInit {
       // Write doc
       const payload: Perfume = {
         name,
-        tags: tagIds,
-        categories: tagIds, // keep current UI working
+        tags: tagNames,
+        categories: tagNames, // keep current UI working
         imageUrl,
         imagePath,
         searchableName: name.toLocaleLowerCase(),

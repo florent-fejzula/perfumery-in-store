@@ -52,8 +52,8 @@
             <label class="chip" *ngFor="let t of g.gender">
               <input
                 type="checkbox"
-                [checked]="form.value.tags?.includes(t.id)"
-                (change)="toggleTag(t.id, $any($event.target).checked)"
+                [checked]="form.value.tags?.includes(t.name)"
+                (change)="toggleTag(t.name, $any($event.target).checked)"
               />
               <span>{{ t.name }}</span>
             </label>
@@ -68,8 +68,8 @@
             <label class="chip" *ngFor="let t of g.family">
               <input
                 type="checkbox"
-                [checked]="form.value.tags?.includes(t.id)"
-                (change)="toggleTag(t.id, $any($event.target).checked)"
+                [checked]="form.value.tags?.includes(t.name)"
+                (change)="toggleTag(t.name, $any($event.target).checked)"
               />
               <span>{{ t.name }}</span>
             </label>
@@ -84,8 +84,8 @@
             <label class="chip" *ngFor="let t of g.note">
               <input
                 type="checkbox"
-                [checked]="form.value.tags?.includes(t.id)"
-                (change)="toggleTag(t.id, $any($event.target).checked)"
+                [checked]="form.value.tags?.includes(t.name)"
+                (change)="toggleTag(t.name, $any($event.target).checked)"
               />
               <span>{{ t.name }}</span>
             </label>
@@ -98,8 +98,8 @@
             <label class="chip" *ngFor="let t of g.other">
               <input
                 type="checkbox"
-                [checked]="form.value.tags?.includes(t.id)"
-                (change)="toggleTag(t.id, $any($event.target).checked)"
+                [checked]="form.value.tags?.includes(t.name)"
+                (change)="toggleTag(t.name, $any($event.target).checked)"
               />
               <span>{{ t.name }}</span>
             </label>
