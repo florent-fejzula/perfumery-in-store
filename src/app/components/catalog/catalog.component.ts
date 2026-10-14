@@ -43,7 +43,9 @@ export class CatalogComponent implements OnInit {
   selectedPerfume: Perfume | null = null;
   activeFilters: string[] = [];
 
-  // Summer gallery
+  // Summer gallery. The button is hidden for now; set to true to bring it back
+  // (the gallery and its perfume list in collections/summer-2026 are kept).
+  showSummerButton = false;
   showSummerGallery = false;
   summerPerfumes: Perfume[] = [];
 

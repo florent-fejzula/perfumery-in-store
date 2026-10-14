@@ -13,7 +13,9 @@
           {{ tag | titlecase }}
         </button>
       }
-      <button class="summer-btn" tabindex="-1" (click)="openSummerGallery()">☀️ Summer 2026</button>
+      @if (showSummerButton) {
+        <button class="summer-btn" tabindex="-1" (click)="openSummerGallery()">☀️ Summer 2026</button>
+      }
     </div>
   </div>
 
