@@ -1,0 +1,36 @@
+rules_version = '2';
+
+// Anyone can read the catalogue (the iPad needs no sign-in); only the admin Google account can change it.
+// Scripts in scripts/ and the stock sync use service accounts, which these rules don't apply to.
+// Keep the email list in sync with ADMIN_EMAILS in src/app/core/admin-auth.ts and storage.rules.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email in ['fejzula.florent@gmail.com'];
+    }
+
+    match /perfumes/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /brands/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /tags/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Summer gallery and stock status: written only by scripts and the stock sync.
+    match /collections/{document=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

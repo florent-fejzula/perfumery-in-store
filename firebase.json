@@ -1,4 +1,10 @@
 {
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
   "hosting": {
     "public": "dist/perfumery-in-store/browser",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],

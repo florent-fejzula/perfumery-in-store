@@ -17,6 +17,7 @@ import {
 } from '@angular/fire/app';
 import { provideStorage, getStorage } from '@angular/fire/storage';
 import { provideFirestore } from '@angular/fire/firestore';
+import { provideAuth, getAuth } from '@angular/fire/auth';
 
 // Firestore (SDK) - enable persistent cache
 import {
@@ -46,5 +47,8 @@ export const appConfig: ApplicationConfig = {
 
     // Storage
     provideStorage(() => getStorage()),
+
+    // Auth: Google sign-in for the editing pages only
+    provideAuth(() => getAuth()),
   ],
 };

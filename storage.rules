@@ -1,0 +1,22 @@
+rules_version = '2';
+
+// Perfume photos: public to view, uploaded and removed only by the admin Google account.
+// Keep the email list in sync with ADMIN_EMAILS in src/app/core/admin-auth.ts and firestore.rules.
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email in ['fejzula.florent@gmail.com'];
+    }
+
+    match /images/perfumes/{file} {
+      allow read: if true;
+      allow create, update: if isAdmin()
+        && request.resource.size < 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/.*');
+      allow delete: if isAdmin();
+    }
+  }
+}
