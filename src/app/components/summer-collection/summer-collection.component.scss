@@ -128,6 +128,19 @@ $ocean-image: url('https://images.unsplash.com/photo-1770110628704-86ba8c7b3b1c?
   letter-spacing: 0.06em;
 }
 
+.summer-stock {
+  display: inline-block;
+  align-self: flex-start;
+  margin: 4px 0 0;
+  padding: 3px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Baskervville", serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
 .summer-divider {
   width: 2.5rem;
   height: 1px;

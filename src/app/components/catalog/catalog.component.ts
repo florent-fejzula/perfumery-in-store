@@ -128,12 +128,18 @@ export class CatalogComponent implements OnInit {
     const visibleBrandIds = new Set(
       this.brandsStore.visibleBrands().map((b) => b.id) // 👈 which brands are visible
     );
-    // Keep a locally filtered base list (respect brand visibility here)
-    this.perfumesAll = perfumes.filter(
-      (p) => !p.brandId || visibleBrandIds.has(p.brandId)
-    );
+    const outOfStock = this.store.outOfStock();
+    // Keep a locally filtered base list (respect brand visibility here),
+    // out-of-stock perfumes last (the sort is stable, so both parts stay alphabetical)
+    this.perfumesAll = perfumes
+      .filter((p) => !p.brandId || visibleBrandIds.has(p.brandId))
+      .sort((a, b) => Number(outOfStock.has(a.id)) - Number(outOfStock.has(b.id)));
     this.applyCurrentFilters();
   });
+
+  isOutOfStock(perfume: Perfume): boolean {
+    return this.store.outOfStock().has(perfume.id);
+  }
 
   ngOnInit(): void {
     // Load once from Firestore (subsequent calls no-op)

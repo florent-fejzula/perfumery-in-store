@@ -1,7 +1,7 @@
-import { Component, Input, Output, EventEmitter, OnInit, OnDestroy, signal, computed } from '@angular/core';
+import { Component, Input, Output, EventEmitter, OnInit, OnDestroy, signal, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { trigger, transition, style, animate } from '@angular/animations';
-import { Perfume } from '../../stores/perfume.store';
+import { Perfume, PerfumeStore } from '../../stores/perfume.store';
 
 const AUTO_ADVANCE_MS = 30_000;
 
@@ -30,6 +30,8 @@ export class SummerCollectionComponent implements OnInit, OnDestroy {
 
   index = signal(0);
   current = computed(() => this.perfumes[this.index()]);
+  private store = inject(PerfumeStore);
+  currentOutOfStock = computed(() => !!this.current() && this.store.outOfStock().has(this.current().id));
   imageReady = signal(true);
 
   private timer: ReturnType<typeof setInterval> | null = null;

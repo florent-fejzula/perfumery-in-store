@@ -1,0 +1,57 @@
+# Copies out-of-stock status from the shop app (maison-loyalty) into the kiosk.
+# See scripts/stock-sync/sync-stock.mjs. Signs in to Google Cloud as stock-sync@perfume-filtering-app
+# through Workload Identity Federation: no keys are stored, and only this repository's main branch
+# may use that account (read-only on the shop database).
+name: Sync stock from shop
+
+on:
+  schedule:
+    # Every 30 minutes, 07:00–22:30 Skopje summer time (06:00–21:30 in winter). Cron is UTC.
+    - cron: '*/30 5-20 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stock-sync/**'
+      - '.github/workflows/sync-stock.yml'
+
+permissions:
+  contents: read
+  id-token: write # sign in to Google Cloud
+  actions: write # keep the schedule alive (see the last step)
+
+concurrency:
+  group: sync-stock
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: scripts/stock-sync/package-lock.json
+
+      - run: npm ci
+        working-directory: scripts/stock-sync
+
+      - uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: projects/602974614991/locations/global/workloadIdentityPools/github/providers/perfumery-in-store
+          service_account: stock-sync@perfume-filtering-app.iam.gserviceaccount.com
+
+      - run: node sync-stock.mjs
+        working-directory: scripts/stock-sync
+
+      # GitHub pauses scheduled workflows in public repositories after 60 days without commits.
+      # Re-enabling it on every run keeps the sync going while nobody works on the app.
+      - name: Keep the schedule alive
+        if: github.event_name == 'schedule'
+        continue-on-error: true
+        run: gh workflow enable sync-stock.yml --repo "$GITHUB_REPOSITORY"
+        env:
+          GH_TOKEN: ${{ github.token }}

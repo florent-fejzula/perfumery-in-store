@@ -1,5 +1,11 @@
 import { Injectable, signal } from '@angular/core';
-import { Firestore, collection, getDocs } from '@angular/fire/firestore';
+import { Firestore, collection, doc, docData, getDocs } from '@angular/fire/firestore';
+
+/**
+ * The stock sync (scripts/stock-sync) runs every 30 minutes during the day. A status older than a
+ * day means it has stopped, and an out-of-date "Out of Stock" is worse than none.
+ */
+const STOCK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
 export type Perfume = {
   id: string;
@@ -29,12 +35,17 @@ export class PerfumeStore {
   private loaded = signal(false);
   perfumes = signal<Perfume[]>([]);
 
+  /** Ids of perfumes the shop has no full bottle of, kept live from collections/stock-status. */
+  outOfStock = signal<ReadonlySet<string>>(new Set());
+  private stockExpiry: ReturnType<typeof setTimeout> | undefined;
+
   constructor(private fs: Firestore) {}
 
   async loadOnce() {
     if (this.loaded()) return;
     if (this.loading()) return;
     this.loading.set(true);
+    this.watchStock();
 
     const snap = await getDocs(collection(this.fs, 'perfumes'));
     const rows: Perfume[] = snap.docs
@@ -67,6 +78,24 @@ export class PerfumeStore {
 
     // Warm image cache (non-blocking)
     queueMicrotask(() => this.warmImages(rows));
+  }
+
+  private watchStock() {
+    docData(doc(this.fs, 'collections', 'stock-status')).subscribe({
+      next: (status: any) => {
+        clearTimeout(this.stockExpiry);
+        const checkedAt: Date | undefined = status?.checkedAt?.toDate?.();
+        const age = checkedAt ? Date.now() - checkedAt.getTime() : Infinity;
+        if (age > STOCK_MAX_AGE_MS) {
+          this.outOfStock.set(new Set());
+          return;
+        }
+        this.outOfStock.set(new Set(status.outOfStock ?? []));
+        // If no newer status arrives, stop showing this one once it is too old.
+        this.stockExpiry = setTimeout(() => this.outOfStock.set(new Set()), STOCK_MAX_AGE_MS - age);
+      },
+      error: (err) => console.error('Stock status unavailable', err),
+    });
   }
 
   private warmImages(rows: Perfume[]) {

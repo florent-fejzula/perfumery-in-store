@@ -62,12 +62,16 @@
   @for (perfume of filteredPerfumes; track perfume.id) {
     <div
       class="perfume-card"
+      [class.out-of-stock]="isOutOfStock(perfume)"
       tabindex="-1"
       [@listAnimation]
       (click)="openModal(perfume)"
       title="{{ perfume.name }}"
     >
       <img [src]="perfume.imageUrl" alt="{{ perfume.name }}" tabindex="-1" />
+      @if (isOutOfStock(perfume)) {
+        <span class="stock-badge">Out of Stock</span>
+      }
       <h3 tabindex="-1">{{ perfume.name }}</h3>
     </div>
   }
@@ -93,6 +97,9 @@
             <h2 class="perfume-name">{{ selectedPerfume.name }}</h2>
             @if (selectedPerfume.brandName || selectedPerfume.brand) {
               <p class="brand">{{ selectedPerfume.brandName || selectedPerfume.brand }}</p>
+            }
+            @if (isOutOfStock(selectedPerfume)) {
+              <span class="stock-badge in-modal">Out of Stock</span>
             }
           </div>
 

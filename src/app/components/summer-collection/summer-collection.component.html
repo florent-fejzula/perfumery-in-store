@@ -31,6 +31,9 @@
           @if (current().brandName || current().brand) {
             <p class="summer-brand">{{ current().brandName || current().brand }}</p>
           }
+          @if (currentOutOfStock()) {
+            <p class="summer-stock">Out of Stock</p>
+          }
           <div class="summer-divider"></div>
           @if (current().description) {
             <p class="summer-desc">{{ current().description }}</p>
