@@ -6,8 +6,9 @@ name: Sync stock from shop
 
 on:
   schedule:
-    # Every 30 minutes, 07:00–22:30 Skopje summer time (06:00–21:30 in winter). Cron is UTC.
-    - cron: '*/30 5-20 * * *'
+    # Every 30 minutes, 07:07–22:37 Skopje summer time (an hour earlier in winter). Cron is UTC.
+    # Not on :00/:30: GitHub delays or drops scheduled runs at busy times like the top of the hour.
+    - cron: '7,37 5-20 * * *'
   workflow_dispatch:
   push:
     branches: [main]
