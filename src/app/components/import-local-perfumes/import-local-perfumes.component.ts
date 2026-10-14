@@ -148,7 +148,10 @@ export class ImportLocalPerfumesComponent {
     const ext = this.extFromUrl(p.image) || this.extFromMime(blob.type) || 'jpg';
     const imagePath = `images/perfumes/${id}.${ext}`;
     const sref = ref(this.storage, imagePath);
-    await uploadBytes(sref, blob, { contentType: blob.type || `image/${ext}` });
+    await uploadBytes(sref, blob, {
+      contentType: blob.type || `image/${ext}`,
+      cacheControl: 'public, max-age=31536000, immutable',
+    });
     const imageUrl = await getDownloadURL(sref);
 
     // 4) Write Firestore doc
